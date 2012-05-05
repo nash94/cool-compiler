@@ -1,4 +1,4 @@
 cool-compiler
 =============
 
-compiler code for the &quot;COOL&quot; programming language
+Compiler code for the &quot;COOL&quot; programming language
