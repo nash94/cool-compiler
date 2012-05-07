@@ -71,7 +71,7 @@ ISVOID_REG      isvoid|ISVOID
 TRUE_REG        t(rue|RUE)" "
 FALSE_REG       f(alse|ALSE)" "
 
-STRING          ["][^"  X]+["]
+STRING          ["]([^"]*)["]
 DIGIT           [0-9]+
 
 TYPE_ID         [A-Z][a-zA-Z_]+
@@ -95,8 +95,8 @@ LESS            [<]+
 GREATER         [>]+
 COLON           [:]+
 
-WHITE_SPACE     [ \t\n\f\r\v]+
-
+WHITE_SPACE     [ \t\f\r\v]+
+NEW_LINE        [\n]
 %%
  /*
   *  Nested comments
@@ -171,5 +171,5 @@ WHITE_SPACE     [ \t\n\f\r\v]+
 {LESS}          { return(60); }
 
 {WHITE_SPACE}
-
+{NEW_LINE}      { curr_lineno++; }
 .               { return(ERROR); }
