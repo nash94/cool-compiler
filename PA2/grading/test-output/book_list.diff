@@ -1,0 +1,151 @@
+1c1,13
+< CLASS
+---
+> '-'
+> '-'
+> OBJECTID example
+> OF
+> OBJECTID static
+> OBJECTID and
+> OBJECTID dynamic
+> OBJECTID type
+> OBJECTID differing
+> OBJECTID for
+> LONGERROR
+> OBJECTID dispatch
+> TYPEID Class
+19c31
+< ','
+---
+> LONGERROR
+60d71
+< STR_CONST "\n"
+75d85
+< STR_CONST "\n"
+85c95
+< CLASS
+---
+> TYPEID Class
+99c109
+< ','
+---
+> LONGERROR
+103c113
+< ','
+---
+> LONGERROR
+115c125
+< ','
+---
+> LONGERROR
+136c146
+< '@'
+---
+> LONGERROR
+155d164
+< STR_CONST "\n"
+165c174
+< CLASS
+---
+> TYPEID Class
+181c190
+< BOOL_CONST true
+---
+> OBJECTID true
+209c218
+< ','
+---
+> LONGERROR
+262c271
+< CLASS
+---
+> TYPEID Class
+270a280,290
+> '-'
+> '-'
+> TYPEID We
+> OBJECTID keep
+> OBJECTID the
+> OBJECTID car
+> OBJECTID and
+> OBJECTID cdr
+> IN
+> OBJECTID attributes
+> '.'
+274a295,326
+> '-'
+> '-'
+> TYPEID Because
+> OBJECTID methods
+> OBJECTID and
+> OBJECTID features
+> OBJECTID must
+> OBJECTID have
+> OBJECTID different
+> OBJECTID names
+> LONGERROR
+> '-'
+> '-'
+> OBJECTID we
+> OBJECTID use
+> OBJECTID xcar
+> OBJECTID and
+> OBJECTID xcdr
+> OBJECTID for
+> OBJECTID the
+> OBJECTID attributes
+> OBJECTID and
+> OBJECTID reserve
+> '-'
+> '-'
+> OBJECTID car
+> OBJECTID and
+> OBJECTID cdr
+> OBJECTID for
+> OBJECTID the
+> OBJECTID features
+> '.'
+289c341
+< ','
+---
+> LONGERROR
+349c401
+< STR_CONST "- dynamic type was Book -\n"
+---
+> STR_CONST "- dynamic type was Book -"
+358c410
+< STR_CONST "- dynamic type was Article -\n"
+---
+> STR_CONST "- dynamic type was Article -"
+374c426
+< CLASS
+---
+> TYPEID Class
+399c451
+< CLASS
+---
+> TYPEID Class
+426c478
+< ','
+---
+> LONGERROR
+444c496
+< ','
+---
+> LONGERROR
+446c498
+< ','
+---
+> LONGERROR
+475a528,532
+> '-'
+> '-'
+> OBJECTID end
+> LET
+> OBJECTID an_article
+476a534,538
+> '-'
+> '-'
+> OBJECTID end
+> LET
+> OBJECTID a_book

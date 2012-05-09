@@ -1,0 +1,295 @@
+CLASS
+TYPEID Main
+INHERITS
+TYPEID IO
+'{'
+OBJECTID main
+'('
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID Complex
+ASSIGN
+'('
+NEW
+TYPEID Complex
+')'
+'.'
+OBJECTID init
+'('
+INT_CONST 1
+LONGERROR
+INT_CONST 1
+')'
+IN
+'{'
+'-'
+'-'
+OBJECTID trivially
+OBJECTID equal
+'('
+OBJECTID see
+TYPEID CoolAid
+')'
+IF
+LONGERROR
+'.'
+OBJECTID reflect_X
+'('
+')'
+LONGERROR
+LONGERROR
+'.'
+OBJECTID reflect_
+INT_CONST 0
+'('
+')'
+THEN
+OBJECTID out_string
+'('
+STR_CONST "=)"
+')'
+ELSE
+OBJECTID out_string
+'('
+STR_CONST "=("
+')'
+FI
+';'
+'-'
+'-'
+OBJECTID equal
+IF
+LONGERROR
+'.'
+OBJECTID reflect_X
+'('
+')'
+'.'
+OBJECTID reflect_Y
+'('
+')'
+'.'
+OBJECTID equal
+'('
+LONGERROR
+'.'
+OBJECTID reflect_
+INT_CONST 0
+'('
+')'
+')'
+THEN
+OBJECTID out_string
+'('
+STR_CONST "=)"
+')'
+ELSE
+OBJECTID out_string
+'('
+STR_CONST "=("
+')'
+FI
+';'
+'}'
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID Complex
+INHERITS
+TYPEID IO
+'{'
+LONGERROR
+':'
+TYPEID Int
+';'
+LONGERROR
+':'
+TYPEID Int
+';'
+OBJECTID init
+'('
+LONGERROR
+':'
+TYPEID Int
+LONGERROR
+LONGERROR
+':'
+TYPEID Int
+')'
+':'
+TYPEID Complex
+'{'
+'{'
+LONGERROR
+LONGERROR
+LONGERROR
+';'
+LONGERROR
+LONGERROR
+LONGERROR
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+OBJECTID print
+'('
+')'
+':'
+TYPEID Object
+'{'
+IF
+LONGERROR
+LONGERROR
+INT_CONST 0
+THEN
+OBJECTID out_int
+'('
+LONGERROR
+')'
+ELSE
+OBJECTID out_int
+'('
+LONGERROR
+')'
+'.'
+OBJECTID out_string
+'('
+STR_CONST "+"
+')'
+'.'
+OBJECTID out_int
+'('
+LONGERROR
+')'
+'.'
+OBJECTID out_string
+'('
+STR_CONST "I"
+')'
+FI
+'}'
+';'
+OBJECTID reflect_
+INT_CONST 0
+'('
+')'
+':'
+TYPEID Complex
+'{'
+'{'
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+';'
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+OBJECTID reflect_X
+'('
+')'
+':'
+TYPEID Complex
+'{'
+'{'
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+OBJECTID reflect_Y
+'('
+')'
+':'
+TYPEID Complex
+'{'
+'{'
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+OBJECTID equal
+'('
+LONGERROR
+':'
+TYPEID Complex
+')'
+':'
+TYPEID Bool
+'{'
+IF
+LONGERROR
+LONGERROR
+LONGERROR
+'.'
+OBJECTID x_value
+'('
+')'
+THEN
+IF
+LONGERROR
+LONGERROR
+LONGERROR
+'.'
+OBJECTID y_value
+'('
+')'
+THEN
+OBJECTID true
+ELSE
+OBJECTID false
+FI
+ELSE
+OBJECTID false
+FI
+'}'
+';'
+OBJECTID x_value
+'('
+')'
+':'
+TYPEID Int
+'{'
+LONGERROR
+'}'
+';'
+OBJECTID y_value
+'('
+')'
+':'
+TYPEID Int
+'{'
+LONGERROR
+'}'
+';'
+'}'
+';'

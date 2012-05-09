@@ -1,0 +1,7 @@
+0a1
+> STR_CONST "c"
+2,3c3
+< OBJECTID d
+< LONGERROR
+---
+> STR_CONST "d"

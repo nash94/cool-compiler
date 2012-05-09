@@ -1,0 +1,7 @@
+0a1
+> STR_CONST "null character is here ->"
+2,3c3
+< OBJECTID a
+< '+'
+---
+> STR_CONST "a +"

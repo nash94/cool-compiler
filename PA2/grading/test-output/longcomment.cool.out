@@ -1,0 +1,206 @@
+TYPEID Comment
+OBJECTID test
+'*'
+')'
+TYPEID Comment
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'-'
+'-'
+OBJECTID single
+OBJECTID line
+OBJECTID comments
+'-'
+'-'
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+'*'
+LONGERROR
+'*'
+LONGERROR
+LONGERROR
+'*'
+LONGERROR
+<Invalid Token>
+LONGERROR
+LONGERROR
+<Invalid Token>
+TYPEID GH
+<Invalid Token>
+LONGERROR
+TYPEID TH
+LONGERROR
+<Invalid Token>
+LONGERROR
+'*'
+LONGERROR
+LONGERROR
+LONGERROR
+'*'
+LONGERROR
+LONGERROR
+LONGERROR
+TYPEID Comment
+OBJECTID test
+'*'
+')'
+TYPEID Comment
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+')'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+'*'
+')'
+TYPEID Foo
+OBJECTID bar
+'-'
+'-'
+OBJECTID hello
+OBJECTID my
+OBJECTID name
+OBJECTID is
+OBJECTID george
+';'
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+TYPEID ESFsej
+OBJECTID ok
+INT_CONST 34
+';'
+LONGERROR
+INT_CONST 90
+TYPEID Moo
+OBJECTID bow
+'-'
+'-'
+'-'
+OBJECTID heelo
+OBJECTID my
+OBJECTID nma
+OBJECTID ei
+OBJECTID sgeoegre
+';'
+INT_CONST 234
+INT_CONST 2
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+LONGERROR
+TYPEID JoJo
+TYPEID JojOj
+OBJECTID joJoj
+INT_CONST 323
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+'-'
+OBJECTID dfdj
+'-'
+'-'
+OBJECTID fadsjfkldsafjklsd
+';'
+'-'
+'-'
+LONGERROR
+LONGERROR
+OBJECTID dfdsajfk
+INT_CONST 312
+'-'
+'-'

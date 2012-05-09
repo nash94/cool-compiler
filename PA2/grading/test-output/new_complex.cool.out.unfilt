@@ -1,0 +1,296 @@
+#name "./new_complex.cool"
+#1 CLASS
+#1 TYPEID Main
+#1 INHERITS
+#1 TYPEID IO
+#1 '{'
+#2 OBJECTID main
+#2 '('
+#2 ')'
+#2 ':'
+#2 TYPEID SELF_TYPE
+#2 '{'
+#3 '('
+#3 LET
+#3 ERROR "`b\244\t\t"
+#3 ':'
+#3 TYPEID Complex
+#3 ASSIGN
+#3 '('
+#3 NEW
+#3 TYPEID Complex
+#3 ')'
+#3 '.'
+#3 OBJECTID init
+#3 '('
+#3 INT_CONST 1
+#3 ERROR "\360b\244\t\001"
+#3 INT_CONST 1
+#3 ')'
+#3 IN
+#4 '{'
+#5 '-'
+#5 '-'
+#5 OBJECTID trivially
+#5 OBJECTID equal
+#5 '('
+#5 OBJECTID see
+#5 TYPEID CoolAid
+#5 ')'
+#6 IF
+#6 ERROR "\260c\244\t\007"
+#6 '.'
+#6 OBJECTID reflect_X
+#6 '('
+#6 ')'
+#6 ERROR "\340c\244\t\t"
+#6 ERROR "\340c\244\t\t"
+#6 '.'
+#6 OBJECTID reflect_
+#6 INT_CONST 0
+#6 '('
+#6 ')'
+#7 THEN
+#7 OBJECTID out_string
+#7 '('
+#7 STR_CONST "=)"
+#7 ')'
+#8 ELSE
+#8 OBJECTID out_string
+#8 '('
+#8 STR_CONST "=("
+#8 ')'
+#9 FI
+#9 ';'
+#10 '-'
+#10 '-'
+#10 OBJECTID equal
+#11 IF
+#11 ERROR "Pc\244\t\005"
+#11 '.'
+#11 OBJECTID reflect_X
+#11 '('
+#11 ')'
+#11 '.'
+#11 OBJECTID reflect_Y
+#11 '('
+#11 ')'
+#11 '.'
+#11 OBJECTID equal
+#11 '('
+#11 ERROR "Pc\244\t\005"
+#11 '.'
+#11 OBJECTID reflect_
+#11 INT_CONST 0
+#11 '('
+#11 ')'
+#11 ')'
+#12 THEN
+#12 OBJECTID out_string
+#12 '('
+#12 STR_CONST "=)"
+#12 ')'
+#13 ELSE
+#13 OBJECTID out_string
+#13 '('
+#13 STR_CONST "=("
+#13 ')'
+#14 FI
+#14 ';'
+#15 '}'
+#16 ')'
+#17 '}'
+#17 ';'
+#18 '}'
+#18 ';'
+#20 CLASS
+#20 TYPEID Complex
+#20 INHERITS
+#20 TYPEID IO
+#20 '{'
+#21 ERROR "\000"
+#21 ':'
+#21 TYPEID Int
+#21 ';'
+#22 ERROR "0e\244\t\003"
+#22 ':'
+#22 TYPEID Int
+#22 ';'
+#24 OBJECTID init
+#24 '('
+#24 ERROR "\300b\244\t\004"
+#24 ':'
+#24 TYPEID Int
+#24 ERROR "0e\244\t\003"
+#24 ERROR "0e\244\t\003"
+#24 ':'
+#24 TYPEID Int
+#24 ')'
+#24 ':'
+#24 TYPEID Complex
+#24 '{'
+#25 '{'
+#26 ERROR "\220b\244\t\007"
+#26 ERROR "\220b\244\t\007"
+#26 ERROR "\220b\244\t\007"
+#26 ';'
+#27 ERROR "\220b\244\t\007"
+#27 ERROR "\220b\244\t\007"
+#27 ERROR "\220b\244\t\007"
+#27 ';'
+#28 OBJECTID self
+#28 ';'
+#29 '}'
+#30 '}'
+#30 ';'
+#32 OBJECTID print
+#32 '('
+#32 ')'
+#32 ':'
+#32 TYPEID Object
+#32 '{'
+#33 IF
+#33 ERROR "\300e\244\t\006"
+#33 ERROR "\300e\244\t\006"
+#33 INT_CONST 0
+#34 THEN
+#34 OBJECTID out_int
+#34 '('
+#34 ERROR "\360e\244\t\007"
+#34 ')'
+#35 ELSE
+#35 OBJECTID out_int
+#35 '('
+#35 ERROR "\360e\244\t\007"
+#35 ')'
+#35 '.'
+#35 OBJECTID out_string
+#35 '('
+#35 STR_CONST "+"
+#35 ')'
+#35 '.'
+#35 OBJECTID out_int
+#35 '('
+#35 ERROR "\360e\244\t\007"
+#35 ')'
+#35 '.'
+#35 OBJECTID out_string
+#35 '('
+#35 STR_CONST "I"
+#35 ')'
+#36 FI
+#37 '}'
+#37 ';'
+#39 OBJECTID reflect_
+#39 INT_CONST 0
+#39 '('
+#39 ')'
+#39 ':'
+#39 TYPEID Complex
+#39 '{'
+#40 '{'
+#41 ERROR "\220b\244\t\007"
+#41 ERROR "\220b\244\t\007"
+#41 ERROR "\220b\244\t\007"
+#41 ERROR "\220b\244\t\007"
+#41 ';'
+#42 ERROR "\220b\244\t\007"
+#42 ERROR "\220b\244\t\007"
+#42 ERROR "\220b\244\t\007"
+#42 ERROR "\220b\244\t\007"
+#42 ';'
+#43 OBJECTID self
+#43 ';'
+#44 '}'
+#45 '}'
+#45 ';'
+#47 OBJECTID reflect_X
+#47 '('
+#47 ')'
+#47 ':'
+#47 TYPEID Complex
+#47 '{'
+#48 '{'
+#49 ERROR "\220b\244\t\007"
+#49 ERROR "\220b\244\t\007"
+#49 ERROR "\220b\244\t\007"
+#49 ERROR "\220b\244\t\007"
+#49 ';'
+#50 OBJECTID self
+#50 ';'
+#51 '}'
+#52 '}'
+#52 ';'
+#54 OBJECTID reflect_Y
+#54 '('
+#54 ')'
+#54 ':'
+#54 TYPEID Complex
+#54 '{'
+#55 '{'
+#56 ERROR "\220b\244\t\007"
+#56 ERROR "\220b\244\t\007"
+#56 ERROR "\220b\244\t\007"
+#56 ERROR "\220b\244\t\007"
+#56 ';'
+#57 OBJECTID self
+#57 ';'
+#58 '}'
+#59 '}'
+#59 ';'
+#61 OBJECTID equal
+#61 '('
+#61 ERROR "Pc\244\t\005"
+#61 ':'
+#61 TYPEID Complex
+#61 ')'
+#61 ':'
+#61 TYPEID Bool
+#61 '{'
+#62 IF
+#62 ERROR "\200f\244\t\004"
+#62 ERROR "\200f\244\t\004"
+#62 ERROR "\200f\244\t\004"
+#62 '.'
+#62 OBJECTID x_value
+#62 '('
+#62 ')'
+#63 THEN
+#64 IF
+#64 ERROR "\260f\244\t\007"
+#64 ERROR "\260f\244\t\007"
+#64 ERROR "\260f\244\t\007"
+#64 '.'
+#64 OBJECTID y_value
+#64 '('
+#64 ')'
+#65 THEN
+#65 OBJECTID true
+#66 ELSE
+#66 OBJECTID false
+#67 FI
+#68 ELSE
+#68 OBJECTID false
+#69 FI
+#70 '}'
+#70 ';'
+#72 OBJECTID x_value
+#72 '('
+#72 ')'
+#72 ':'
+#72 TYPEID Int
+#72 '{'
+#73 ERROR "0e\244\t\003"
+#74 '}'
+#74 ';'
+#76 OBJECTID y_value
+#76 '('
+#76 ')'
+#76 ':'
+#76 TYPEID Int
+#76 '{'
+#77 ERROR "0e\244\t\003"
+#78 '}'
+#78 ';'
+#79 '}'
+#79 ';'

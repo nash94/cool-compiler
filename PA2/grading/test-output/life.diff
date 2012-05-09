@@ -1,0 +1,387 @@
+57c57
+< '='
+---
+> LONGERROR
+77c77
+< '='
+---
+> LONGERROR
+97c97
+< '='
+---
+> LONGERROR
+117c117
+< '='
+---
+> LONGERROR
+137c137
+< '='
+---
+> LONGERROR
+157c157
+< '='
+---
+> LONGERROR
+174a175,186
+> '-'
+> '-'
+> TYPEID If
+> OBJECTID none
+> OF
+> OBJECTID the
+> OBJECTID above
+> OBJECTID fit
+> LONGERROR
+> THEN
+> OBJECTID just
+> OBJECTID give
+175a188,196
+> '-'
+> '-'
+> OBJECTID the
+> OBJECTID configuration
+> OF
+> OBJECTID the
+> OBJECTID most
+> OBJECTID common
+> OBJECTID board
+245c266
+< OBJECTID i
+---
+> LONGERROR
+262d282
+< STR_CONST "\n"
+266c286
+< OBJECTID i
+---
+> LONGERROR
+277,278c297,298
+< OBJECTID i
+< ','
+---
+> LONGERROR
+> LONGERROR
+285d304
+< STR_CONST "\n"
+288c307
+< OBJECTID i
+---
+> LONGERROR
+290c309
+< OBJECTID i
+---
+> LONGERROR
+299d317
+< STR_CONST "\n"
+345c363
+< ','
+---
+> LONGERROR
+432c450
+< '='
+---
+> LONGERROR
+461c479
+< '='
+---
+> LONGERROR
+476c494
+< '='
+---
+> LONGERROR
+521c539
+< '='
+---
+> LONGERROR
+570c588
+< '='
+---
+> LONGERROR
+623c641
+< '='
+---
+> LONGERROR
+672c690
+< '='
+---
+> LONGERROR
+702c720
+< '='
+---
+> LONGERROR
+715c733
+< '='
+---
+> LONGERROR
+728c746
+< '='
+---
+> LONGERROR
+741c759
+< '='
+---
+> LONGERROR
+754c772
+< '='
+---
+> LONGERROR
+767c785
+< '='
+---
+> LONGERROR
+780c798
+< '='
+---
+> LONGERROR
+793c811
+< '='
+---
+> LONGERROR
+818c836
+< '='
+---
+> LONGERROR
+828c846
+< '='
+---
+> LONGERROR
+836c854
+< '='
+---
+> LONGERROR
+935c953
+< STR_CONST "\nPlease chose a number:\n"
+---
+> STR_CONST "Please chose a number:"
+940c958
+< STR_CONST "\t1: A cross\n"
+---
+> STR_CONST "1: A cross"
+945c963
+< STR_CONST "\t2: A slash from the upper left to lower right\n"
+---
+> STR_CONST "2: A slash from the upper left to lower right"
+950c968
+< STR_CONST "\t3: A slash from the upper right to lower left\n"
+---
+> STR_CONST "3: A slash from the upper right to lower left"
+955c973
+< STR_CONST "\t4: An X\n"
+---
+> STR_CONST "4: An X"
+960c978
+< STR_CONST "\t5: A greater than sign \n"
+---
+> STR_CONST "5: A greater than sign "
+965c983
+< STR_CONST "\t6: A less than sign\n"
+---
+> STR_CONST "6: A less than sign"
+970c988
+< STR_CONST "\t7: Two greater than signs\n"
+---
+> STR_CONST "7: Two greater than signs"
+975c993
+< STR_CONST "\t8: Two less than signs\n"
+---
+> STR_CONST "8: Two less than signs"
+980c998
+< STR_CONST "\t9: A 'V'\n"
+---
+> STR_CONST "9: A 'V'"
+985c1003
+< STR_CONST "\t10: An inverse 'V'\n"
+---
+> STR_CONST "10: An inverse 'V'"
+990c1008
+< STR_CONST "\t11: Numbers 9 and 10 combined\n"
+---
+> STR_CONST "11: Numbers 9 and 10 combined"
+995c1013
+< STR_CONST "\t12: A full grid\n"
+---
+> STR_CONST "12: A full grid"
+1000c1018
+< STR_CONST "\t13: A 'T'\n"
+---
+> STR_CONST "13: A 'T'"
+1005c1023
+< STR_CONST "\t14: A plus '+'\n"
+---
+> STR_CONST "14: A plus '+'"
+1010c1028
+< STR_CONST "\t15: A 'W'\n"
+---
+> STR_CONST "15: A 'W'"
+1015c1033
+< STR_CONST "\t16: An 'M'\n"
+---
+> STR_CONST "16: An 'M'"
+1020c1038
+< STR_CONST "\t17: An 'E'\n"
+---
+> STR_CONST "17: An 'E'"
+1025c1043
+< STR_CONST "\t18: A '3'\n"
+---
+> STR_CONST "18: A '3'"
+1030c1048
+< STR_CONST "\t19: An 'O'\n"
+---
+> STR_CONST "19: An 'O'"
+1035c1053
+< STR_CONST "\t20: An '8'\n"
+---
+> STR_CONST "20: An '8'"
+1040c1058
+< STR_CONST "\t21: An 'S'\n"
+---
+> STR_CONST "21: An 'S'"
+1056d1073
+< STR_CONST "\n"
+1061c1078
+< '='
+---
+> LONGERROR
+1068c1085
+< '='
+---
+> LONGERROR
+1075c1092
+< '='
+---
+> LONGERROR
+1082c1099
+< '='
+---
+> LONGERROR
+1089c1106
+< '='
+---
+> LONGERROR
+1096c1113
+< '='
+---
+> LONGERROR
+1103c1120
+< '='
+---
+> LONGERROR
+1110c1127
+< '='
+---
+> LONGERROR
+1117c1134
+< '='
+---
+> LONGERROR
+1124c1141
+< '='
+---
+> LONGERROR
+1131c1148
+< '='
+---
+> LONGERROR
+1138c1155
+< '='
+---
+> LONGERROR
+1145c1162
+< '='
+---
+> LONGERROR
+1152c1169
+< '='
+---
+> LONGERROR
+1159c1176
+< '='
+---
+> LONGERROR
+1166c1183
+< '='
+---
+> LONGERROR
+1173c1190
+< '='
+---
+> LONGERROR
+1180c1197
+< '='
+---
+> LONGERROR
+1187c1204
+< '='
+---
+> LONGERROR
+1194c1211
+< '='
+---
+> LONGERROR
+1201c1218
+< '='
+---
+> LONGERROR
+1251c1268
+< STR_CONST "Would you like to continue with the next generation? \n"
+---
+> STR_CONST "Would you like to continue with the next generation? "
+1267d1283
+< STR_CONST "\n"
+1272c1288
+< '='
+---
+> LONGERROR
+1275c1291
+< BOOL_CONST false
+---
+> OBJECTID false
+1277c1293
+< BOOL_CONST true
+---
+> OBJECTID true
+1286c1302,1303
+< OBJECTID prompt2
+---
+> OBJECTID prompt
+> INT_CONST 2
+1301d1317
+< STR_CONST "\n\n"
+1306c1322
+< STR_CONST "Would you like to choose a background pattern? \n"
+---
+> STR_CONST "Would you like to choose a background pattern? "
+1322c1338
+< '='
+---
+> LONGERROR
+1325c1341
+< BOOL_CONST true
+---
+> OBJECTID true
+1327c1343
+< BOOL_CONST false
+---
+> OBJECTID false
+1367c1383
+< STR_CONST "Welcome to the Game of Life.\n"
+---
+> STR_CONST "Welcome to the Game of Life."
+1372c1388
+< STR_CONST "There are many initial states to choose from. \n"
+---
+> STR_CONST "There are many initial states to choose from. "
+1376c1392,1393
+< OBJECTID prompt2
+---
+> OBJECTID prompt
+> INT_CONST 2
+1383c1400
+< BOOL_CONST true
+---
+> OBJECTID true
+1434c1451
+< BOOL_CONST false
+---
+> OBJECTID false

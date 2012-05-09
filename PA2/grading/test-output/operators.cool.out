@@ -1,0 +1,6 @@
+#name "./operators.cool"
+#2 ';'
+#2 '{'
+#2 '}'
+#2 '('
+Segmentation fault

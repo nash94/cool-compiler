@@ -1,0 +1,7 @@
+STR_CONST "I'm not going to escape this newline"
+LONGERROR
+STR_CONST "This is also not escaped "
+LONGERROR
+STR_CONST "This is, though "
+STR_CONST "It's fine to have this: "
+STR_CONST " in a string"

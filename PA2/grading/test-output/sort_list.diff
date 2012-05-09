@@ -1,0 +1,183 @@
+1c1
+< CLASS
+---
+> TYPEID Class
+17c17
+< BOOL_CONST true
+---
+> OBJECTID true
+45c45
+< ','
+---
+> LONGERROR
+109c109
+< OBJECTID i
+---
+> LONGERROR
+123c123
+< OBJECTID i
+---
+> LONGERROR
+148c148
+< CLASS
+---
+> TYPEID Class
+156a157,167
+> '-'
+> '-'
+> TYPEID We
+> OBJECTID keep
+> OBJECTID the
+> OBJECTID car
+> IN
+> OBJECTID cdr
+> IN
+> OBJECTID attributes
+> '.'
+160a172,203
+> '-'
+> '-'
+> TYPEID Because
+> OBJECTID methods
+> OBJECTID and
+> OBJECTID features
+> OBJECTID must
+> OBJECTID have
+> OBJECTID different
+> OBJECTID names
+> LONGERROR
+> '-'
+> '-'
+> OBJECTID we
+> OBJECTID use
+> OBJECTID xcar
+> OBJECTID and
+> OBJECTID xcdr
+> OBJECTID for
+> OBJECTID the
+> OBJECTID attributes
+> OBJECTID and
+> OBJECTID reserve
+> '-'
+> '-'
+> OBJECTID cons
+> OBJECTID and
+> OBJECTID car
+> OBJECTID for
+> OBJECTID the
+> OBJECTID features
+> '.'
+175c218
+< ','
+---
+> LONGERROR
+257c300
+< OBJECTID i
+---
+> LONGERROR
+265c308
+< OBJECTID i
+---
+> LONGERROR
+276,277c319,320
+< OBJECTID i
+< ','
+---
+> LONGERROR
+> LONGERROR
+289c332
+< ','
+---
+> LONGERROR
+294c337
+< OBJECTID i
+---
+> LONGERROR
+302c345
+< OBJECTID i
+---
+> LONGERROR
+317c360
+< ','
+---
+> LONGERROR
+322c365
+< OBJECTID i
+---
+> LONGERROR
+341d383
+< STR_CONST "\n"
+355c397
+< CLASS
+---
+> TYPEID Class
+389c431
+< OBJECTID i
+---
+> LONGERROR
+398c440
+< OBJECTID i
+---
+> LONGERROR
+404c446
+< OBJECTID i
+---
+> LONGERROR
+418,419c460,461
+< OBJECTID i
+< ','
+---
+> LONGERROR
+> LONGERROR
+435c477
+< CLASS
+---
+> TYPEID Class
+440c482
+< OBJECTID l
+---
+> LONGERROR
+446c488
+< OBJECTID i
+---
+> LONGERROR
+454c496
+< OBJECTID l
+---
+> LONGERROR
+461c503
+< OBJECTID j
+---
+> LONGERROR
+468c510
+< OBJECTID j
+---
+> LONGERROR
+470c512
+< OBJECTID i
+---
+> LONGERROR
+473c515
+< OBJECTID l
+---
+> LONGERROR
+482,484c524,526
+< OBJECTID j
+< ','
+< OBJECTID l
+---
+> LONGERROR
+> LONGERROR
+> LONGERROR
+487c529
+< OBJECTID j
+---
+> LONGERROR
+489c531
+< OBJECTID j
+---
+> LONGERROR
+497c539
+< OBJECTID l
+---
+> LONGERROR

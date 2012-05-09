@@ -1,0 +1,5 @@
+STR_CONST "0"
+STR_CONST "1"
+STR_CONST "2"
+STR_CONST "this is still inside the string"
+STR_CONST "I'm about to excape a newline "

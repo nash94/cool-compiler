@@ -1,0 +1,4 @@
+OBJECTID before_it
+STR_CONST "this string "
+STR_CONST "doens't end"
+LONGERROR

@@ -1,0 +1,14 @@
+0a1
+> STR_CONST "I'm not going to escape this newline"
+1a3
+> STR_CONST "This is also not escaped "
+3,7c5,7
+< LONGERROR
+< LONGERROR
+< STR_CONST "This is, though \\\n"
+< STR_CONST "\\"
+< STR_CONST "It's fine to have this: \n in a string"
+---
+> STR_CONST "This is, though "
+> STR_CONST "It's fine to have this: "
+> STR_CONST " in a string"

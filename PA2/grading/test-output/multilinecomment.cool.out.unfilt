@@ -1,0 +1,12 @@
+#name "./multilinecomment.cool"
+#3 OBJECTID not
+#3 IN
+#3 ERROR "\320Q\345\t\003"
+#3 OBJECTID comment
+#10 '('
+#10 '*'
+#10 OBJECTID not
+#10 ERROR "\320Q\345\t\003"
+#10 OBJECTID comment
+#10 '*'
+#10 ')'

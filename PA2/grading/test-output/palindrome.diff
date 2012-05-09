@@ -1,0 +1,88 @@
+8c8
+< OBJECTID s
+---
+> LONGERROR
+16c16
+< OBJECTID s
+---
+> LONGERROR
+21c21
+< '='
+---
+> LONGERROR
+24c24
+< BOOL_CONST true
+---
+> OBJECTID true
+27c27
+< OBJECTID s
+---
+> LONGERROR
+32c32
+< '='
+---
+> LONGERROR
+35c35
+< BOOL_CONST true
+---
+> OBJECTID true
+38c38
+< OBJECTID s
+---
+> LONGERROR
+43c43
+< ','
+---
+> LONGERROR
+46,47c46,47
+< '='
+< OBJECTID s
+---
+> LONGERROR
+> LONGERROR
+51c51
+< OBJECTID s
+---
+> LONGERROR
+58c58
+< ','
+---
+> LONGERROR
+64c64
+< OBJECTID s
+---
+> LONGERROR
+69,70c69,70
+< ','
+< OBJECTID s
+---
+> LONGERROR
+> LONGERROR
+80c80
+< BOOL_CONST false
+---
+> OBJECTID false
+86c86
+< OBJECTID i
+---
+> LONGERROR
+97c97
+< OBJECTID i
+---
+> LONGERROR
+99c99
+< '~'
+---
+> LONGERROR
+104c104
+< STR_CONST "enter a string\n"
+---
+> STR_CONST "enter a string"
+117c117
+< STR_CONST "that was a palindrome\n"
+---
+> STR_CONST "that was a palindrome"
+122c122
+< STR_CONST "that was not a palindrome\n"
+---
+> STR_CONST "that was not a palindrome"

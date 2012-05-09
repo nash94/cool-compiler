@@ -1,0 +1,6 @@
+#name "./validcharacters.cool"
+#1 '+'
+#1 '/'
+#1 '-'
+#1 '*'
+Segmentation fault

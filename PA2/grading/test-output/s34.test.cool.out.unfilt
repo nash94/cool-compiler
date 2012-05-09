@@ -1,0 +1,5 @@
+#name "./s34.test.cool"
+#1 OBJECTID before_it
+#3 STR_CONST "this string "
+#3 STR_CONST "doens't end"
+#3 ERROR "8rB\t\013"

@@ -1,0 +1,204 @@
+2a3,73
+> '*'
+> ')'
+> TYPEID Comment
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '-'
+> '-'
+> OBJECTID single
+> OBJECTID line
+> OBJECTID comments
+> '-'
+> '-'
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> '*'
+> LONGERROR
+> '*'
+> LONGERROR
+> LONGERROR
+> '*'
+> LONGERROR
+> <Invalid Token>
+> LONGERROR
+> LONGERROR
+> <Invalid Token>
+> TYPEID GH
+> <Invalid Token>
+> LONGERROR
+> TYPEID TH
+> LONGERROR
+> <Invalid Token>
+> LONGERROR
+> '*'
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> '*'
+> LONGERROR
+> LONGERROR
+> LONGERROR
+4a76,113
+> '*'
+> ')'
+> TYPEID Comment
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> ')'
+6a116,144
+> '-'
+> '-'
+> OBJECTID hello
+> OBJECTID my
+> OBJECTID name
+> OBJECTID is
+> OBJECTID george
+> ';'
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> TYPEID ESFsej
+> OBJECTID ok
+> INT_CONST 34
+> ';'
+> LONGERROR
+> INT_CONST 90
+8a147,163
+> '-'
+> '-'
+> '-'
+> OBJECTID heelo
+> OBJECTID my
+> OBJECTID nma
+> OBJECTID ei
+> OBJECTID sgeoegre
+> ';'
+> INT_CONST 234
+> INT_CONST 2
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+> LONGERROR
+11c166,193
+< OBJECTID joJoj323
+---
+> OBJECTID joJoj
+> INT_CONST 323
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+12a195,196
+> '-'
+> '-'
+15c199,206
+< OBJECTID dfdsajfk312
+---
+> '-'
+> '-'
+> LONGERROR
+> LONGERROR
+> OBJECTID dfdsajfk
+> INT_CONST 312
+> '-'
+> '-'

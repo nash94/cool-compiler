@@ -1,0 +1,5 @@
+STR_CONST "string (* 123 *) string"
+STR_CONST "string "
+STR_CONST "(* 123 *)"
+STR_CONST "string (* "
+STR_CONST "123 *)"

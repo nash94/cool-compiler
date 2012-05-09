@@ -1,0 +1,542 @@
+'-'
+'-'
+OBJECTID example
+OF
+OBJECTID static
+OBJECTID and
+OBJECTID dynamic
+OBJECTID type
+OBJECTID differing
+OBJECTID for
+LONGERROR
+OBJECTID dispatch
+TYPEID Class
+TYPEID Book
+INHERITS
+TYPEID IO
+'{'
+OBJECTID title
+':'
+TYPEID String
+';'
+OBJECTID author
+':'
+TYPEID String
+';'
+OBJECTID initBook
+'('
+OBJECTID title_p
+':'
+TYPEID String
+LONGERROR
+OBJECTID author_p
+':'
+TYPEID String
+')'
+':'
+TYPEID Book
+'{'
+'{'
+OBJECTID title
+ASSIGN
+OBJECTID title_p
+';'
+OBJECTID author
+ASSIGN
+OBJECTID author_p
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+OBJECTID print
+'('
+')'
+':'
+TYPEID Book
+'{'
+'{'
+OBJECTID out_string
+'('
+STR_CONST "title:      "
+')'
+'.'
+OBJECTID out_string
+'('
+OBJECTID title
+')'
+'.'
+OBJECTID out_string
+'('
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "author:     "
+')'
+'.'
+OBJECTID out_string
+'('
+OBJECTID author
+')'
+'.'
+OBJECTID out_string
+'('
+')'
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+'}'
+';'
+TYPEID Class
+TYPEID Article
+INHERITS
+TYPEID Book
+'{'
+OBJECTID per_title
+':'
+TYPEID String
+';'
+OBJECTID initArticle
+'('
+OBJECTID title_p
+':'
+TYPEID String
+LONGERROR
+OBJECTID author_p
+':'
+TYPEID String
+LONGERROR
+OBJECTID per_title_p
+':'
+TYPEID String
+')'
+':'
+TYPEID Article
+'{'
+'{'
+OBJECTID initBook
+'('
+OBJECTID title_p
+LONGERROR
+OBJECTID author_p
+')'
+';'
+OBJECTID per_title
+ASSIGN
+OBJECTID per_title_p
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+OBJECTID print
+'('
+')'
+':'
+TYPEID Book
+'{'
+'{'
+OBJECTID self
+LONGERROR
+TYPEID Book
+'.'
+OBJECTID print
+'('
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "periodical:  "
+')'
+'.'
+OBJECTID out_string
+'('
+OBJECTID per_title
+')'
+'.'
+OBJECTID out_string
+'('
+')'
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+'}'
+';'
+TYPEID Class
+TYPEID BookList
+INHERITS
+TYPEID IO
+'{'
+OBJECTID isNil
+'('
+')'
+':'
+TYPEID Bool
+'{'
+'{'
+OBJECTID abort
+'('
+')'
+';'
+OBJECTID true
+';'
+'}'
+'}'
+';'
+OBJECTID cons
+'('
+OBJECTID hd
+':'
+TYPEID Book
+')'
+':'
+TYPEID Cons
+'{'
+'('
+LET
+OBJECTID new_cell
+':'
+TYPEID Cons
+ASSIGN
+NEW
+TYPEID Cons
+IN
+OBJECTID new_cell
+'.'
+OBJECTID init
+'('
+OBJECTID hd
+LONGERROR
+OBJECTID self
+')'
+')'
+'}'
+';'
+OBJECTID car
+'('
+')'
+':'
+TYPEID Book
+'{'
+'{'
+OBJECTID abort
+'('
+')'
+';'
+NEW
+TYPEID Book
+';'
+'}'
+'}'
+';'
+OBJECTID cdr
+'('
+')'
+':'
+TYPEID BookList
+'{'
+'{'
+OBJECTID abort
+'('
+')'
+';'
+NEW
+TYPEID BookList
+';'
+'}'
+'}'
+';'
+OBJECTID print_list
+'('
+')'
+':'
+TYPEID Object
+'{'
+OBJECTID abort
+'('
+')'
+'}'
+';'
+'}'
+';'
+TYPEID Class
+TYPEID Cons
+INHERITS
+TYPEID BookList
+'{'
+OBJECTID xcar
+':'
+TYPEID Book
+';'
+'-'
+'-'
+TYPEID We
+OBJECTID keep
+OBJECTID the
+OBJECTID car
+OBJECTID and
+OBJECTID cdr
+IN
+OBJECTID attributes
+'.'
+OBJECTID xcdr
+':'
+TYPEID BookList
+';'
+'-'
+'-'
+TYPEID Because
+OBJECTID methods
+OBJECTID and
+OBJECTID features
+OBJECTID must
+OBJECTID have
+OBJECTID different
+OBJECTID names
+LONGERROR
+'-'
+'-'
+OBJECTID we
+OBJECTID use
+OBJECTID xcar
+OBJECTID and
+OBJECTID xcdr
+OBJECTID for
+OBJECTID the
+OBJECTID attributes
+OBJECTID and
+OBJECTID reserve
+'-'
+'-'
+OBJECTID car
+OBJECTID and
+OBJECTID cdr
+OBJECTID for
+OBJECTID the
+OBJECTID features
+'.'
+OBJECTID isNil
+'('
+')'
+':'
+TYPEID Bool
+'{'
+BOOL_CONST false
+'}'
+';'
+OBJECTID init
+'('
+OBJECTID hd
+':'
+TYPEID Book
+LONGERROR
+OBJECTID tl
+':'
+TYPEID BookList
+')'
+':'
+TYPEID Cons
+'{'
+'{'
+OBJECTID xcar
+ASSIGN
+OBJECTID hd
+';'
+OBJECTID xcdr
+ASSIGN
+OBJECTID tl
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+OBJECTID car
+'('
+')'
+':'
+TYPEID Book
+'{'
+OBJECTID xcar
+'}'
+';'
+OBJECTID cdr
+'('
+')'
+':'
+TYPEID BookList
+'{'
+OBJECTID xcdr
+'}'
+';'
+OBJECTID print_list
+'('
+')'
+':'
+TYPEID Object
+'{'
+'{'
+CASE
+OBJECTID xcar
+'.'
+OBJECTID print
+'('
+')'
+OF
+OBJECTID dummy
+':'
+TYPEID Book
+DARROW
+OBJECTID out_string
+'('
+STR_CONST "- dynamic type was Book -"
+')'
+';'
+OBJECTID dummy
+':'
+TYPEID Article
+DARROW
+OBJECTID out_string
+'('
+STR_CONST "- dynamic type was Article -"
+')'
+';'
+ESAC
+';'
+OBJECTID xcdr
+'.'
+OBJECTID print_list
+'('
+')'
+';'
+'}'
+'}'
+';'
+'}'
+';'
+TYPEID Class
+TYPEID Nil
+INHERITS
+TYPEID BookList
+'{'
+OBJECTID isNil
+'('
+')'
+':'
+TYPEID Bool
+'{'
+BOOL_CONST true
+'}'
+';'
+OBJECTID print_list
+'('
+')'
+':'
+TYPEID Object
+'{'
+BOOL_CONST true
+'}'
+';'
+'}'
+';'
+TYPEID Class
+TYPEID Main
+'{'
+OBJECTID books
+':'
+TYPEID BookList
+';'
+OBJECTID main
+'('
+')'
+':'
+TYPEID Object
+'{'
+'('
+LET
+OBJECTID a_book
+':'
+TYPEID Book
+ASSIGN
+'('
+NEW
+TYPEID Book
+')'
+'.'
+OBJECTID initBook
+'('
+STR_CONST "Compilers, Principles, Techniques, and Tools"
+LONGERROR
+STR_CONST "Aho, Sethi, and Ullman"
+')'
+IN
+'('
+LET
+OBJECTID an_article
+':'
+TYPEID Article
+ASSIGN
+'('
+NEW
+TYPEID Article
+')'
+'.'
+OBJECTID initArticle
+'('
+STR_CONST "The Top 100 CD_ROMs"
+LONGERROR
+STR_CONST "Ulanoff"
+LONGERROR
+STR_CONST "PC Magazine"
+')'
+IN
+'{'
+OBJECTID books
+ASSIGN
+'('
+NEW
+TYPEID Nil
+')'
+'.'
+OBJECTID cons
+'('
+OBJECTID a_book
+')'
+'.'
+OBJECTID cons
+'('
+OBJECTID an_article
+')'
+';'
+OBJECTID books
+'.'
+OBJECTID print_list
+'('
+')'
+';'
+'}'
+')'
+'-'
+'-'
+OBJECTID end
+LET
+OBJECTID an_article
+')'
+'-'
+'-'
+OBJECTID end
+LET
+OBJECTID a_book
+'}'
+';'
+'}'
+';'

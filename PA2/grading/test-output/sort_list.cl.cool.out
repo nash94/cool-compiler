@@ -1,0 +1,579 @@
+TYPEID Class
+TYPEID List
+INHERITS
+TYPEID IO
+'{'
+OBJECTID isNil
+'('
+')'
+':'
+TYPEID Bool
+'{'
+'{'
+OBJECTID abort
+'('
+')'
+';'
+OBJECTID true
+';'
+'}'
+'}'
+';'
+OBJECTID cons
+'('
+OBJECTID hd
+':'
+TYPEID Int
+')'
+':'
+TYPEID Cons
+'{'
+'('
+LET
+OBJECTID new_cell
+':'
+TYPEID Cons
+ASSIGN
+NEW
+TYPEID Cons
+IN
+OBJECTID new_cell
+'.'
+OBJECTID init
+'('
+OBJECTID hd
+LONGERROR
+OBJECTID self
+')'
+')'
+'}'
+';'
+OBJECTID car
+'('
+')'
+':'
+TYPEID Int
+'{'
+'{'
+OBJECTID abort
+'('
+')'
+';'
+NEW
+TYPEID Int
+';'
+'}'
+'}'
+';'
+OBJECTID cdr
+'('
+')'
+':'
+TYPEID List
+'{'
+'{'
+OBJECTID abort
+'('
+')'
+';'
+NEW
+TYPEID List
+';'
+'}'
+'}'
+';'
+OBJECTID rev
+'('
+')'
+':'
+TYPEID List
+'{'
+OBJECTID cdr
+'('
+')'
+'}'
+';'
+OBJECTID sort
+'('
+')'
+':'
+TYPEID List
+'{'
+OBJECTID cdr
+'('
+')'
+'}'
+';'
+OBJECTID insert
+'('
+LONGERROR
+':'
+TYPEID Int
+')'
+':'
+TYPEID List
+'{'
+OBJECTID cdr
+'('
+')'
+'}'
+';'
+OBJECTID rcons
+'('
+LONGERROR
+':'
+TYPEID Int
+')'
+':'
+TYPEID List
+'{'
+OBJECTID cdr
+'('
+')'
+'}'
+';'
+OBJECTID print_list
+'('
+')'
+':'
+TYPEID Object
+'{'
+OBJECTID abort
+'('
+')'
+'}'
+';'
+'}'
+';'
+TYPEID Class
+TYPEID Cons
+INHERITS
+TYPEID List
+'{'
+OBJECTID xcar
+':'
+TYPEID Int
+';'
+'-'
+'-'
+TYPEID We
+OBJECTID keep
+OBJECTID the
+OBJECTID car
+IN
+OBJECTID cdr
+IN
+OBJECTID attributes
+'.'
+OBJECTID xcdr
+':'
+TYPEID List
+';'
+'-'
+'-'
+TYPEID Because
+OBJECTID methods
+OBJECTID and
+OBJECTID features
+OBJECTID must
+OBJECTID have
+OBJECTID different
+OBJECTID names
+LONGERROR
+'-'
+'-'
+OBJECTID we
+OBJECTID use
+OBJECTID xcar
+OBJECTID and
+OBJECTID xcdr
+OBJECTID for
+OBJECTID the
+OBJECTID attributes
+OBJECTID and
+OBJECTID reserve
+'-'
+'-'
+OBJECTID cons
+OBJECTID and
+OBJECTID car
+OBJECTID for
+OBJECTID the
+OBJECTID features
+'.'
+OBJECTID isNil
+'('
+')'
+':'
+TYPEID Bool
+'{'
+BOOL_CONST false
+'}'
+';'
+OBJECTID init
+'('
+OBJECTID hd
+':'
+TYPEID Int
+LONGERROR
+OBJECTID tl
+':'
+TYPEID List
+')'
+':'
+TYPEID Cons
+'{'
+'{'
+OBJECTID xcar
+ASSIGN
+OBJECTID hd
+';'
+OBJECTID xcdr
+ASSIGN
+OBJECTID tl
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+OBJECTID car
+'('
+')'
+':'
+TYPEID Int
+'{'
+OBJECTID xcar
+'}'
+';'
+OBJECTID cdr
+'('
+')'
+':'
+TYPEID List
+'{'
+OBJECTID xcdr
+'}'
+';'
+OBJECTID rev
+'('
+')'
+':'
+TYPEID List
+'{'
+'('
+OBJECTID xcdr
+'.'
+OBJECTID rev
+'('
+')'
+')'
+'.'
+OBJECTID rcons
+'('
+OBJECTID xcar
+')'
+'}'
+';'
+OBJECTID sort
+'('
+')'
+':'
+TYPEID List
+'{'
+'('
+OBJECTID xcdr
+'.'
+OBJECTID sort
+'('
+')'
+')'
+'.'
+OBJECTID insert
+'('
+OBJECTID xcar
+')'
+'}'
+';'
+OBJECTID insert
+'('
+LONGERROR
+':'
+TYPEID Int
+')'
+':'
+TYPEID List
+'{'
+IF
+LONGERROR
+'<'
+OBJECTID xcar
+THEN
+'('
+NEW
+TYPEID Cons
+')'
+'.'
+OBJECTID init
+'('
+LONGERROR
+LONGERROR
+OBJECTID self
+')'
+ELSE
+'('
+NEW
+TYPEID Cons
+')'
+'.'
+OBJECTID init
+'('
+OBJECTID xcar
+LONGERROR
+OBJECTID xcdr
+'.'
+OBJECTID insert
+'('
+LONGERROR
+')'
+')'
+FI
+'}'
+';'
+OBJECTID rcons
+'('
+LONGERROR
+':'
+TYPEID Int
+')'
+':'
+TYPEID List
+'{'
+'('
+NEW
+TYPEID Cons
+')'
+'.'
+OBJECTID init
+'('
+OBJECTID xcar
+LONGERROR
+OBJECTID xcdr
+'.'
+OBJECTID rcons
+'('
+LONGERROR
+')'
+')'
+'}'
+';'
+OBJECTID print_list
+'('
+')'
+':'
+TYPEID Object
+'{'
+'{'
+OBJECTID out_int
+'('
+OBJECTID xcar
+')'
+';'
+OBJECTID out_string
+'('
+')'
+';'
+OBJECTID xcdr
+'.'
+OBJECTID print_list
+'('
+')'
+';'
+'}'
+'}'
+';'
+'}'
+';'
+TYPEID Class
+TYPEID Nil
+INHERITS
+TYPEID List
+'{'
+OBJECTID isNil
+'('
+')'
+':'
+TYPEID Bool
+'{'
+BOOL_CONST true
+'}'
+';'
+OBJECTID rev
+'('
+')'
+':'
+TYPEID List
+'{'
+OBJECTID self
+'}'
+';'
+OBJECTID sort
+'('
+')'
+':'
+TYPEID List
+'{'
+OBJECTID self
+'}'
+';'
+OBJECTID insert
+'('
+LONGERROR
+':'
+TYPEID Int
+')'
+':'
+TYPEID List
+'{'
+OBJECTID rcons
+'('
+LONGERROR
+')'
+'}'
+';'
+OBJECTID rcons
+'('
+LONGERROR
+':'
+TYPEID Int
+')'
+':'
+TYPEID List
+'{'
+'('
+NEW
+TYPEID Cons
+')'
+'.'
+OBJECTID init
+'('
+LONGERROR
+LONGERROR
+OBJECTID self
+')'
+'}'
+';'
+OBJECTID print_list
+'('
+')'
+':'
+TYPEID Object
+'{'
+BOOL_CONST true
+'}'
+';'
+'}'
+';'
+TYPEID Class
+TYPEID Main
+INHERITS
+TYPEID IO
+'{'
+LONGERROR
+':'
+TYPEID List
+';'
+OBJECTID iota
+'('
+LONGERROR
+':'
+TYPEID Int
+')'
+':'
+TYPEID List
+'{'
+'{'
+LONGERROR
+ASSIGN
+NEW
+TYPEID Nil
+';'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+ASSIGN
+INT_CONST 0
+IN
+WHILE
+LONGERROR
+'<'
+LONGERROR
+LOOP
+'{'
+LONGERROR
+ASSIGN
+'('
+NEW
+TYPEID Cons
+')'
+'.'
+OBJECTID init
+'('
+LONGERROR
+LONGERROR
+LONGERROR
+')'
+';'
+LONGERROR
+ASSIGN
+LONGERROR
+'+'
+INT_CONST 1
+';'
+'}'
+POOL
+')'
+';'
+LONGERROR
+';'
+'}'
+'}'
+';'
+OBJECTID main
+'('
+')'
+':'
+TYPEID Object
+'{'
+'{'
+OBJECTID out_string
+'('
+STR_CONST "How many numbers to sort?"
+')'
+';'
+OBJECTID iota
+'('
+OBJECTID in_int
+'('
+')'
+')'
+'.'
+OBJECTID rev
+'('
+')'
+'.'
+OBJECTID sort
+'('
+')'
+'.'
+OBJECTID print_list
+'('
+')'
+';'
+'}'
+'}'
+';'
+'}'
+';'

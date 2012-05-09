@@ -1,0 +1,3 @@
+#name "./escaped_chars_in_comment.cl.cool"
+#2 '*'
+Segmentation fault

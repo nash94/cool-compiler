@@ -1,0 +1,9 @@
+2c2,7
+< OBJECTID token2
+---
+> OBJECTID token
+> INT_CONST 2
+> '-'
+> '-'
+> OBJECTID cmt
+> INT_CONST 2

@@ -46,6 +46,9 @@ extern YYSTYPE cool_yylval;
 
 %}
 
+%x str
+%x comment
+
 /*
  * Define names for regular expressions here.
  */
@@ -71,7 +74,6 @@ ISVOID_REG      isvoid|ISVOID
 TRUE_REG        t(rue|RUE)" "
 FALSE_REG       f(alse|ALSE)" "
 
-STRING          ["]([^"]*)["]
 DIGIT           [0-9]+
 
 TYPE_ID         [A-Z][a-zA-Z_]+
@@ -101,6 +103,11 @@ NEW_LINE        [\n]
  /*
   *  Nested comments
   */
+"(*"                    BEGIN(comment);
+<comment>[^*\n]*        /* eat anything that's not a '*' */
+<comment>"*"+[^*)\n]*   /* eat up '*'s not followed by ')'s */
+<comment>\n             curr_lineno++;    
+<comment>"*"+")"        BEGIN(INITIAL);
 
  /*
   *  The multiple-character operators.
@@ -144,9 +151,59 @@ NEW_LINE        [\n]
                   return (OBJECTID);
                 }
 
-{STRING}        { cool_yylval.symbol = inttable.add_string(yytext);
-                  return(STR_CONST);
+{TRUE_REG}      { cool_yylval.boolean = true;
+                  return (BOOL_CONST);
                 }
+
+{FALSE_REG}     { cool_yylval.boolean = false;
+                  return (BOOL_CONST);
+                }
+
+\"              { string_buf_ptr = string_buf;
+                  BEGIN(str);
+                }
+
+<str>\"         { BEGIN(INITIAL);
+                  *string_buf_ptr = '\0';
+                }
+
+<str>\n         { return (ERROR); }
+
+<str>\\[0-7]{1,3} {
+                    int result;
+     
+                    (void) sscanf( yytext + 1, "%o", &result );
+                           
+                    if ( result > 0xff ) {
+                        cool_yylval.error_msg = "Unescaped chars";
+                        return (ERROR);
+                    }
+                    
+                    *string_buf_ptr++ = result;
+                  }
+
+<str>\\[0-9]+   { return (ERROR); }
+
+<str>\\n        *string_buf_ptr++ = '\n';
+<str>\\t        *string_buf_ptr++ = '\t';
+<str>\\r        *string_buf_ptr++ = '\r';
+<str>\\b        *string_buf_ptr++ = '\b';
+<str>\\f        *string_buf_ptr++ = '\f';
+
+<str>\\(.|\n)   *string_buf_ptr++ = yytext[1];
+
+<str>[^\\\n\"]+ {
+                   char *yptr = yytext;
+                         
+                   while ( *yptr ) {
+                           *string_buf_ptr++ = *yptr++;
+                   }
+                   
+                   cool_yylval.symbol = inttable.add_string(yytext); 
+                   return (STR_CONST);
+                }
+
+
 
 {DIGIT}         { cool_yylval.symbol = inttable.add_string(yytext); 
                   return (INT_CONST); 
