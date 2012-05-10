@@ -1,4 +1,4 @@
-TYPEID Class
+CLASS
 TYPEID List
 INHERITS
 TYPEID IO
@@ -145,7 +145,7 @@ OBJECTID abort
 ';'
 '}'
 ';'
-TYPEID Class
+CLASS
 TYPEID Cons
 INHERITS
 TYPEID List
@@ -207,7 +207,7 @@ OBJECTID isNil
 ':'
 TYPEID Bool
 '{'
-BOOL_CONST false
+OBJECTID false
 '}'
 ';'
 OBJECTID init
@@ -394,7 +394,7 @@ OBJECTID print_list
 ';'
 '}'
 ';'
-TYPEID Class
+CLASS
 TYPEID Nil
 INHERITS
 TYPEID List
@@ -405,7 +405,7 @@ OBJECTID isNil
 ':'
 TYPEID Bool
 '{'
-BOOL_CONST true
+OBJECTID true
 '}'
 ';'
 OBJECTID rev
@@ -469,12 +469,12 @@ OBJECTID print_list
 ':'
 TYPEID Object
 '{'
-BOOL_CONST true
+OBJECTID true
 '}'
 ';'
 '}'
 ';'
-TYPEID Class
+CLASS
 TYPEID Main
 INHERITS
 TYPEID IO

@@ -1,5 +1,5 @@
 #name "./sort_list.cl.cool"
-#24 TYPEID Class
+#24 CLASS
 #24 TYPEID List
 #24 INHERITS
 #24 TYPEID IO
@@ -43,7 +43,7 @@
 #32 OBJECTID init
 #32 '('
 #32 OBJECTID hd
-#32 ERROR "P\263\344\t\002"
+#32 ERROR " \243\027\b\002"
 #32 OBJECTID self
 #32 ')'
 #33 ')'
@@ -107,7 +107,7 @@
 #47 ';'
 #49 OBJECTID insert
 #49 '('
-#49 ERROR "0\265\344\t\006"
+#49 ERROR "\000"
 #49 ':'
 #49 TYPEID Int
 #49 ')'
@@ -121,7 +121,7 @@
 #49 ';'
 #51 OBJECTID rcons
 #51 '('
-#51 ERROR "`\265\344\t\005"
+#51 ERROR "0\245\027\b\005"
 #51 ':'
 #51 TYPEID Int
 #51 ')'
@@ -146,7 +146,7 @@
 #53 ';'
 #54 '}'
 #54 ';'
-#56 TYPEID Class
+#56 CLASS
 #56 TYPEID Cons
 #56 INHERITS
 #56 TYPEID List
@@ -180,7 +180,7 @@
 #58 OBJECTID have
 #58 OBJECTID different
 #58 OBJECTID names
-#58 ERROR "`\270\344\t\005"
+#58 ERROR "0\250\027\b\005"
 #59 '-'
 #59 '-'
 #59 OBJECTID we
@@ -208,7 +208,7 @@
 #62 ':'
 #62 TYPEID Bool
 #62 '{'
-#62 BOOL_CONST false
+#62 OBJECTID false
 #62 '}'
 #62 ';'
 #64 OBJECTID init
@@ -216,7 +216,7 @@
 #64 OBJECTID hd
 #64 ':'
 #64 TYPEID Int
-#64 ERROR "\200\263\344\t\003"
+#64 ERROR "P\243\027\b\003"
 #64 OBJECTID tl
 #64 ':'
 #64 TYPEID List
@@ -298,7 +298,7 @@
 #78 ';'
 #80 OBJECTID insert
 #80 '('
-#80 ERROR "0\265\344\t\006"
+#80 ERROR "\000"
 #80 ':'
 #80 TYPEID Int
 #80 ')'
@@ -306,7 +306,7 @@
 #80 TYPEID List
 #80 '{'
 #81 IF
-#81 ERROR "\000"
+#81 ERROR "\320\241\027\b\004"
 #81 '<'
 #81 OBJECTID xcar
 #81 THEN
@@ -317,8 +317,8 @@
 #82 '.'
 #82 OBJECTID init
 #82 '('
-#82 ERROR "\020\264\344\t\004"
-#82 ERROR "\020\264\344\t\004"
+#82 ERROR "\340\243\027\b\004"
+#82 ERROR "\340\243\027\b\004"
 #82 OBJECTID self
 #82 ')'
 #83 ELSE
@@ -330,12 +330,12 @@
 #84 OBJECTID init
 #84 '('
 #84 OBJECTID xcar
-#84 ERROR "\360\265\344\t\004"
+#84 ERROR "\300\245\027\b\004"
 #84 OBJECTID xcdr
 #84 '.'
 #84 OBJECTID insert
 #84 '('
-#84 ERROR "0\265\344\t\006"
+#84 ERROR "\000"
 #84 ')'
 #84 ')'
 #85 FI
@@ -343,7 +343,7 @@
 #86 ';'
 #89 OBJECTID rcons
 #89 '('
-#89 ERROR "`\265\344\t\005"
+#89 ERROR "0\245\027\b\005"
 #89 ':'
 #89 TYPEID Int
 #89 ')'
@@ -358,12 +358,12 @@
 #89 OBJECTID init
 #89 '('
 #89 OBJECTID xcar
-#89 ERROR "\360\265\344\t\004"
+#89 ERROR "\300\245\027\b\004"
 #89 OBJECTID xcdr
 #89 '.'
 #89 OBJECTID rcons
 #89 '('
-#89 ERROR "`\265\344\t\005"
+#89 ERROR "0\245\027\b\005"
 #89 ')'
 #89 ')'
 #89 '}'
@@ -395,7 +395,7 @@
 #97 ';'
 #98 '}'
 #98 ';'
-#100 TYPEID Class
+#100 CLASS
 #100 TYPEID Nil
 #100 INHERITS
 #100 TYPEID List
@@ -406,7 +406,7 @@
 #101 ':'
 #101 TYPEID Bool
 #101 '{'
-#101 BOOL_CONST true
+#101 OBJECTID true
 #101 '}'
 #101 ';'
 #103 OBJECTID rev
@@ -429,7 +429,7 @@
 #105 ';'
 #107 OBJECTID insert
 #107 '('
-#107 ERROR "0\265\344\t\006"
+#107 ERROR "\000"
 #107 ':'
 #107 TYPEID Int
 #107 ')'
@@ -438,13 +438,13 @@
 #107 '{'
 #107 OBJECTID rcons
 #107 '('
-#107 ERROR "`\265\344\t\005"
+#107 ERROR "0\245\027\b\005"
 #107 ')'
 #107 '}'
 #107 ';'
 #109 OBJECTID rcons
 #109 '('
-#109 ERROR "`\265\344\t\005"
+#109 ERROR "0\245\027\b\005"
 #109 ':'
 #109 TYPEID Int
 #109 ')'
@@ -458,8 +458,8 @@
 #109 '.'
 #109 OBJECTID init
 #109 '('
-#109 ERROR "\020\264\344\t\004"
-#109 ERROR "\020\264\344\t\004"
+#109 ERROR "\340\243\027\b\004"
+#109 ERROR "\340\243\027\b\004"
 #109 OBJECTID self
 #109 ')'
 #109 '}'
@@ -470,23 +470,23 @@
 #111 ':'
 #111 TYPEID Object
 #111 '{'
-#111 BOOL_CONST true
+#111 OBJECTID true
 #111 '}'
 #111 ';'
 #113 '}'
 #113 ';'
-#116 TYPEID Class
+#116 CLASS
 #116 TYPEID Main
 #116 INHERITS
 #116 TYPEID IO
 #116 '{'
-#118 ERROR "0\262\344\t\002"
+#118 ERROR "\000"
 #118 ':'
 #118 TYPEID List
 #118 ';'
 #121 OBJECTID iota
 #121 '('
-#121 ERROR "@\272\344\t\004"
+#121 ERROR "@\252\027\b\004"
 #121 ':'
 #121 TYPEID Int
 #121 ')'
@@ -494,26 +494,26 @@
 #121 TYPEID List
 #121 '{'
 #122 '{'
-#123 ERROR "\000"
+#123 ERROR "\320\241\027\b\004"
 #123 ASSIGN
 #123 NEW
 #123 TYPEID Nil
 #123 ';'
 #124 '('
 #124 LET
-#124 ERROR "\340\271\344\t\003"
+#124 ERROR "\340\251\027\b\003"
 #124 ':'
 #124 TYPEID Int
 #124 ASSIGN
 #124 INT_CONST 0
 #124 IN
 #125 WHILE
-#125 ERROR "p\272\344\t\001"
+#125 ERROR "p\252\027\b\001"
 #125 '<'
-#125 ERROR "p\272\344\t\001"
+#125 ERROR "p\252\027\b\001"
 #126 LOOP
 #127 '{'
-#128 ERROR "p\272\344\t\001"
+#128 ERROR "p\252\027\b\001"
 #128 ASSIGN
 #128 '('
 #128 NEW
@@ -522,14 +522,14 @@
 #128 '.'
 #128 OBJECTID init
 #128 '('
-#128 ERROR "\020\264\344\t\004"
-#128 ERROR "\020\264\344\t\004"
-#128 ERROR "\020\264\344\t\004"
+#128 ERROR "\340\243\027\b\004"
+#128 ERROR "\340\243\027\b\004"
+#128 ERROR "\340\243\027\b\004"
 #128 ')'
 #128 ';'
-#129 ERROR "\020\264\344\t\004"
+#129 ERROR "\340\243\027\b\004"
 #129 ASSIGN
-#129 ERROR "\020\264\344\t\004"
+#129 ERROR "\340\243\027\b\004"
 #129 '+'
 #129 INT_CONST 1
 #129 ';'
@@ -537,7 +537,7 @@
 #131 POOL
 #132 ')'
 #132 ';'
-#133 ERROR "\240\272\344\t\001"
+#133 ERROR "\240\252\027\b\001"
 #133 ';'
 #134 '}'
 #135 '}'

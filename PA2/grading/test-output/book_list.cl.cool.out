@@ -10,7 +10,7 @@ OBJECTID differing
 OBJECTID for
 LONGERROR
 OBJECTID dispatch
-TYPEID Class
+CLASS
 TYPEID Book
 INHERITS
 TYPEID IO
@@ -92,7 +92,7 @@ OBJECTID self
 ';'
 '}'
 ';'
-TYPEID Class
+CLASS
 TYPEID Article
 INHERITS
 TYPEID Book
@@ -171,7 +171,7 @@ OBJECTID self
 ';'
 '}'
 ';'
-TYPEID Class
+CLASS
 TYPEID BookList
 INHERITS
 TYPEID IO
@@ -268,7 +268,7 @@ OBJECTID abort
 ';'
 '}'
 ';'
-TYPEID Class
+CLASS
 TYPEID Cons
 INHERITS
 TYPEID BookList
@@ -330,7 +330,7 @@ OBJECTID isNil
 ':'
 TYPEID Bool
 '{'
-BOOL_CONST false
+OBJECTID false
 '}'
 ';'
 OBJECTID init
@@ -423,7 +423,7 @@ OBJECTID print_list
 ';'
 '}'
 ';'
-TYPEID Class
+CLASS
 TYPEID Nil
 INHERITS
 TYPEID BookList
@@ -434,7 +434,7 @@ OBJECTID isNil
 ':'
 TYPEID Bool
 '{'
-BOOL_CONST true
+OBJECTID true
 '}'
 ';'
 OBJECTID print_list
@@ -443,12 +443,12 @@ OBJECTID print_list
 ':'
 TYPEID Object
 '{'
-BOOL_CONST true
+OBJECTID true
 '}'
 ';'
 '}'
 ';'
-TYPEID Class
+CLASS
 TYPEID Main
 '{'
 OBJECTID books

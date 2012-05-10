@@ -1,7 +1,3 @@
-1c1
-< CLASS
----
-> TYPEID Class
 17c17
 < BOOL_CONST true
 ---
@@ -18,10 +14,6 @@
 < OBJECTID i
 ---
 > LONGERROR
-148c148
-< CLASS
----
-> TYPEID Class
 156a157,167
 > '-'
 > '-'
@@ -67,6 +59,10 @@
 > OBJECTID the
 > OBJECTID features
 > '.'
+167c210
+< BOOL_CONST false
+---
+> OBJECTID false
 175c218
 < ','
 ---
@@ -107,10 +103,10 @@
 > LONGERROR
 341d383
 < STR_CONST "\n"
-355c397
-< CLASS
+366c408
+< BOOL_CONST true
 ---
-> TYPEID Class
+> OBJECTID true
 389c431
 < OBJECTID i
 ---
@@ -129,10 +125,10 @@
 ---
 > LONGERROR
 > LONGERROR
-435c477
-< CLASS
+430c472
+< BOOL_CONST true
 ---
-> TYPEID Class
+> OBJECTID true
 440c482
 < OBJECTID l
 ---
