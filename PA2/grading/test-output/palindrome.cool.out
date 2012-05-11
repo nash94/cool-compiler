@@ -6,7 +6,7 @@
 #1 '{'
 #2 OBJECTID pal
 #2 '('
-#2 ERROR "0\362\324\t\003"
+#2 ERROR "0\262\030\t\003"
 #2 ':'
 #2 TYPEID String
 #2 ')'
@@ -14,12 +14,12 @@
 #2 TYPEID Bool
 #2 '{'
 #3 IF
-#3 ERROR "\220\362\324\t\004"
+#3 ERROR "\220\262\030\t\004"
 #3 '.'
 #3 OBJECTID length
 #3 '('
 #3 ')'
-#3 ERROR "\300\362\324\t\006"
+#3 ERROR "\300\262\030\t\006"
 #3 INT_CONST 0
 #4 THEN
 #4 BOOL_CONST true

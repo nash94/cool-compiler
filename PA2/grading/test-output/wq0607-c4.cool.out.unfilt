@@ -2,66 +2,24 @@
 #3 STR_CONST "-"
 #3 '-'
 #3 STR_CONST "-"
-#3 '-'
-#3 '-'
-#3 ERROR "\320!\333\b\001"
-#3 ERROR "\320!\333\b\001"
-#3 ERROR "\320!\333\b\001"
-#3 STR_CONST "-"
-#3 ERROR "\320!\333\b\001"
-#3 '-'
-#3 ERROR "\320!\333\b\001"
-#3 '-'
-#3 ERROR "\320!\333\b\001"
-#3 '-'
-#3 '-'
-#3 ERROR "\320!\333\b\001"
-#3 ERROR "\320!\333\b\001"
-#3 ERROR "\320!\333\b\001"
-#3 ERROR "\320!\333\b\001"
-#3 ERROR "\320!\333\b\001"
-#3 STR_CONST "--"
-#3 ERROR "\000"
-#3 '-'
-#3 ERROR "\000"
-#3 ERROR "\000"
-#3 STR_CONST "--"
-#3 ERROR "\000"
-#3 '-'
-#3 '-'
-#3 ERROR "\000"
-#3 STR_CONST "-"
-#3 ERROR "\320!\333\b\001"
-#3 ERROR "\320!\333\b\001"
-#3 ERROR "\320!\333\b\001"
-#3 ERROR "\320!\333\b\001"
-#3 STR_CONST "--"
-#3 ERROR "\000"
-#3 ERROR "\000"
-#3 ERROR "\000"
-#3 STR_CONST "--"
-#3 ERROR "\000"
-#3 STR_CONST "--"
-#3 ERROR "\000"
-#3 ERROR "\000"
-#3 ERROR "\000"
-#3 ERROR "\000"
-#3 '-'
-#3 ERROR "\000"
-#3 ERROR "\000"
-#3 '-'
-#3 '-'
-#3 ERROR "\000"
-#3 '-'
-#3 '-'
-#3 ERROR "\000"
-#3 ERROR "\000"
-#3 ERROR "\000"
-#3 '-'
-#3 '-'
-#3 ERROR "\000"
-#3 '-'
-#3 '-'
-#3 ERROR "\000"
-#3 ERROR "\000"
-#3 ERROR "\000"
+#4 STR_CONST "--"
+#4 ERROR "\000"
+#4 '-'
+#4 ERROR "\000"
+#4 ERROR "\000"
+#4 STR_CONST "--"
+#4 ERROR "\000"
+#5 STR_CONST "--"
+#5 ERROR "\000"
+#5 ERROR "\000"
+#5 ERROR "\000"
+#5 STR_CONST "--"
+#5 ERROR "\000"
+#5 STR_CONST "--"
+#5 ERROR "\000"
+#5 ERROR "\000"
+#5 ERROR "\000"
+#5 ERROR "\000"
+#5 '-'
+#5 ERROR "\000"
+#5 ERROR "\000"

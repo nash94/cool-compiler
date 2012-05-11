@@ -1,102 +1,32 @@
 #name "./longcomment.cool"
 #1 TYPEID Comment
 #1 OBJECTID test
-#3 '*'
-#3 ')'
+#3 ERROR "Unmatched *)"
 #4 TYPEID Comment
-#4 '*'
-#4 ')'
-#5 '*'
-#5 ')'
-#6 '*'
-#6 ')'
-#6 '*'
-#6 ')'
-#6 '*'
-#6 ')'
-#6 '*'
-#6 ')'
-#6 '*'
-#6 ')'
-#6 '*'
-#6 ')'
-#6 '*'
-#6 ')'
-#6 '*'
-#6 ')'
-#14 '-'
-#14 '-'
-#14 OBJECTID single
-#14 OBJECTID line
-#14 OBJECTID comments
-#15 '-'
-#15 '-'
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 '*'
-#15 ERROR "\220\222\343\b\b"
-#15 '*'
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 '*'
-#15 ERROR "\220\222\343\b\b"
-#15 <Invalid Token>
-#15 ERROR "\220\222\343\b\b"
-#15 ERROR "\220\222\343\b\b"
-#15 <Invalid Token>
-#15 TYPEID GH
-#15 <Invalid Token>
-#15 ERROR "\300\222\343\b\002"
-#15 TYPEID TH
-#15 ERROR "\360\222\343\b\002"
-#15 <Invalid Token>
-#15 ERROR "\360\222\343\b\002"
-#15 '*'
-#15 ERROR "\360\222\343\b\002"
-#15 ERROR "\360\222\343\b\002"
-#15 ERROR "\360\222\343\b\002"
-#15 '*'
-#15 ERROR "\360\222\343\b\002"
-#15 ERROR "\360\222\343\b\002"
-#15 ERROR "\360\222\343\b\002"
+#4 ERROR "Unmatched *)"
+#5 ERROR "Unmatched *)"
+#6 ERROR "Unmatched *)"
+#6 ERROR "Unmatched *)"
+#6 ERROR "Unmatched *)"
+#6 ERROR "Unmatched *)"
+#6 ERROR "Unmatched *)"
+#6 ERROR "Unmatched *)"
+#6 ERROR "Unmatched *)"
+#6 ERROR "Unmatched *)"
 #16 TYPEID Comment
 #17 OBJECTID test
-#24 '*'
-#24 ')'
+#24 ERROR "Unmatched *)"
 #27 TYPEID Comment
-#28 '*'
-#28 ')'
-#30 '*'
-#30 ')'
-#33 '*'
-#33 ')'
-#33 '*'
-#33 ')'
-#34 '*'
-#34 ')'
-#34 '*'
-#34 ')'
-#34 '*'
-#34 ')'
-#34 '*'
-#34 ')'
-#34 '*'
-#34 ')'
-#35 '*'
-#35 ')'
+#28 ERROR "Unmatched *)"
+#30 ERROR "Unmatched *)"
+#33 ERROR "Unmatched *)"
+#33 ERROR "Unmatched *)"
+#34 ERROR "Unmatched *)"
+#34 ERROR "Unmatched *)"
+#34 ERROR "Unmatched *)"
+#34 ERROR "Unmatched *)"
+#34 ERROR "Unmatched *)"
+#35 ERROR "Unmatched *)"
 #46 '*'
 #46 '*'
 #46 '*'
@@ -110,98 +40,17 @@
 #46 '*'
 #46 '*'
 #46 '*'
-#46 '*'
-#46 ')'
+#46 ERROR "Unmatched *)"
 #48 TYPEID Foo
 #48 OBJECTID bar
-#48 '-'
-#48 '-'
-#48 OBJECTID hello
-#48 OBJECTID my
-#48 OBJECTID name
-#48 OBJECTID is
-#48 OBJECTID george
-#48 ';'
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 ERROR "@\224\343\b\006"
-#48 TYPEID ESFsej
-#48 OBJECTID ok
-#48 INT_CONST 34
-#48 ';'
-#48 ERROR "\320\224\343\b\002"
-#48 INT_CONST 90
 #49 TYPEID Moo
 #49 OBJECTID bow
-#49 '-'
-#49 '-'
-#49 '-'
-#49 OBJECTID heelo
-#49 OBJECTID my
-#49 OBJECTID nma
-#49 OBJECTID ei
-#49 OBJECTID sgeoegre
-#49 ';'
-#49 INT_CONST 234
-#49 INT_CONST 2
-#49 ERROR "\200\226\343\b\001"
-#49 ERROR "\200\226\343\b\001"
-#49 ERROR "\200\226\343\b\001"
-#49 ERROR "\200\226\343\b\001"
-#49 ERROR "\200\226\343\b\001"
-#49 ERROR "\200\226\343\b\001"
 #50 TYPEID JoJo
 #50 TYPEID JojOj
 #50 OBJECTID joJoj
 #50 INT_CONST 323
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
-#50 '-'
 #51 OBJECTID dfdj
-#51 '-'
-#51 '-'
 #52 OBJECTID fadsjfkldsafjklsd
 #52 ';'
-#52 '-'
-#52 '-'
-#52 ERROR "\240\227\343\b\021"
-#52 ERROR "\240\227\343\b\021"
 #53 OBJECTID dfdsajfk
 #53 INT_CONST 312
-#54 '-'
-#54 '-'

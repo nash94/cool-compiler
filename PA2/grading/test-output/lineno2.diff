@@ -1,11 +1,10 @@
-1c1,6
+1c1,5
 < #5 ERROR "!"
 ---
 > #3 OBJECTID fdjsk
 > #3 ';'
 > #3 OBJECTID ajs
-> #4 '*'
-> #4 ')'
-> #5 ERROR "\000"
-3d7
+> #4 ERROR "Unmatched *)"
+> #5 ERROR "Unmatched *)"
+3d6
 < #7 STR_CONST ""

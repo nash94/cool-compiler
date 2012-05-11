@@ -48,7 +48,7 @@ extern YYSTYPE cool_yylval;
 
 %x str
 %x comment
-
+%x line_comment
 /*
  * Define names for regular expressions here.
  */
@@ -104,11 +104,27 @@ NEW_LINE        [\n]
  /*
   *  Nested comments
   */
+
+"--"                    BEGIN(line_comment);
+<line_comment>[^\n]*    /* eat up anything thats not a newline */
+<line_comment>\n        { curr_lineno++;
+                          BEGIN(INITIAL);
+                        }
+
+
+  
 "(*"                    BEGIN(comment);
 <comment>[^*\n]*        /* eat anything that's not a '*' */
 <comment>"*"+[^*)\n]*   /* eat up '*'s not followed by ')'s */
 <comment>\n             curr_lineno++;    
 <comment>"*"+")"        BEGIN(INITIAL);
+
+
+"*)"                    { cool_yylval.error_msg = "Unmatched *)";
+                          return (ERROR);
+                        }
+
+
 
  /*
   *  The multiple-character operators.

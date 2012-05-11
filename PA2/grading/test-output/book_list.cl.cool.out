@@ -1,15 +1,3 @@
-'-'
-'-'
-OBJECTID example
-OF
-OBJECTID static
-OBJECTID and
-OBJECTID dynamic
-OBJECTID type
-OBJECTID differing
-OBJECTID for
-LONGERROR
-OBJECTID dispatch
 CLASS
 TYPEID Book
 INHERITS
@@ -277,53 +265,10 @@ OBJECTID xcar
 ':'
 TYPEID Book
 ';'
-'-'
-'-'
-TYPEID We
-OBJECTID keep
-OBJECTID the
-OBJECTID car
-OBJECTID and
-OBJECTID cdr
-IN
-OBJECTID attributes
-'.'
 OBJECTID xcdr
 ':'
 TYPEID BookList
 ';'
-'-'
-'-'
-TYPEID Because
-OBJECTID methods
-OBJECTID and
-OBJECTID features
-OBJECTID must
-OBJECTID have
-OBJECTID different
-OBJECTID names
-LONGERROR
-'-'
-'-'
-OBJECTID we
-OBJECTID use
-OBJECTID xcar
-OBJECTID and
-OBJECTID xcdr
-OBJECTID for
-OBJECTID the
-OBJECTID attributes
-OBJECTID and
-OBJECTID reserve
-'-'
-'-'
-OBJECTID car
-OBJECTID and
-OBJECTID cdr
-OBJECTID for
-OBJECTID the
-OBJECTID features
-'.'
 OBJECTID isNil
 '('
 ')'
@@ -525,17 +470,7 @@ OBJECTID print_list
 ';'
 '}'
 ')'
-'-'
-'-'
-OBJECTID end
-LET
-OBJECTID an_article
 ')'
-'-'
-'-'
-OBJECTID end
-LET
-OBJECTID a_book
 '}'
 ';'
 '}'

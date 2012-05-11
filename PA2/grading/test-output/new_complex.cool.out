@@ -28,14 +28,6 @@ INT_CONST 1
 ')'
 IN
 '{'
-'-'
-'-'
-OBJECTID trivially
-OBJECTID equal
-'('
-OBJECTID see
-TYPEID CoolAid
-')'
 IF
 LONGERROR
 '.'
@@ -61,9 +53,6 @@ STR_CONST "=("
 ')'
 FI
 ';'
-'-'
-'-'
-OBJECTID equal
 IF
 LONGERROR
 '.'

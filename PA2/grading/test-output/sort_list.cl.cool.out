@@ -154,53 +154,10 @@ OBJECTID xcar
 ':'
 TYPEID Int
 ';'
-'-'
-'-'
-TYPEID We
-OBJECTID keep
-OBJECTID the
-OBJECTID car
-IN
-OBJECTID cdr
-IN
-OBJECTID attributes
-'.'
 OBJECTID xcdr
 ':'
 TYPEID List
 ';'
-'-'
-'-'
-TYPEID Because
-OBJECTID methods
-OBJECTID and
-OBJECTID features
-OBJECTID must
-OBJECTID have
-OBJECTID different
-OBJECTID names
-LONGERROR
-'-'
-'-'
-OBJECTID we
-OBJECTID use
-OBJECTID xcar
-OBJECTID and
-OBJECTID xcdr
-OBJECTID for
-OBJECTID the
-OBJECTID attributes
-OBJECTID and
-OBJECTID reserve
-'-'
-'-'
-OBJECTID cons
-OBJECTID and
-OBJECTID car
-OBJECTID for
-OBJECTID the
-OBJECTID features
-'.'
 OBJECTID isNil
 '('
 ')'

@@ -1,124 +1,54 @@
-0a1,12
-> '-'
-> '-'
-> OBJECTID example
-> OF
-> OBJECTID static
-> OBJECTID and
-> OBJECTID dynamic
-> OBJECTID type
-> OBJECTID differing
-> OBJECTID for
-> LONGERROR
-> OBJECTID dispatch
-19c31
+19c19
 < ','
 ---
 > LONGERROR
-60d71
+60d59
 < STR_CONST "\n"
-75d85
+75d73
 < STR_CONST "\n"
-99c109
+99c97
 < ','
 ---
 > LONGERROR
-103c113
+103c101
 < ','
 ---
 > LONGERROR
-115c125
+115c113
 < ','
 ---
 > LONGERROR
-136c146
+136c134
 < '@'
 ---
 > LONGERROR
-155d164
+155d152
 < STR_CONST "\n"
-209c218
+209c206
 < ','
 ---
 > LONGERROR
-270a280,290
-> '-'
-> '-'
-> TYPEID We
-> OBJECTID keep
-> OBJECTID the
-> OBJECTID car
-> OBJECTID and
-> OBJECTID cdr
-> IN
-> OBJECTID attributes
-> '.'
-274a295,326
-> '-'
-> '-'
-> TYPEID Because
-> OBJECTID methods
-> OBJECTID and
-> OBJECTID features
-> OBJECTID must
-> OBJECTID have
-> OBJECTID different
-> OBJECTID names
-> LONGERROR
-> '-'
-> '-'
-> OBJECTID we
-> OBJECTID use
-> OBJECTID xcar
-> OBJECTID and
-> OBJECTID xcdr
-> OBJECTID for
-> OBJECTID the
-> OBJECTID attributes
-> OBJECTID and
-> OBJECTID reserve
-> '-'
-> '-'
-> OBJECTID car
-> OBJECTID and
-> OBJECTID cdr
-> OBJECTID for
-> OBJECTID the
-> OBJECTID features
-> '.'
-289c341
+289c286
 < ','
 ---
 > LONGERROR
-349c401
+349c346
 < STR_CONST "- dynamic type was Book -\n"
 ---
 > STR_CONST "- dynamic type was Book -"
-358c410
+358c355
 < STR_CONST "- dynamic type was Article -\n"
 ---
 > STR_CONST "- dynamic type was Article -"
-426c478
+426c423
 < ','
 ---
 > LONGERROR
-444c496
+444c441
 < ','
 ---
 > LONGERROR
-446c498
+446c443
 < ','
 ---
 > LONGERROR
-475a528,532
-> '-'
-> '-'
-> OBJECTID end
-> LET
-> OBJECTID an_article
-476a534,538
-> '-'
-> '-'
-> OBJECTID end
-> LET
-> OBJECTID a_book

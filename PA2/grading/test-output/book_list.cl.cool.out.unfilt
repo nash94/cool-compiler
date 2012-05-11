@@ -1,16 +1,4 @@
 #name "./book_list.cl.cool"
-#1 '-'
-#1 '-'
-#1 OBJECTID example
-#1 OF
-#1 OBJECTID static
-#1 OBJECTID and
-#1 OBJECTID dynamic
-#1 OBJECTID type
-#1 OBJECTID differing
-#1 OBJECTID for
-#1 ERROR "\360RF\b\003"
-#1 OBJECTID dispatch
 #3 CLASS
 #3 TYPEID Book
 #3 INHERITS
@@ -29,7 +17,7 @@
 #7 OBJECTID title_p
 #7 ':'
 #7 TYPEID String
-#7 ERROR "\340SF\b\006"
+#7 ERROR "`\362\257\b\006"
 #7 OBJECTID author_p
 #7 ':'
 #7 TYPEID String
@@ -107,11 +95,11 @@
 #27 OBJECTID title_p
 #27 ':'
 #27 TYPEID String
-#27 ERROR "\340SF\b\006"
+#27 ERROR "`\362\257\b\006"
 #27 OBJECTID author_p
 #27 ':'
 #27 TYPEID String
-#27 ERROR "\340SF\b\006"
+#27 ERROR "`\362\257\b\006"
 #28 OBJECTID per_title_p
 #28 ':'
 #28 TYPEID String
@@ -123,7 +111,7 @@
 #30 OBJECTID initBook
 #30 '('
 #30 OBJECTID title_p
-#30 ERROR "pTF\b\007"
+#30 ERROR "\360\362\257\b\007"
 #30 OBJECTID author_p
 #30 ')'
 #30 ';'
@@ -144,7 +132,7 @@
 #36 '{'
 #37 '{'
 #38 OBJECTID self
-#38 ERROR "\320TF\b\004"
+#38 ERROR "P\363\257\b\004"
 #38 TYPEID Book
 #38 '.'
 #38 OBJECTID print
@@ -216,7 +204,7 @@
 #54 OBJECTID init
 #54 '('
 #54 OBJECTID hd
-#54 ERROR "\270WF\b\002"
+#54 ERROR "8\366\257\b\002"
 #54 OBJECTID self
 #54 ')'
 #55 ')'
@@ -278,53 +266,10 @@
 #74 ':'
 #74 TYPEID Book
 #74 ';'
-#74 '-'
-#74 '-'
-#74 TYPEID We
-#74 OBJECTID keep
-#74 OBJECTID the
-#74 OBJECTID car
-#74 OBJECTID and
-#74 OBJECTID cdr
-#74 IN
-#74 OBJECTID attributes
-#74 '.'
 #75 OBJECTID xcdr
 #75 ':'
 #75 TYPEID BookList
 #75 ';'
-#75 '-'
-#75 '-'
-#75 TYPEID Because
-#75 OBJECTID methods
-#75 OBJECTID and
-#75 OBJECTID features
-#75 OBJECTID must
-#75 OBJECTID have
-#75 OBJECTID different
-#75 OBJECTID names
-#75 ERROR "x[F\b\005"
-#76 '-'
-#76 '-'
-#76 OBJECTID we
-#76 OBJECTID use
-#76 OBJECTID xcar
-#76 OBJECTID and
-#76 OBJECTID xcdr
-#76 OBJECTID for
-#76 OBJECTID the
-#76 OBJECTID attributes
-#76 OBJECTID and
-#76 OBJECTID reserve
-#77 '-'
-#77 '-'
-#77 OBJECTID car
-#77 OBJECTID and
-#77 OBJECTID cdr
-#77 OBJECTID for
-#77 OBJECTID the
-#77 OBJECTID features
-#77 '.'
 #79 OBJECTID isNil
 #79 '('
 #79 ')'
@@ -339,7 +284,7 @@
 #81 OBJECTID hd
 #81 ':'
 #81 TYPEID Book
-#81 ERROR "PSF\b\004"
+#81 ERROR "\320\361\257\b\004"
 #81 OBJECTID tl
 #81 ':'
 #81 TYPEID BookList
@@ -476,7 +421,7 @@
 #117 OBJECTID initBook
 #117 '('
 #117 STR_CONST "Compilers, Principles, Techniques, and Tools"
-#117 ERROR "\020^F\b,"
+#117 ERROR "\360\371\257\b,"
 #118 STR_CONST "Aho, Sethi, and Ullman"
 #118 ')'
 #119 IN
@@ -494,9 +439,9 @@
 #121 OBJECTID initArticle
 #121 '('
 #121 STR_CONST "The Top 100 CD_ROMs"
-#121 ERROR "\330^F\b\023"
+#121 ERROR "\270\372\257\b\023"
 #122 STR_CONST "Ulanoff"
-#122 ERROR "\020_F\b\007"
+#122 ERROR "\360\372\257\b\007"
 #123 STR_CONST "PC Magazine"
 #123 ')'
 #124 IN
@@ -526,17 +471,7 @@
 #127 ';'
 #128 '}'
 #129 ')'
-#129 '-'
-#129 '-'
-#129 OBJECTID end
-#129 LET
-#129 OBJECTID an_article
 #130 ')'
-#130 '-'
-#130 '-'
-#130 OBJECTID end
-#130 LET
-#130 OBJECTID a_book
 #131 '}'
 #131 ';'
 #132 '}'

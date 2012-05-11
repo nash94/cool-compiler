@@ -43,7 +43,7 @@
 #32 OBJECTID init
 #32 '('
 #32 OBJECTID hd
-#32 ERROR "\360B\260\t\002"
+#32 ERROR "\360\"a\b\002"
 #32 OBJECTID self
 #32 ')'
 #33 ')'
@@ -107,7 +107,7 @@
 #47 ';'
 #49 OBJECTID insert
 #49 '('
-#49 ERROR "\320D\260\t\006"
+#49 ERROR "\320$a\b\006"
 #49 ':'
 #49 TYPEID Int
 #49 ')'
@@ -155,53 +155,10 @@
 #57 ':'
 #57 TYPEID Int
 #57 ';'
-#57 '-'
-#57 '-'
-#57 TYPEID We
-#57 OBJECTID keep
-#57 OBJECTID the
-#57 OBJECTID car
-#57 IN
-#57 OBJECTID cdr
-#57 IN
-#57 OBJECTID attributes
-#57 '.'
 #58 OBJECTID xcdr
 #58 ':'
 #58 TYPEID List
 #58 ';'
-#58 '-'
-#58 '-'
-#58 TYPEID Because
-#58 OBJECTID methods
-#58 OBJECTID and
-#58 OBJECTID features
-#58 OBJECTID must
-#58 OBJECTID have
-#58 OBJECTID different
-#58 OBJECTID names
-#58 ERROR "\000"
-#59 '-'
-#59 '-'
-#59 OBJECTID we
-#59 OBJECTID use
-#59 OBJECTID xcar
-#59 OBJECTID and
-#59 OBJECTID xcdr
-#59 OBJECTID for
-#59 OBJECTID the
-#59 OBJECTID attributes
-#59 OBJECTID and
-#59 OBJECTID reserve
-#60 '-'
-#60 '-'
-#60 OBJECTID cons
-#60 OBJECTID and
-#60 OBJECTID car
-#60 OBJECTID for
-#60 OBJECTID the
-#60 OBJECTID features
-#60 '.'
 #62 OBJECTID isNil
 #62 '('
 #62 ')'
@@ -216,7 +173,7 @@
 #64 OBJECTID hd
 #64 ':'
 #64 TYPEID Int
-#64 ERROR " C\260\t\003"
+#64 ERROR " #a\b\003"
 #64 OBJECTID tl
 #64 ':'
 #64 TYPEID List
@@ -298,7 +255,7 @@
 #78 ';'
 #80 OBJECTID insert
 #80 '('
-#80 ERROR "\320D\260\t\006"
+#80 ERROR "\320$a\b\006"
 #80 ':'
 #80 TYPEID Int
 #80 ')'
@@ -306,7 +263,7 @@
 #80 TYPEID List
 #80 '{'
 #81 IF
-#81 ERROR "\320A\260\t\004"
+#81 ERROR "\320!a\b\004"
 #81 '<'
 #81 OBJECTID xcar
 #81 THEN
@@ -317,8 +274,8 @@
 #82 '.'
 #82 OBJECTID init
 #82 '('
-#82 ERROR "\260C\260\t\004"
-#82 ERROR "\260C\260\t\004"
+#82 ERROR "\260#a\b\004"
+#82 ERROR "\260#a\b\004"
 #82 OBJECTID self
 #82 ')'
 #83 ELSE
@@ -330,12 +287,12 @@
 #84 OBJECTID init
 #84 '('
 #84 OBJECTID xcar
-#84 ERROR "\220E\260\t\004"
+#84 ERROR "\220%a\b\004"
 #84 OBJECTID xcdr
 #84 '.'
 #84 OBJECTID insert
 #84 '('
-#84 ERROR "\320D\260\t\006"
+#84 ERROR "\320$a\b\006"
 #84 ')'
 #84 ')'
 #85 FI
@@ -358,7 +315,7 @@
 #89 OBJECTID init
 #89 '('
 #89 OBJECTID xcar
-#89 ERROR "\220E\260\t\004"
+#89 ERROR "\220%a\b\004"
 #89 OBJECTID xcdr
 #89 '.'
 #89 OBJECTID rcons
@@ -429,7 +386,7 @@
 #105 ';'
 #107 OBJECTID insert
 #107 '('
-#107 ERROR "\320D\260\t\006"
+#107 ERROR "\320$a\b\006"
 #107 ':'
 #107 TYPEID Int
 #107 ')'
@@ -458,8 +415,8 @@
 #109 '.'
 #109 OBJECTID init
 #109 '('
-#109 ERROR "\260C\260\t\004"
-#109 ERROR "\260C\260\t\004"
+#109 ERROR "\260#a\b\004"
+#109 ERROR "\260#a\b\004"
 #109 OBJECTID self
 #109 ')'
 #109 '}'
@@ -486,7 +443,7 @@
 #118 ';'
 #121 OBJECTID iota
 #121 '('
-#121 ERROR "\340I\260\t\004"
+#121 ERROR "\340&a\b\004"
 #121 ':'
 #121 TYPEID Int
 #121 ')'
@@ -494,26 +451,26 @@
 #121 TYPEID List
 #121 '{'
 #122 '{'
-#123 ERROR "\320A\260\t\004"
+#123 ERROR "\320!a\b\004"
 #123 ASSIGN
 #123 NEW
 #123 TYPEID Nil
 #123 ';'
 #124 '('
 #124 LET
-#124 ERROR "\200I\260\t\003"
+#124 ERROR "\200&a\b\003"
 #124 ':'
 #124 TYPEID Int
 #124 ASSIGN
 #124 INT_CONST 0
 #124 IN
 #125 WHILE
-#125 ERROR "\020J\260\t\001"
+#125 ERROR "\020'a\b\001"
 #125 '<'
-#125 ERROR "\020J\260\t\001"
+#125 ERROR "\020'a\b\001"
 #126 LOOP
 #127 '{'
-#128 ERROR "\020J\260\t\001"
+#128 ERROR "\020'a\b\001"
 #128 ASSIGN
 #128 '('
 #128 NEW
@@ -522,14 +479,14 @@
 #128 '.'
 #128 OBJECTID init
 #128 '('
-#128 ERROR "\260C\260\t\004"
-#128 ERROR "\260C\260\t\004"
-#128 ERROR "\260C\260\t\004"
+#128 ERROR "\260#a\b\004"
+#128 ERROR "\260#a\b\004"
+#128 ERROR "\260#a\b\004"
 #128 ')'
 #128 ';'
-#129 ERROR "\260C\260\t\004"
+#129 ERROR "\260#a\b\004"
 #129 ASSIGN
-#129 ERROR "\260C\260\t\004"
+#129 ERROR "\260#a\b\004"
 #129 '+'
 #129 INT_CONST 1
 #129 ';'
@@ -537,7 +494,7 @@
 #131 POOL
 #132 ')'
 #132 ';'
-#133 ERROR "@J\260\t\001"
+#133 ERROR "@'a\b\001"
 #133 ';'
 #134 '}'
 #135 '}'

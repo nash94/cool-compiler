@@ -172,28 +172,7 @@ OBJECTID size
 ';'
 '}'
 ELSE
-'-'
-'-'
-IF
-OBJECTID none
-OF
-OBJECTID the
-OBJECTID above
-OBJECTID fit
-LONGERROR
-THEN
-OBJECTID just
-OBJECTID give
 '{'
-'-'
-'-'
-OBJECTID the
-OBJECTID configuration
-OF
-OBJECTID the
-OBJECTID most
-OBJECTID common
-OBJECTID board
 OBJECTID rows
 ASSIGN
 INT_CONST 5

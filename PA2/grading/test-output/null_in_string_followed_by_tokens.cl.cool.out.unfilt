@@ -1,4 +1,4 @@
 #name "./null_in_string_followed_by_tokens.cl.cool"
 #2 STR_CONST "null character is here ->"
-#2 ERROR "\320\201\341\b\031"
+#2 ERROR "\3201\177\b\031"
 #2 '+'
