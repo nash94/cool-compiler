@@ -37,8 +37,7 @@ OBJECTID reflect_X
 LONGERROR
 LONGERROR
 '.'
-OBJECTID reflect_
-INT_CONST 0
+OBJECTID reflect_0
 '('
 ')'
 THEN
@@ -68,8 +67,7 @@ OBJECTID equal
 '('
 LONGERROR
 '.'
-OBJECTID reflect_
-INT_CONST 0
+OBJECTID reflect_0
 '('
 ')'
 ')'
@@ -169,8 +167,7 @@ STR_CONST "I"
 FI
 '}'
 ';'
-OBJECTID reflect_
-INT_CONST 0
+OBJECTID reflect_0
 '('
 ')'
 ':'

@@ -310,31 +310,21 @@
 < '='
 ---
 > LONGERROR
-1286c1281,1282
-< OBJECTID prompt2
----
-> OBJECTID prompt
-> INT_CONST 2
-1301d1296
+1301d1295
 < STR_CONST "\n\n"
-1306c1301
+1306c1300
 < STR_CONST "Would you like to choose a background pattern? \n"
 ---
 > STR_CONST "Would you like to choose a background pattern? "
-1322c1317
+1322c1316
 < '='
 ---
 > LONGERROR
-1367c1362
+1367c1361
 < STR_CONST "Welcome to the Game of Life.\n"
 ---
 > STR_CONST "Welcome to the Game of Life."
-1372c1367
+1372c1366
 < STR_CONST "There are many initial states to choose from. \n"
 ---
 > STR_CONST "There are many initial states to choose from. "
-1376c1371,1372
-< OBJECTID prompt2
----
-> OBJECTID prompt
-> INT_CONST 2

@@ -38,13 +38,3 @@
 > '*'
 > '*'
 > LONGERROR
-11c49,50
-< OBJECTID joJoj323
----
-> OBJECTID joJoj
-> INT_CONST 323
-15c54,55
-< OBJECTID dfdsajfk312
----
-> OBJECTID dfdsajfk
-> INT_CONST 312

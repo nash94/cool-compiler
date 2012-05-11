@@ -1,9 +1,8 @@
 	-1 (arith)	  arith example [submission crashed on this input]
-	-1 (atoi)	 atoi example [submission crashed on this input]
+	-1 (atoi)	 atoi example
 	-1 (backslash)	 various backslashes in strings
 	-1 (backslash2)	 more backslashes in strings
 	-1 (badidentifiers)	 bad identifiers
-	-1 (badkeywords)	 bad keywords
 	-1 (book_list)	 sample program
 	-1 (comment_in_string)	 comment in string
 	-1 (eofstring)	  eof in a string
@@ -33,9 +32,7 @@
 	-1 (operators)	 some operators [submission crashed on this input]
 	-1 (palindrome)	 palindrome example [submission crashed on this input]
 	-1 (pathologicalstrings)	 some pathological strings
-	-1 (s14)	 comment **)
 	-1 (s19)	 unescaped newline
-	-1 (s25)	 object and type id
 	-1 (s26)	 number and object id
 	-1 (s31)	 leading underscore [submission crashed on this input]
 	-1 (s33)	 unterminated comment

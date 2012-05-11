@@ -1,4 +1,4 @@
 #name "./s19.test.cool"
 #2 STR_CONST "c"
-#2 ERROR "\320a\233\b\001"
+#2 ERROR "\320\321\254\b\001"
 #2 STR_CONST "d"

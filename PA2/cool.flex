@@ -77,8 +77,8 @@ NOT_REG         [n|N][o|O][t|T]
 
 DIGIT           [0-9]+
 
-TYPE_ID         [A-Z][a-zA-Z_]+
-OBJECT_ID       [a-z][a-zA-Z_]+
+TYPE_ID         [A-Z][a-zA-Z0-9_]+
+OBJECT_ID       [a-z][a-zA-Z0-9_]+
 
 PLUS_OP         "+"
 MINUS_OP        "-"
@@ -100,6 +100,7 @@ COLON           [:]+
 
 WHITE_SPACE     [ \t\f\r\v]+
 NEW_LINE        [\n]
+NULL_CHAR       [\0]
 %%
  /*
   *  Nested comments
@@ -115,10 +116,11 @@ NEW_LINE        [\n]
   
 "(*"                    BEGIN(comment);
 <comment>[^*\n]*        /* eat anything that's not a '*' */
+<comment>"(*"           /* eat up new open comment */
 <comment>"*"+[^*)\n]*   /* eat up '*'s not followed by ')'s */
 <comment>\n             curr_lineno++;    
 <comment>"*"+")"        BEGIN(INITIAL);
-
+<comment>"*)"+
 
 "*)"                    { cool_yylval.error_msg = "Unmatched *)";
                           return (ERROR);
@@ -245,3 +247,6 @@ NEW_LINE        [\n]
 {WHITE_SPACE}
 {NEW_LINE}      { curr_lineno++; }
 .               { return(ERROR); }
+{NULL_CHAR}     { cool_yylval.error_msg = "Null char present.";
+                  return(ERROR);
+                }

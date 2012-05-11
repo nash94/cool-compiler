@@ -1278,8 +1278,7 @@ FI
 '}'
 '}'
 ';'
-OBJECTID prompt
-INT_CONST 2
+OBJECTID prompt2
 '('
 ')'
 ':'
@@ -1368,8 +1367,7 @@ STR_CONST "There are many initial states to choose from. "
 ')'
 ';'
 WHILE
-OBJECTID prompt
-INT_CONST 2
+OBJECTID prompt2
 '('
 ')'
 LOOP

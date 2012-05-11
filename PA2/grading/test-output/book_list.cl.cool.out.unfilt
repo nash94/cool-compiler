@@ -17,7 +17,7 @@
 #7 OBJECTID title_p
 #7 ':'
 #7 TYPEID String
-#7 ERROR "`\362\257\b\006"
+#7 ERROR "`B\361\b\006"
 #7 OBJECTID author_p
 #7 ':'
 #7 TYPEID String
@@ -95,11 +95,11 @@
 #27 OBJECTID title_p
 #27 ':'
 #27 TYPEID String
-#27 ERROR "`\362\257\b\006"
+#27 ERROR "`B\361\b\006"
 #27 OBJECTID author_p
 #27 ':'
 #27 TYPEID String
-#27 ERROR "`\362\257\b\006"
+#27 ERROR "`B\361\b\006"
 #28 OBJECTID per_title_p
 #28 ':'
 #28 TYPEID String
@@ -111,7 +111,7 @@
 #30 OBJECTID initBook
 #30 '('
 #30 OBJECTID title_p
-#30 ERROR "\360\362\257\b\007"
+#30 ERROR "\360B\361\b\007"
 #30 OBJECTID author_p
 #30 ')'
 #30 ';'
@@ -132,7 +132,7 @@
 #36 '{'
 #37 '{'
 #38 OBJECTID self
-#38 ERROR "P\363\257\b\004"
+#38 ERROR "PC\361\b\004"
 #38 TYPEID Book
 #38 '.'
 #38 OBJECTID print
@@ -204,7 +204,7 @@
 #54 OBJECTID init
 #54 '('
 #54 OBJECTID hd
-#54 ERROR "8\366\257\b\002"
+#54 ERROR "8F\361\b\002"
 #54 OBJECTID self
 #54 ')'
 #55 ')'
@@ -284,7 +284,7 @@
 #81 OBJECTID hd
 #81 ':'
 #81 TYPEID Book
-#81 ERROR "\320\361\257\b\004"
+#81 ERROR "\320A\361\b\004"
 #81 OBJECTID tl
 #81 ':'
 #81 TYPEID BookList
@@ -421,7 +421,7 @@
 #117 OBJECTID initBook
 #117 '('
 #117 STR_CONST "Compilers, Principles, Techniques, and Tools"
-#117 ERROR "\360\371\257\b,"
+#117 ERROR "\360I\361\b,"
 #118 STR_CONST "Aho, Sethi, and Ullman"
 #118 ')'
 #119 IN
@@ -439,9 +439,9 @@
 #121 OBJECTID initArticle
 #121 '('
 #121 STR_CONST "The Top 100 CD_ROMs"
-#121 ERROR "\270\372\257\b\023"
+#121 ERROR "\270J\361\b\023"
 #122 STR_CONST "Ulanoff"
-#122 ERROR "\360\372\257\b\007"
+#122 ERROR "\360J\361\b\007"
 #123 STR_CONST "PC Magazine"
 #123 ')'
 #124 IN
