@@ -180,18 +180,6 @@
 > LONGERROR
 > LONGERROR
 > LONGERROR
-253c267
-< BOOL_CONST true
----
-> OBJECTID true
-255c269
-< BOOL_CONST false
----
-> OBJECTID false
-258c272
-< BOOL_CONST false
----
-> OBJECTID false
 268c282
 < OBJECTID x
 ---

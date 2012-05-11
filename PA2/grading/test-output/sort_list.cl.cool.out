@@ -14,7 +14,7 @@ OBJECTID abort
 '('
 ')'
 ';'
-OBJECTID true
+BOOL_CONST true
 ';'
 '}'
 '}'
@@ -207,7 +207,7 @@ OBJECTID isNil
 ':'
 TYPEID Bool
 '{'
-OBJECTID false
+BOOL_CONST false
 '}'
 ';'
 OBJECTID init
@@ -405,7 +405,7 @@ OBJECTID isNil
 ':'
 TYPEID Bool
 '{'
-OBJECTID true
+BOOL_CONST true
 '}'
 ';'
 OBJECTID rev
@@ -469,7 +469,7 @@ OBJECTID print_list
 ':'
 TYPEID Object
 '{'
-OBJECTID true
+BOOL_CONST true
 '}'
 ';'
 '}'

@@ -37,10 +37,6 @@
 > LONGERROR
 155d164
 < STR_CONST "\n"
-181c190
-< BOOL_CONST true
----
-> OBJECTID true
 209c218
 < ','
 ---
@@ -90,10 +86,6 @@
 > OBJECTID the
 > OBJECTID features
 > '.'
-281c333
-< BOOL_CONST false
----
-> OBJECTID false
 289c341
 < ','
 ---
@@ -106,14 +98,6 @@
 < STR_CONST "- dynamic type was Article -\n"
 ---
 > STR_CONST "- dynamic type was Article -"
-385c437
-< BOOL_CONST true
----
-> OBJECTID true
-394c446
-< BOOL_CONST true
----
-> OBJECTID true
 426c478
 < ','
 ---

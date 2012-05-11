@@ -55,24 +55,25 @@ extern YYSTYPE cool_yylval;
 DARROW          =>
 ASSIGNMENT      <-
 
-CLASS_REG       class|CLASS
-ELSE_REG        else|ELSE 
-FI_REG          fi|FI
-IF_REG          if|IF
-IN_REG          in|IN
-INHERITS_REG    inherits|INHERITS
-LET_REG         let|LET
-LOOP_REG        loop|LOOP
-POOL_REG        pool|POOL
-THEN_REG        then|THEN
-WHILE_REG       while|WHILE
-CASE_REG        case|CASE
-ESAC_REG        esac|ESAC
-OF_REG          of|OF
-NEW_REG         new|NEW
-ISVOID_REG      isvoid|ISVOID
-TRUE_REG        t(rue|RUE)" "
-FALSE_REG       f(alse|ALSE)" "
+CLASS_REG       [c|C][l|L][a|A][s|S][s|S]
+ELSE_REG        [e|E][l|L][s|S][e|E]
+FI_REG          [f|F][i|I]
+IF_REG          [i|I][f|F]
+IN_REG          [i|I][n|N]
+INHERITS_REG    [i|I][n|N][h|H][e|E][r|R][i|I][t|T][s|S]
+LET_REG         [l|L][e|E][t|T]
+LOOP_REG        [l|L][o|O][o|O][p|P]
+POOL_REG        [p|P][o|O][o|O][l|L]
+THEN_REG        [t|T][h|H][e|E][n|N]
+WHILE_REG       [w|W][h|H][i|I][l|L][e|E]
+CASE_REG        [c|C][a|A][s|S][e|E]
+ESAC_REG        [e|E][s|S][a|A][c|C]
+OF_REG          [o|O][f|F]
+NEW_REG         [n|N][e|E][w|W]
+ISVOID_REG      [i|I][s|S][v|V][o|O][i|I][d|D]
+TRUE_REG        t[r|R][u|U][e|E]
+FALSE_REG       f[a|A][l|L][s|S][e|E]
+NOT_REG         [n|N][o|O][t|T]
 
 DIGIT           [0-9]+
 
@@ -134,8 +135,14 @@ NEW_LINE        [\n]
 {ESAC_REG}      { return (ESAC); }
 {OF_REG}        { return (OF); }
 {NEW_REG}       { return (NEW); }
-{ISVOID_REG}    { return (ISVOID); } 
-
+{ISVOID_REG}    { return (ISVOID); }
+{NOT_REG}       { return (NOT); } 
+{TRUE_REG}      { cool_yylval.boolean = true;
+                  return (BOOL_CONST);
+                }
+{FALSE_REG}     { cool_yylval.boolean = false;
+                  return (BOOL_CONST);
+                }
  /*
   *  String constants (C syntax)
   *  Escape sequence \c is accepted for all characters c. Except for 
@@ -149,14 +156,6 @@ NEW_LINE        [\n]
 
 {OBJECT_ID}     { cool_yylval.symbol = inttable.add_string(yytext);
                   return (OBJECTID);
-                }
-
-{TRUE_REG}      { cool_yylval.boolean = true;
-                  return (BOOL_CONST);
-                }
-
-{FALSE_REG}     { cool_yylval.boolean = false;
-                  return (BOOL_CONST);
                 }
 
 \"              { string_buf_ptr = string_buf;

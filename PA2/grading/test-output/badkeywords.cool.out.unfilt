@@ -5,7 +5,7 @@
 #4 OBJECTID es
 #4 ';'
 #4 OBJECTID ac
-#5 OBJECTID true
+#5 BOOL_CONST true
 #5 INT_CONST 9
 #6 TYPEID False
 #7 OBJECTID fi_if

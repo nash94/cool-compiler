@@ -9,7 +9,7 @@
 #1 OBJECTID type
 #1 OBJECTID differing
 #1 OBJECTID for
-#1 ERROR "\360\002m\b\003"
+#1 ERROR "\360RF\b\003"
 #1 OBJECTID dispatch
 #3 CLASS
 #3 TYPEID Book
@@ -29,7 +29,7 @@
 #7 OBJECTID title_p
 #7 ':'
 #7 TYPEID String
-#7 ERROR "\340\003m\b\006"
+#7 ERROR "\340SF\b\006"
 #7 OBJECTID author_p
 #7 ':'
 #7 TYPEID String
@@ -107,11 +107,11 @@
 #27 OBJECTID title_p
 #27 ':'
 #27 TYPEID String
-#27 ERROR "\340\003m\b\006"
+#27 ERROR "\340SF\b\006"
 #27 OBJECTID author_p
 #27 ':'
 #27 TYPEID String
-#27 ERROR "\340\003m\b\006"
+#27 ERROR "\340SF\b\006"
 #28 OBJECTID per_title_p
 #28 ':'
 #28 TYPEID String
@@ -123,7 +123,7 @@
 #30 OBJECTID initBook
 #30 '('
 #30 OBJECTID title_p
-#30 ERROR "p\004m\b\007"
+#30 ERROR "pTF\b\007"
 #30 OBJECTID author_p
 #30 ')'
 #30 ';'
@@ -144,7 +144,7 @@
 #36 '{'
 #37 '{'
 #38 OBJECTID self
-#38 ERROR "\320\004m\b\004"
+#38 ERROR "\320TF\b\004"
 #38 TYPEID Book
 #38 '.'
 #38 OBJECTID print
@@ -188,7 +188,7 @@
 #50 '('
 #50 ')'
 #50 ';'
-#50 OBJECTID true
+#50 BOOL_CONST true
 #50 ';'
 #50 '}'
 #50 '}'
@@ -216,7 +216,7 @@
 #54 OBJECTID init
 #54 '('
 #54 OBJECTID hd
-#54 ERROR "\350\007m\b\002"
+#54 ERROR "\270WF\b\002"
 #54 OBJECTID self
 #54 ')'
 #55 ')'
@@ -303,7 +303,7 @@
 #75 OBJECTID have
 #75 OBJECTID different
 #75 OBJECTID names
-#75 ERROR "\250\013m\b\005"
+#75 ERROR "x[F\b\005"
 #76 '-'
 #76 '-'
 #76 OBJECTID we
@@ -331,7 +331,7 @@
 #79 ':'
 #79 TYPEID Bool
 #79 '{'
-#79 OBJECTID false
+#79 BOOL_CONST false
 #79 '}'
 #79 ';'
 #81 OBJECTID init
@@ -339,7 +339,7 @@
 #81 OBJECTID hd
 #81 ':'
 #81 TYPEID Book
-#81 ERROR "P\003m\b\004"
+#81 ERROR "PSF\b\004"
 #81 OBJECTID tl
 #81 ':'
 #81 TYPEID BookList
@@ -435,7 +435,7 @@
 #105 ':'
 #105 TYPEID Bool
 #105 '{'
-#105 OBJECTID true
+#105 BOOL_CONST true
 #105 '}'
 #105 ';'
 #107 OBJECTID print_list
@@ -444,7 +444,7 @@
 #107 ':'
 #107 TYPEID Object
 #107 '{'
-#107 OBJECTID true
+#107 BOOL_CONST true
 #107 '}'
 #107 ';'
 #108 '}'
@@ -476,7 +476,7 @@
 #117 OBJECTID initBook
 #117 '('
 #117 STR_CONST "Compilers, Principles, Techniques, and Tools"
-#117 ERROR "p\016m\b,"
+#117 ERROR "\020^F\b,"
 #118 STR_CONST "Aho, Sethi, and Ullman"
 #118 ')'
 #119 IN
@@ -494,9 +494,9 @@
 #121 OBJECTID initArticle
 #121 '('
 #121 STR_CONST "The Top 100 CD_ROMs"
-#121 ERROR "8\017m\b\023"
+#121 ERROR "\330^F\b\023"
 #122 STR_CONST "Ulanoff"
-#122 ERROR "p\017m\b\007"
+#122 ERROR "\020_F\b\007"
 #123 STR_CONST "PC Magazine"
 #123 ')'
 #124 IN

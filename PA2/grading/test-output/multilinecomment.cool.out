@@ -1,11 +1,4 @@
-OBJECTID not
-IN
-LONGERROR
-OBJECTID comment
-'('
-'*'
-OBJECTID not
-LONGERROR
-OBJECTID comment
-'*'
-')'
+#name "./multilinecomment.cool"
+#3 NOT
+#3 IN
+Segmentation fault

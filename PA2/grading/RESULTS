@@ -1,4 +1,3 @@
-	-1 (all_else_true)	 lowercase and uppercase combinations
 	-1 (arith)	  arith example [submission crashed on this input]
 	-1 (atoi)	 atoi example [submission crashed on this input]
 	-1 (backslash)	 various backslashes in strings
@@ -20,13 +19,12 @@
 	-1 (invalidcharacters)	 characters not in the cool language [submission crashed on this input]
 	-1 (invalidinvisible)	 unprintable characters not allowed in cool [submission crashed on this input]
 	-1 (io)	 io example [submission crashed on this input]
-	-1 (keywords)	 all of the keywords
 	-1 (life)	 the life program
 	-1 (lineno2)	 line number test 2
 	-1 (lineno3)	 line number test 3
 	-1 (longcomment)	 a long comment test
 	-1 (longstring_escapedbackslashes)	 long strings with escaped characters
-	-1 (multilinecomment)	 simple test of a multiline comment
+	-1 (multilinecomment)	 simple test of a multiline comment [submission crashed on this input]
 	-1 (nestedcomment)	 nested comment
 	-1 (new_complex)	 a short program
 	-1 (null_in_string)	 null char in string
@@ -35,7 +33,7 @@
 	-1 (objectid)	 objectids
 	-1 (opencomment)	 no matching closing comment
 	-1 (operators)	 some operators [submission crashed on this input]
-	-1 (palindrome)	 palindrome example
+	-1 (palindrome)	 palindrome example [submission crashed on this input]
 	-1 (pathologicalstrings)	 some pathological strings
 	-1 (s03)	 EOF in single-line comment
 	-1 (s14)	 comment **)

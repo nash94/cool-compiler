@@ -333,14 +333,6 @@
 < '='
 ---
 > LONGERROR
-1275c1291
-< BOOL_CONST false
----
-> OBJECTID false
-1277c1293
-< BOOL_CONST true
----
-> OBJECTID true
 1286c1302,1303
 < OBJECTID prompt2
 ---
@@ -356,14 +348,6 @@
 < '='
 ---
 > LONGERROR
-1325c1341
-< BOOL_CONST true
----
-> OBJECTID true
-1327c1343
-< BOOL_CONST false
----
-> OBJECTID false
 1367c1383
 < STR_CONST "Welcome to the Game of Life.\n"
 ---
@@ -377,11 +361,3 @@
 ---
 > OBJECTID prompt
 > INT_CONST 2
-1383c1400
-< BOOL_CONST true
----
-> OBJECTID true
-1434c1451
-< BOOL_CONST false
----
-> OBJECTID false

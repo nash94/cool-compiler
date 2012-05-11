@@ -264,12 +264,12 @@ OBJECTID y_value
 '('
 ')'
 THEN
-OBJECTID true
+BOOL_CONST true
 ELSE
-OBJECTID false
+BOOL_CONST false
 FI
 ELSE
-OBJECTID false
+BOOL_CONST false
 FI
 '}'
 ';'
