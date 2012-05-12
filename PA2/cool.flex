@@ -144,7 +144,11 @@ PIPE            [\|]
 <comment>[^*\n]*        /* eat anything that's not a '*' */
 <comment>"(*"           /* eat up new open comment */
 <comment>"*"+[^*)\n]*   /* eat up '*'s not followed by ')'s */
-<comment>\n             curr_lineno++;    
+<comment>\n             curr_lineno++;
+<comment><<EOF>>        { cool_yylval.error_msg = "EOF in comment";
+                          BEGIN(INITIAL);
+                          return(ERROR);
+                        }
 <comment>"*"+")"        BEGIN(INITIAL);
 <comment>"*)"+
 

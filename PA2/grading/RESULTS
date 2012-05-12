@@ -12,7 +12,6 @@
 	-1 (null_in_string_followed_by_tokens)	 null char in string, then tokens
 	-1 (opencomment)	 no matching closing comment
 	-1 (pathologicalstrings)	 some pathological strings
-	-1 (s33)	 unterminated comment
 	-1 (stringwithescapes)	 a long string with escaped characters [submission crashed on this input]
 	-1 (twice_512_nested_comments)	 many nested comments
 	-1 (wq0607-c2)	 sequences of block comments and strings
