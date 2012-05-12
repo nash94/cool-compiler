@@ -232,21 +232,8 @@ PIPE            [\|]
                   return(ERROR);
                 }
 
-<str>\\[0-7]{1,3} {
-                    int result;
-     
-                    (void) sscanf( yytext + 1, "%o", &result );
-                           
-                    if ( result > 0xff ) {
-                        cool_yylval.error_msg = "Unescaped chars";
-                        return (ERROR);
-                    }
-                    
-                    *string_buf_ptr++ = result;
-                  }
 
-<str>\\[0-9]+   { return (ERROR); }
-
+<str>\[0-9]{2,3} { printf(">>> ESCAPE");}
 <str>\\n        *string_buf_ptr++ = '\n';
 <str>\\t        *string_buf_ptr++ = '\t';
 <str>\\r        *string_buf_ptr++ = '\r';

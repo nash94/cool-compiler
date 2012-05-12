@@ -6,4 +6,3 @@
 	-1 (null_in_string)	 null char in string
 	-1 (null_in_string_followed_by_tokens)	 null char in string, then tokens
 	-1 (pathologicalstrings)	 some pathological strings
-	-1 (stringwithescapes)	 a long string with escaped characters [submission crashed on this input]
