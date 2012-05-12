@@ -2,10 +2,6 @@
 < TYPEID A
 ---
 > ERROR "A"
-21c21
-< STR_CONST "A: Hello world\n"
----
-> STR_CONST "A: Hello world"
 28c28
 < TYPEID B
 ---
@@ -14,18 +10,10 @@
 < TYPEID A
 ---
 > ERROR "A"
-42c42
-< STR_CONST "B: Hello world\n"
----
-> STR_CONST "B: Hello world"
 49c49
 < TYPEID C
 ---
 > ERROR "C"
-61c61
-< STR_CONST "C: Hello world\n"
----
-> STR_CONST "C: Hello world"
 68c68
 < TYPEID D
 ---
@@ -34,10 +22,6 @@
 < TYPEID C
 ---
 > ERROR "C"
-80c80
-< STR_CONST "D: Hello world\n"
----
-> STR_CONST "D: Hello world"
 100c100
 < TYPEID A
 ---
@@ -54,7 +38,3 @@
 < TYPEID D
 ---
 > ERROR "D"
-136c136
-< STR_CONST "Done.\n"
----
-> STR_CONST "Done."

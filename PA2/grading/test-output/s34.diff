@@ -1,3 +1,2 @@
-1a2,3
-> STR_CONST "this string "
-> STR_CONST "doens't end"
+2a3
+> LONGERROR

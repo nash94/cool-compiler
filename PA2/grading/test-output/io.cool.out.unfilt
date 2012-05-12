@@ -19,7 +19,7 @@
 #55 '.'
 #55 OBJECTID out_string
 #55 '('
-#55 STR_CONST "A: Hello world"
+#55 STR_CONST "A: Hello world\n"
 #55 ')'
 #55 '}'
 #55 ';'
@@ -40,7 +40,7 @@
 #64 '.'
 #64 OBJECTID out_string
 #64 '('
-#64 STR_CONST "B: Hello world"
+#64 STR_CONST "B: Hello world\n"
 #64 ')'
 #64 '}'
 #64 ';'
@@ -59,7 +59,7 @@
 #73 '{'
 #73 OBJECTID out_string
 #73 '('
-#73 STR_CONST "C: Hello world"
+#73 STR_CONST "C: Hello world\n"
 #73 ')'
 #73 '}'
 #73 ';'
@@ -78,7 +78,7 @@
 #84 '{'
 #84 OBJECTID out_string
 #84 '('
-#84 STR_CONST "D: Hello world"
+#84 STR_CONST "D: Hello world\n"
 #84 ')'
 #84 '}'
 #84 ';'
@@ -134,7 +134,7 @@
 #98 ';'
 #99 OBJECTID out_string
 #99 '('
-#99 STR_CONST "Done."
+#99 STR_CONST "Done.\n"
 #99 ')'
 #99 ';'
 #100 '}'

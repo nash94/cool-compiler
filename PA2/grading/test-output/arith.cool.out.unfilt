@@ -680,6 +680,7 @@
 #187 '('
 #187 ')'
 #187 ';'
+#187 STR_CONST ""
 #187 ';'
 #187 '}'
 #188 FI
@@ -919,6 +920,7 @@
 #242 '='
 #242 INT_CONST 0
 #242 THEN
+#242 STR_CONST ""
 #242 ELSE
 #243 '('
 #243 LET
@@ -984,7 +986,7 @@
 #260 '{'
 #261 OBJECTID out_string
 #261 '('
-#261 STR_CONST "To add a number to "
+#261 STR_CONST "\n\tTo add a number to "
 #261 ')'
 #261 ';'
 #262 OBJECTID print
@@ -994,12 +996,12 @@
 #262 ';'
 #263 OBJECTID out_string
 #263 '('
-#263 STR_CONST "...enter a:"
+#263 STR_CONST "...enter a:\n"
 #263 ')'
 #263 ';'
 #264 OBJECTID out_string
 #264 '('
-#264 STR_CONST "To negate "
+#264 STR_CONST "\tTo negate "
 #264 ')'
 #264 ';'
 #265 OBJECTID print
@@ -1009,12 +1011,12 @@
 #265 ';'
 #266 OBJECTID out_string
 #266 '('
-#266 STR_CONST "...enter b:"
+#266 STR_CONST "...enter b:\n"
 #266 ')'
 #266 ';'
 #267 OBJECTID out_string
 #267 '('
-#267 STR_CONST "To find the difference between "
+#267 STR_CONST "\tTo find the difference between "
 #267 ')'
 #267 ';'
 #268 OBJECTID print
@@ -1024,12 +1026,12 @@
 #268 ';'
 #269 OBJECTID out_string
 #269 '('
-#269 STR_CONST "and another number...enter c:"
+#269 STR_CONST "and another number...enter c:\n"
 #269 ')'
 #269 ';'
 #270 OBJECTID out_string
 #270 '('
-#270 STR_CONST "To find the factorial of "
+#270 STR_CONST "\tTo find the factorial of "
 #270 ')'
 #270 ';'
 #271 OBJECTID print
@@ -1039,12 +1041,12 @@
 #271 ';'
 #272 OBJECTID out_string
 #272 '('
-#272 STR_CONST "...enter d:"
+#272 STR_CONST "...enter d:\n"
 #272 ')'
 #272 ';'
 #273 OBJECTID out_string
 #273 '('
-#273 STR_CONST "To square "
+#273 STR_CONST "\tTo square "
 #273 ')'
 #273 ';'
 #274 OBJECTID print
@@ -1054,12 +1056,12 @@
 #274 ';'
 #275 OBJECTID out_string
 #275 '('
-#275 STR_CONST "...enter e:"
+#275 STR_CONST "...enter e:\n"
 #275 ')'
 #275 ';'
 #276 OBJECTID out_string
 #276 '('
-#276 STR_CONST "To cube "
+#276 STR_CONST "\tTo cube "
 #276 ')'
 #276 ';'
 #277 OBJECTID print
@@ -1069,12 +1071,12 @@
 #277 ';'
 #278 OBJECTID out_string
 #278 '('
-#278 STR_CONST "...enter f:"
+#278 STR_CONST "...enter f:\n"
 #278 ')'
 #278 ';'
 #279 OBJECTID out_string
 #279 '('
-#279 STR_CONST "To find out if "
+#279 STR_CONST "\tTo find out if "
 #279 ')'
 #279 ';'
 #280 OBJECTID print
@@ -1084,12 +1086,12 @@
 #280 ';'
 #281 OBJECTID out_string
 #281 '('
-#281 STR_CONST "is a multiple of 3...enter g:"
+#281 STR_CONST "is a multiple of 3...enter g:\n"
 #281 ')'
 #281 ';'
 #282 OBJECTID out_string
 #282 '('
-#282 STR_CONST "To divide "
+#282 STR_CONST "\tTo divide "
 #282 ')'
 #282 ';'
 #283 OBJECTID print
@@ -1099,17 +1101,17 @@
 #283 ';'
 #284 OBJECTID out_string
 #284 '('
-#284 STR_CONST "by 8...enter h:"
+#284 STR_CONST "by 8...enter h:\n"
 #284 ')'
 #284 ';'
 #285 OBJECTID out_string
 #285 '('
-#285 STR_CONST "To get a new number...enter j:"
+#285 STR_CONST "\tTo get a new number...enter j:\n"
 #285 ')'
 #285 ';'
 #286 OBJECTID out_string
 #286 '('
-#286 STR_CONST "To quit...enter q:"
+#286 STR_CONST "\tTo quit...enter q:\n\n"
 #286 ')'
 #286 ';'
 #287 OBJECTID in_string
@@ -1128,6 +1130,7 @@
 #292 '{'
 #293 OBJECTID out_string
 #293 '('
+#293 STR_CONST "\n"
 #293 ')'
 #293 ';'
 #294 OBJECTID out_string
@@ -1252,7 +1255,7 @@
 #321 DARROW
 #321 OBJECTID out_string
 #321 '('
-#321 STR_CONST "Class type is now A"
+#321 STR_CONST "Class type is now A\n"
 #321 ')'
 #321 ';'
 #322 OBJECTID b
@@ -1261,7 +1264,7 @@
 #322 DARROW
 #322 OBJECTID out_string
 #322 '('
-#322 STR_CONST "Class type is now B"
+#322 STR_CONST "Class type is now B\n"
 #322 ')'
 #322 ';'
 #323 OBJECTID c
@@ -1270,7 +1273,7 @@
 #323 DARROW
 #323 OBJECTID out_string
 #323 '('
-#323 STR_CONST "Class type is now C"
+#323 STR_CONST "Class type is now C\n"
 #323 ')'
 #323 ';'
 #324 OBJECTID d
@@ -1279,7 +1282,7 @@
 #324 DARROW
 #324 OBJECTID out_string
 #324 '('
-#324 STR_CONST "Class type is now D"
+#324 STR_CONST "Class type is now D\n"
 #324 ')'
 #324 ';'
 #325 OBJECTID e
@@ -1288,7 +1291,7 @@
 #325 DARROW
 #325 OBJECTID out_string
 #325 '('
-#325 STR_CONST "Class type is now E"
+#325 STR_CONST "Class type is now E\n"
 #325 ')'
 #325 ';'
 #326 OBJECTID o
@@ -1297,7 +1300,7 @@
 #326 DARROW
 #326 OBJECTID out_string
 #326 '('
-#326 STR_CONST "Oooops"
+#326 STR_CONST "Oooops\n"
 #326 ')'
 #326 ';'
 #327 ESAC
@@ -1385,12 +1388,12 @@
 #347 THEN
 #348 OBJECTID out_string
 #348 '('
-#348 STR_CONST "is even!"
+#348 STR_CONST "is even!\n"
 #348 ')'
 #349 ELSE
 #350 OBJECTID out_string
 #350 '('
-#350 STR_CONST "is odd!"
+#350 STR_CONST "is odd!\n"
 #350 ')'
 #351 FI
 #351 ';'
@@ -1498,7 +1501,7 @@
 #364 '{'
 #365 OBJECTID out_string
 #365 '('
-#365 STR_CONST "Oooops"
+#365 STR_CONST "Oooops\n"
 #365 ')'
 #365 ';'
 #366 OBJECTID abort
@@ -1659,7 +1662,7 @@
 #385 ';'
 #386 OBJECTID out_string
 #386 '('
-#386 STR_CONST "is divisible by 3."
+#386 STR_CONST "is divisible by 3.\n"
 #386 ')'
 #386 ';'
 #387 '}'
@@ -1677,7 +1680,7 @@
 #391 ';'
 #392 OBJECTID out_string
 #392 '('
-#392 STR_CONST "is not divisible by 3."
+#392 STR_CONST "is not divisible by 3.\n"
 #392 ')'
 #392 ';'
 #393 '}'
@@ -1783,6 +1786,7 @@
 #408 ';'
 #409 OBJECTID out_string
 #409 '('
+#409 STR_CONST "\n"
 #409 ')'
 #409 ';'
 #410 '}'

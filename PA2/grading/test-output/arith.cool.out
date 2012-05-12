@@ -679,6 +679,7 @@ OBJECTID abort
 '('
 ')'
 ';'
+STR_CONST ""
 ';'
 '}'
 FI
@@ -918,6 +919,7 @@ OBJECTID i
 '='
 INT_CONST 0
 THEN
+STR_CONST ""
 ELSE
 '('
 LET
@@ -983,7 +985,7 @@ TYPEID String
 '{'
 OBJECTID out_string
 '('
-STR_CONST "To add a number to "
+STR_CONST "\n\tTo add a number to "
 ')'
 ';'
 OBJECTID print
@@ -993,12 +995,12 @@ OBJECTID avar
 ';'
 OBJECTID out_string
 '('
-STR_CONST "...enter a:"
+STR_CONST "...enter a:\n"
 ')'
 ';'
 OBJECTID out_string
 '('
-STR_CONST "To negate "
+STR_CONST "\tTo negate "
 ')'
 ';'
 OBJECTID print
@@ -1008,12 +1010,12 @@ OBJECTID avar
 ';'
 OBJECTID out_string
 '('
-STR_CONST "...enter b:"
+STR_CONST "...enter b:\n"
 ')'
 ';'
 OBJECTID out_string
 '('
-STR_CONST "To find the difference between "
+STR_CONST "\tTo find the difference between "
 ')'
 ';'
 OBJECTID print
@@ -1023,12 +1025,12 @@ OBJECTID avar
 ';'
 OBJECTID out_string
 '('
-STR_CONST "and another number...enter c:"
+STR_CONST "and another number...enter c:\n"
 ')'
 ';'
 OBJECTID out_string
 '('
-STR_CONST "To find the factorial of "
+STR_CONST "\tTo find the factorial of "
 ')'
 ';'
 OBJECTID print
@@ -1038,12 +1040,12 @@ OBJECTID avar
 ';'
 OBJECTID out_string
 '('
-STR_CONST "...enter d:"
+STR_CONST "...enter d:\n"
 ')'
 ';'
 OBJECTID out_string
 '('
-STR_CONST "To square "
+STR_CONST "\tTo square "
 ')'
 ';'
 OBJECTID print
@@ -1053,12 +1055,12 @@ OBJECTID avar
 ';'
 OBJECTID out_string
 '('
-STR_CONST "...enter e:"
+STR_CONST "...enter e:\n"
 ')'
 ';'
 OBJECTID out_string
 '('
-STR_CONST "To cube "
+STR_CONST "\tTo cube "
 ')'
 ';'
 OBJECTID print
@@ -1068,12 +1070,12 @@ OBJECTID avar
 ';'
 OBJECTID out_string
 '('
-STR_CONST "...enter f:"
+STR_CONST "...enter f:\n"
 ')'
 ';'
 OBJECTID out_string
 '('
-STR_CONST "To find out if "
+STR_CONST "\tTo find out if "
 ')'
 ';'
 OBJECTID print
@@ -1083,12 +1085,12 @@ OBJECTID avar
 ';'
 OBJECTID out_string
 '('
-STR_CONST "is a multiple of 3...enter g:"
+STR_CONST "is a multiple of 3...enter g:\n"
 ')'
 ';'
 OBJECTID out_string
 '('
-STR_CONST "To divide "
+STR_CONST "\tTo divide "
 ')'
 ';'
 OBJECTID print
@@ -1098,17 +1100,17 @@ OBJECTID avar
 ';'
 OBJECTID out_string
 '('
-STR_CONST "by 8...enter h:"
+STR_CONST "by 8...enter h:\n"
 ')'
 ';'
 OBJECTID out_string
 '('
-STR_CONST "To get a new number...enter j:"
+STR_CONST "\tTo get a new number...enter j:\n"
 ')'
 ';'
 OBJECTID out_string
 '('
-STR_CONST "To quit...enter q:"
+STR_CONST "\tTo quit...enter q:\n\n"
 ')'
 ';'
 OBJECTID in_string
@@ -1127,6 +1129,7 @@ TYPEID String
 '{'
 OBJECTID out_string
 '('
+STR_CONST "\n"
 ')'
 ';'
 OBJECTID out_string
@@ -1251,7 +1254,7 @@ ERROR "A"
 DARROW
 OBJECTID out_string
 '('
-STR_CONST "Class type is now A"
+STR_CONST "Class type is now A\n"
 ')'
 ';'
 OBJECTID b
@@ -1260,7 +1263,7 @@ ERROR "B"
 DARROW
 OBJECTID out_string
 '('
-STR_CONST "Class type is now B"
+STR_CONST "Class type is now B\n"
 ')'
 ';'
 OBJECTID c
@@ -1269,7 +1272,7 @@ ERROR "C"
 DARROW
 OBJECTID out_string
 '('
-STR_CONST "Class type is now C"
+STR_CONST "Class type is now C\n"
 ')'
 ';'
 OBJECTID d
@@ -1278,7 +1281,7 @@ ERROR "D"
 DARROW
 OBJECTID out_string
 '('
-STR_CONST "Class type is now D"
+STR_CONST "Class type is now D\n"
 ')'
 ';'
 OBJECTID e
@@ -1287,7 +1290,7 @@ ERROR "E"
 DARROW
 OBJECTID out_string
 '('
-STR_CONST "Class type is now E"
+STR_CONST "Class type is now E\n"
 ')'
 ';'
 OBJECTID o
@@ -1296,7 +1299,7 @@ TYPEID Object
 DARROW
 OBJECTID out_string
 '('
-STR_CONST "Oooops"
+STR_CONST "Oooops\n"
 ')'
 ';'
 ESAC
@@ -1384,12 +1387,12 @@ OBJECTID value
 THEN
 OBJECTID out_string
 '('
-STR_CONST "is even!"
+STR_CONST "is even!\n"
 ')'
 ELSE
 OBJECTID out_string
 '('
-STR_CONST "is odd!"
+STR_CONST "is odd!\n"
 ')'
 FI
 ';'
@@ -1497,7 +1500,7 @@ DARROW
 '{'
 OBJECTID out_string
 '('
-STR_CONST "Oooops"
+STR_CONST "Oooops\n"
 ')'
 ';'
 OBJECTID abort
@@ -1658,7 +1661,7 @@ OBJECTID avar
 ';'
 OBJECTID out_string
 '('
-STR_CONST "is divisible by 3."
+STR_CONST "is divisible by 3.\n"
 ')'
 ';'
 '}'
@@ -1676,7 +1679,7 @@ OBJECTID avar
 ';'
 OBJECTID out_string
 '('
-STR_CONST "is not divisible by 3."
+STR_CONST "is not divisible by 3.\n"
 ')'
 ';'
 '}'
@@ -1782,6 +1785,7 @@ OBJECTID r
 ';'
 OBJECTID out_string
 '('
+STR_CONST "\n"
 ')'
 ';'
 '}'

@@ -208,9 +208,19 @@ PIPE            [\|]
 
 <str>\"         { BEGIN(INITIAL);
                   *string_buf_ptr = '\0';
+                  cool_yylval.symbol = inttable.add_string(string_buf);
+                  return(STR_CONST);
                 }
 
-<str>\n         { return (ERROR); }
+<str>\n         { cool_yylval.error_msg = "Unterminated string constant";
+                  return (ERROR); 
+                }
+
+<str><<EOF>>    { cool_yylval.error_msg = "EOF in string constant";
+                  BEGIN(INITIAL);
+                  *string_buf_ptr = '\0';
+                  return(ERROR);
+                }
 
 <str>\\[0-7]{1,3} {
                     int result;
@@ -235,20 +245,19 @@ PIPE            [\|]
 
 <str>\\(.|\n)   *string_buf_ptr++ = yytext[1];
 
-<str>[^\\\n\"]+ {
+<str>[^\\\n\"]+ {    
                    char *yptr = yytext;
-                         
+                   
                    while ( *yptr ) {
                            *string_buf_ptr++ = *yptr++;
                    }
-                   
-                   cool_yylval.symbol = inttable.add_string(yytext); 
-                   return (STR_CONST);
+
+                  //printf("+++%s", &string_buf_ptr); 
+                  //cool_yylval.symbol = inttable.add_string(yytext); 
+                  //return (STR_CONST);
                 }
 
-<str><<EOF>>    { cool_yylval.error_msg = "EOF in string constant";
-                  yyterminate();
-                }
+<<EOF>>         { yyterminate(); }
 
 {DIGIT}         { cool_yylval.symbol = inttable.add_string(yytext); 
                   return (INT_CONST); 

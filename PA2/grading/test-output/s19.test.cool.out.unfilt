@@ -1,4 +1,3 @@
 #name "./s19.test.cool"
-#2 STR_CONST "c"
-#2 ERROR "\320!\236\b\001"
-#2 STR_CONST "d"
+#2 ERROR "Unterminated string constant"
+#2 STR_CONST "cd"

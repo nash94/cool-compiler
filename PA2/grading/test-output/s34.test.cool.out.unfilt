@@ -1,5 +1,4 @@
 #name "./s34.test.cool"
 #1 OBJECTID before_it
-#3 STR_CONST "this string "
-#3 STR_CONST "doens't end"
-#3 ERROR "8\342m\b\013"
+#3 ERROR "Unterminated string constant"
+#3 ERROR "EOF in string constant"

@@ -1,4 +1,3 @@
 #name "./null_in_string_unescaped_newline.cl.cool"
-#2 STR_CONST "null character is here ->"
-#2 ERROR "\320Qi\b\031"
-#2 STR_CONST "a +"
+#2 ERROR "Unterminated string constant"
+#2 ERROR "EOF in string constant"

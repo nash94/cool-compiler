@@ -18,7 +18,7 @@ OBJECTID io
 '.'
 OBJECTID out_string
 '('
-STR_CONST "A: Hello world"
+STR_CONST "A: Hello world\n"
 ')'
 '}'
 ';'
@@ -39,7 +39,7 @@ OBJECTID io
 '.'
 OBJECTID out_string
 '('
-STR_CONST "B: Hello world"
+STR_CONST "B: Hello world\n"
 ')'
 '}'
 ';'
@@ -58,7 +58,7 @@ TYPEID Object
 '{'
 OBJECTID out_string
 '('
-STR_CONST "C: Hello world"
+STR_CONST "C: Hello world\n"
 ')'
 '}'
 ';'
@@ -77,7 +77,7 @@ TYPEID Object
 '{'
 OBJECTID out_string
 '('
-STR_CONST "D: Hello world"
+STR_CONST "D: Hello world\n"
 ')'
 '}'
 ';'
@@ -133,7 +133,7 @@ OBJECTID out_d
 ';'
 OBJECTID out_string
 '('
-STR_CONST "Done."
+STR_CONST "Done.\n"
 ')'
 ';'
 '}'

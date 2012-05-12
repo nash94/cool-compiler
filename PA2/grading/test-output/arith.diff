@@ -102,235 +102,111 @@
 < TYPEID A
 ---
 > ERROR "A"
-682d681
-< STR_CONST ""
-922d920
-< STR_CONST ""
-967c965
+967c967
 < TYPEID A
 ---
 > ERROR "A"
-971c969
+971c971
 < TYPEID A
 ---
 > ERROR "A"
-988c986
-< STR_CONST "\n\tTo add a number to "
----
-> STR_CONST "To add a number to "
-998c996
-< STR_CONST "...enter a:\n"
----
-> STR_CONST "...enter a:"
-1003c1001
-< STR_CONST "\tTo negate "
----
-> STR_CONST "To negate "
-1013c1011
-< STR_CONST "...enter b:\n"
----
-> STR_CONST "...enter b:"
-1018c1016
-< STR_CONST "\tTo find the difference between "
----
-> STR_CONST "To find the difference between "
-1028c1026
-< STR_CONST "and another number...enter c:\n"
----
-> STR_CONST "and another number...enter c:"
-1033c1031
-< STR_CONST "\tTo find the factorial of "
----
-> STR_CONST "To find the factorial of "
-1043c1041
-< STR_CONST "...enter d:\n"
----
-> STR_CONST "...enter d:"
-1048c1046
-< STR_CONST "\tTo square "
----
-> STR_CONST "To square "
-1058c1056
-< STR_CONST "...enter e:\n"
----
-> STR_CONST "...enter e:"
-1063c1061
-< STR_CONST "\tTo cube "
----
-> STR_CONST "To cube "
-1073c1071
-< STR_CONST "...enter f:\n"
----
-> STR_CONST "...enter f:"
-1078c1076
-< STR_CONST "\tTo find out if "
----
-> STR_CONST "To find out if "
-1088c1086
-< STR_CONST "is a multiple of 3...enter g:\n"
----
-> STR_CONST "is a multiple of 3...enter g:"
-1093c1091
-< STR_CONST "\tTo divide "
----
-> STR_CONST "To divide "
-1103c1101
-< STR_CONST "by 8...enter h:\n"
----
-> STR_CONST "by 8...enter h:"
-1108c1106
-< STR_CONST "\tTo get a new number...enter j:\n"
----
-> STR_CONST "To get a new number...enter j:"
-1113c1111
-< STR_CONST "\tTo quit...enter q:\n\n"
----
-> STR_CONST "To quit...enter q:"
-1132d1129
-< STR_CONST "\n"
-1243c1240
+1243c1243
 < TYPEID A
 ---
 > ERROR "A"
-1253c1250
+1253c1253
 < TYPEID A
 ---
 > ERROR "A"
-1257c1254
-< STR_CONST "Class type is now A\n"
----
-> STR_CONST "Class type is now A"
-1262c1259
+1262c1262
 < TYPEID B
 ---
 > ERROR "B"
-1266c1263
-< STR_CONST "Class type is now B\n"
----
-> STR_CONST "Class type is now B"
-1271c1268
+1271c1271
 < TYPEID C
 ---
 > ERROR "C"
-1275c1272
-< STR_CONST "Class type is now C\n"
----
-> STR_CONST "Class type is now C"
-1280c1277
+1280c1280
 < TYPEID D
 ---
 > ERROR "D"
-1284c1281
-< STR_CONST "Class type is now D\n"
----
-> STR_CONST "Class type is now D"
-1289c1286
+1289c1289
 < TYPEID E
 ---
 > ERROR "E"
-1293c1290
-< STR_CONST "Class type is now E\n"
----
-> STR_CONST "Class type is now E"
-1302c1299
-< STR_CONST "Oooops\n"
----
-> STR_CONST "Oooops"
-1312c1309
+1312c1312
 < TYPEID A
 ---
 > ERROR "A"
-1361c1358
+1361c1361
 < TYPEID A
 ---
 > ERROR "A"
-1390c1387
-< STR_CONST "is even!\n"
----
-> STR_CONST "is even!"
-1395c1392
-< STR_CONST "is odd!\n"
----
-> STR_CONST "is odd!"
-1420c1417
+1420c1420
 < TYPEID A
 ---
 > ERROR "A"
-1434c1431
+1434c1434
 < TYPEID B
 ---
 > ERROR "B"
-1464c1461
+1464c1464
 < TYPEID C
 ---
 > ERROR "C"
-1481c1478
+1481c1481
 < TYPEID A
 ---
 > ERROR "A"
-1503c1500
-< STR_CONST "Oooops\n"
----
-> STR_CONST "Oooops"
-1526c1523
+1526c1526
 < TYPEID A
 ---
 > ERROR "A"
-1540c1537
+1540c1540
 < TYPEID D
 ---
 > ERROR "D"
-1569c1566
+1569c1569
 < TYPEID C
 ---
 > ERROR "C"
-1572c1569
+1572c1572
 < TYPEID A
 ---
 > ERROR "A"
-1592c1589
+1592c1592
 < TYPEID C
 ---
 > ERROR "C"
-1595c1592
+1595c1595
 < TYPEID B
 ---
 > ERROR "B"
-1615c1612
+1615c1615
 < TYPEID C
 ---
 > ERROR "C"
-1618c1615
+1618c1618
 < TYPEID C
 ---
 > ERROR "C"
-1638c1635
+1638c1638
 < TYPEID D
 ---
 > ERROR "D"
-1664c1661
-< STR_CONST "is divisible by 3.\n"
----
-> STR_CONST "is divisible by 3."
-1682c1679
-< STR_CONST "is not divisible by 3.\n"
----
-> STR_CONST "is not divisible by 3."
-1697c1694
+1697c1697
 < TYPEID A
 ---
 > ERROR "A"
-1704c1701
+1704c1704
 < TYPEID E
 ---
 > ERROR "E"
-1788d1784
-< STR_CONST "\n"
-1813c1809
+1813c1813
 < TYPEID A
 ---
 > ERROR "A"
-1829c1825
+1829c1829
 < TYPEID A
 ---
 > ERROR "A"
