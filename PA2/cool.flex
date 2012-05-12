@@ -231,8 +231,6 @@ PIPE            [\|]
                   *string_buf_ptr = '\0';
                   return(ERROR);
                 }
-
-
 <str>\\n        *string_buf_ptr++ = '\n';
 <str>\\t        *string_buf_ptr++ = '\t';
 <str>\\b        *string_buf_ptr++ = '\b';
@@ -240,7 +238,7 @@ PIPE            [\|]
 
 <str>\\(.|\n)   *string_buf_ptr++ = yytext[1];
 
-<str>[^\\\n\"]+ {    
+<str>[^\0\\\n\"]+ {    
                    char *yptr = yytext;
                    
                    while ( *yptr ) {
