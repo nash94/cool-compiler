@@ -143,22 +143,20 @@ PIPE            [\|]
 
   
 "(*"                    { BEGIN(comment);}
-<comment>[^*\n]*        /* eat anything that's not a '*' */
 <comment>"(*"           { nested_level++; }
-<comment>"*"+[^*)\n]*   /* eat up '*'s not followed by ')'s */
 <comment>\n             curr_lineno++;
 <comment><<EOF>>        { cool_yylval.error_msg = "EOF in comment";
                           BEGIN(INITIAL);
                           return(ERROR);
                         }
-<comment>"*"+")"        { if (nested_level > 0) {
+<comment>"*)"        { if (nested_level > 0) {
                             nested_level--; 
                           } else {
                             BEGIN(INITIAL);
                           }
                         }
                         
-
+<comment>.              {}
 "*)"                    { cool_yylval.error_msg = "Unmatched *)";
                           return (ERROR);
                         }
