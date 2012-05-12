@@ -213,6 +213,7 @@ PIPE            [\|]
                 }
 
 <str>\n         { cool_yylval.error_msg = "Unterminated string constant";
+                  BEGIN(INITIAL);
                   return (ERROR); 
                 }
 
@@ -251,10 +252,6 @@ PIPE            [\|]
                    while ( *yptr ) {
                            *string_buf_ptr++ = *yptr++;
                    }
-
-                  //printf("+++%s", &string_buf_ptr); 
-                  //cool_yylval.symbol = inttable.add_string(yytext); 
-                  //return (STR_CONST);
                 }
 
 <<EOF>>         { yyterminate(); }
