@@ -10,7 +10,6 @@
 	-1 (escapednull)	 escaped null char in a string
 	-1 (escapedquote)	 escaped quote
 	-1 (escapedunprintables)	 escaped nonprinting chars
-	-1 (invalidcharacters)	 characters not in the cool language
 	-1 (io)	 io example
 	-1 (life)	 the life program
 	-1 (lineno2)	 line number test 2

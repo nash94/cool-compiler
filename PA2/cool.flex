@@ -91,13 +91,10 @@ OPEN_PARA       [\(]
 CLOSE_PARA      [\)]
 OPEN_CURLY      [\{]
 CLOSE_CURLY     [\}]
-OPEN_BRACKET    [\[]
-CLOSE_BRACKET   [\]]
 
 SEMICOLON       [;]+
 METHOD_ACCESS   "."
 LESS            [<]{1}
-GREATER         [>]+
 COLON           [:]+
 COMMA           [,]+
 TILDE           [~]+
@@ -109,7 +106,27 @@ WHITE_SPACE     [ \t\f\r\v]+
 NEW_LINE        [\n]
 NULL_CHAR       [\0]
 
-LEADING_UNDERSCORE [_]
+
+INVALID_CHARS   [\[\]\^\?\\\|!#$%&>`_]{1}
+
+
+BANG            [!]
+HASH            [#]
+DOLLAR          [$]
+PERCENT         [%]
+CARROT          [\^]
+AND             [&]
+GREATER         [>]
+QUESTION        [\?]
+APOST           [`]
+OPEN_BRACKET    [\[]
+CLOSE_BRACKET   [\]]
+DOUBLE_SLASH    [\\]
+PIPE            [\|]
+
+
+
+
 %%
  /*
   *  Nested comments
@@ -246,11 +263,8 @@ LEADING_UNDERSCORE [_]
 {CLOSE_PARA}    { return(41); }
 {OPEN_CURLY}    { return(123);}
 {CLOSE_CURLY}   { return(125);}
-{OPEN_BRACKET}  { return(91); }
-{CLOSE_BRACKET} { return(93); }
 {COLON}         { return(58); }         
 {METHOD_ACCESS} { return(46); }
-{GREATER}       { return(62); }
 {LESS}          { return(60); }
 {COMMA}         { return(44); }
 {TILDE}         { return(126);}
@@ -258,9 +272,10 @@ LEADING_UNDERSCORE [_]
 {EQUAL}         { return(61); }
 
 
-{LEADING_UNDERSCORE} { cool_yylval.error_msg = "_";
-                       return(ERROR);
-                     }
+{INVALID_CHARS} { cool_yylval.error_msg = yytext;
+                  return(ERROR);
+                }
+
 
 
 {WHITE_SPACE}

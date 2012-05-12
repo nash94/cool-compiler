@@ -1,4 +1,4 @@
 #name "./null_in_string_unescaped_newline.cl.cool"
 #2 STR_CONST "null character is here ->"
-#2 ERROR "\320\261\236\b\031"
+#2 ERROR "\320a\332\b\031"
 #2 STR_CONST "a +"
