@@ -42,7 +42,7 @@ OBJECTID new_cell
 OBJECTID init
 '('
 OBJECTID hd
-LONGERROR
+ERROR ","
 OBJECTID self
 ')'
 ')'
@@ -106,7 +106,7 @@ OBJECTID cdr
 ';'
 OBJECTID insert
 '('
-LONGERROR
+OBJECTID i
 ':'
 TYPEID Int
 ')'
@@ -120,7 +120,7 @@ OBJECTID cdr
 ';'
 OBJECTID rcons
 '('
-LONGERROR
+OBJECTID i
 ':'
 TYPEID Int
 ')'
@@ -172,7 +172,7 @@ OBJECTID init
 OBJECTID hd
 ':'
 TYPEID Int
-LONGERROR
+ERROR ","
 OBJECTID tl
 ':'
 TYPEID List
@@ -254,7 +254,7 @@ OBJECTID xcar
 ';'
 OBJECTID insert
 '('
-LONGERROR
+OBJECTID i
 ':'
 TYPEID Int
 ')'
@@ -262,7 +262,7 @@ TYPEID Int
 TYPEID List
 '{'
 IF
-LONGERROR
+OBJECTID i
 '<'
 OBJECTID xcar
 THEN
@@ -273,8 +273,8 @@ TYPEID Cons
 '.'
 OBJECTID init
 '('
-LONGERROR
-LONGERROR
+OBJECTID i
+ERROR ","
 OBJECTID self
 ')'
 ELSE
@@ -286,12 +286,12 @@ TYPEID Cons
 OBJECTID init
 '('
 OBJECTID xcar
-LONGERROR
+ERROR ","
 OBJECTID xcdr
 '.'
 OBJECTID insert
 '('
-LONGERROR
+OBJECTID i
 ')'
 ')'
 FI
@@ -299,7 +299,7 @@ FI
 ';'
 OBJECTID rcons
 '('
-LONGERROR
+OBJECTID i
 ':'
 TYPEID Int
 ')'
@@ -314,12 +314,12 @@ TYPEID Cons
 OBJECTID init
 '('
 OBJECTID xcar
-LONGERROR
+ERROR ","
 OBJECTID xcdr
 '.'
 OBJECTID rcons
 '('
-LONGERROR
+OBJECTID i
 ')'
 ')'
 '}'
@@ -385,7 +385,7 @@ OBJECTID self
 ';'
 OBJECTID insert
 '('
-LONGERROR
+OBJECTID i
 ':'
 TYPEID Int
 ')'
@@ -394,13 +394,13 @@ TYPEID List
 '{'
 OBJECTID rcons
 '('
-LONGERROR
+OBJECTID i
 ')'
 '}'
 ';'
 OBJECTID rcons
 '('
-LONGERROR
+OBJECTID i
 ':'
 TYPEID Int
 ')'
@@ -414,8 +414,8 @@ TYPEID Cons
 '.'
 OBJECTID init
 '('
-LONGERROR
-LONGERROR
+OBJECTID i
+ERROR ","
 OBJECTID self
 ')'
 '}'
@@ -436,13 +436,13 @@ TYPEID Main
 INHERITS
 TYPEID IO
 '{'
-LONGERROR
+OBJECTID l
 ':'
 TYPEID List
 ';'
 OBJECTID iota
 '('
-LONGERROR
+OBJECTID i
 ':'
 TYPEID Int
 ')'
@@ -450,26 +450,26 @@ TYPEID Int
 TYPEID List
 '{'
 '{'
-LONGERROR
+OBJECTID l
 ASSIGN
 NEW
 TYPEID Nil
 ';'
 '('
 LET
-LONGERROR
+OBJECTID j
 ':'
 TYPEID Int
 ASSIGN
 INT_CONST 0
 IN
 WHILE
-LONGERROR
+OBJECTID j
 '<'
-LONGERROR
+OBJECTID i
 LOOP
 '{'
-LONGERROR
+OBJECTID l
 ASSIGN
 '('
 NEW
@@ -478,14 +478,14 @@ TYPEID Cons
 '.'
 OBJECTID init
 '('
-LONGERROR
-LONGERROR
-LONGERROR
+OBJECTID j
+ERROR ","
+OBJECTID l
 ')'
 ';'
-LONGERROR
+OBJECTID j
 ASSIGN
-LONGERROR
+OBJECTID j
 '+'
 INT_CONST 1
 ';'
@@ -493,7 +493,7 @@ INT_CONST 1
 POOL
 ')'
 ';'
-LONGERROR
+OBJECTID l
 ';'
 '}'
 '}'

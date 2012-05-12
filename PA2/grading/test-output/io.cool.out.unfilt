@@ -1,6 +1,6 @@
 #name "./io.cool"
 #49 CLASS
-#49 ERROR "Uncaught error."
+#49 ERROR "A"
 #49 '{'
 #53 OBJECTID io
 #53 ':'
@@ -26,9 +26,9 @@
 #57 '}'
 #57 ';'
 #60 CLASS
-#60 ERROR "Uncaught error."
+#60 ERROR "B"
 #60 INHERITS
-#60 ERROR "Uncaught error."
+#60 ERROR "A"
 #60 '{'
 #64 OBJECTID out_b
 #64 '('
@@ -47,7 +47,7 @@
 #66 '}'
 #66 ';'
 #69 CLASS
-#69 ERROR "Uncaught error."
+#69 ERROR "C"
 #69 INHERITS
 #69 TYPEID IO
 #69 '{'
@@ -66,9 +66,9 @@
 #77 '}'
 #77 ';'
 #80 CLASS
-#80 ERROR "Uncaught error."
+#80 ERROR "D"
 #80 INHERITS
-#80 ERROR "Uncaught error."
+#80 ERROR "C"
 #80 '{'
 #84 OBJECTID out_d
 #84 '('
@@ -98,7 +98,7 @@
 #94 '{'
 #95 '('
 #95 NEW
-#95 ERROR "Uncaught error."
+#95 ERROR "A"
 #95 ')'
 #95 '.'
 #95 OBJECTID out_a
@@ -107,7 +107,7 @@
 #95 ';'
 #96 '('
 #96 NEW
-#96 ERROR "Uncaught error."
+#96 ERROR "B"
 #96 ')'
 #96 '.'
 #96 OBJECTID out_b
@@ -116,7 +116,7 @@
 #96 ';'
 #97 '('
 #97 NEW
-#97 ERROR "Uncaught error."
+#97 ERROR "C"
 #97 ')'
 #97 '.'
 #97 OBJECTID out_c
@@ -125,7 +125,7 @@
 #97 ';'
 #98 '('
 #98 NEW
-#98 ERROR "Uncaught error."
+#98 ERROR "D"
 #98 ')'
 #98 '.'
 #98 OBJECTID out_d

@@ -43,7 +43,7 @@
 #32 OBJECTID init
 #32 '('
 #32 OBJECTID hd
-#32 ERROR "Uncaught error."
+#32 ERROR ","
 #32 OBJECTID self
 #32 ')'
 #33 ')'
@@ -107,7 +107,7 @@
 #47 ';'
 #49 OBJECTID insert
 #49 '('
-#49 ERROR "Uncaught error."
+#49 OBJECTID i
 #49 ':'
 #49 TYPEID Int
 #49 ')'
@@ -121,7 +121,7 @@
 #49 ';'
 #51 OBJECTID rcons
 #51 '('
-#51 ERROR "Uncaught error."
+#51 OBJECTID i
 #51 ':'
 #51 TYPEID Int
 #51 ')'
@@ -173,7 +173,7 @@
 #64 OBJECTID hd
 #64 ':'
 #64 TYPEID Int
-#64 ERROR "Uncaught error."
+#64 ERROR ","
 #64 OBJECTID tl
 #64 ':'
 #64 TYPEID List
@@ -255,7 +255,7 @@
 #78 ';'
 #80 OBJECTID insert
 #80 '('
-#80 ERROR "Uncaught error."
+#80 OBJECTID i
 #80 ':'
 #80 TYPEID Int
 #80 ')'
@@ -263,7 +263,7 @@
 #80 TYPEID List
 #80 '{'
 #81 IF
-#81 ERROR "Uncaught error."
+#81 OBJECTID i
 #81 '<'
 #81 OBJECTID xcar
 #81 THEN
@@ -274,8 +274,8 @@
 #82 '.'
 #82 OBJECTID init
 #82 '('
-#82 ERROR "Uncaught error."
-#82 ERROR "Uncaught error."
+#82 OBJECTID i
+#82 ERROR ","
 #82 OBJECTID self
 #82 ')'
 #83 ELSE
@@ -287,12 +287,12 @@
 #84 OBJECTID init
 #84 '('
 #84 OBJECTID xcar
-#84 ERROR "Uncaught error."
+#84 ERROR ","
 #84 OBJECTID xcdr
 #84 '.'
 #84 OBJECTID insert
 #84 '('
-#84 ERROR "Uncaught error."
+#84 OBJECTID i
 #84 ')'
 #84 ')'
 #85 FI
@@ -300,7 +300,7 @@
 #86 ';'
 #89 OBJECTID rcons
 #89 '('
-#89 ERROR "Uncaught error."
+#89 OBJECTID i
 #89 ':'
 #89 TYPEID Int
 #89 ')'
@@ -315,12 +315,12 @@
 #89 OBJECTID init
 #89 '('
 #89 OBJECTID xcar
-#89 ERROR "Uncaught error."
+#89 ERROR ","
 #89 OBJECTID xcdr
 #89 '.'
 #89 OBJECTID rcons
 #89 '('
-#89 ERROR "Uncaught error."
+#89 OBJECTID i
 #89 ')'
 #89 ')'
 #89 '}'
@@ -386,7 +386,7 @@
 #105 ';'
 #107 OBJECTID insert
 #107 '('
-#107 ERROR "Uncaught error."
+#107 OBJECTID i
 #107 ':'
 #107 TYPEID Int
 #107 ')'
@@ -395,13 +395,13 @@
 #107 '{'
 #107 OBJECTID rcons
 #107 '('
-#107 ERROR "Uncaught error."
+#107 OBJECTID i
 #107 ')'
 #107 '}'
 #107 ';'
 #109 OBJECTID rcons
 #109 '('
-#109 ERROR "Uncaught error."
+#109 OBJECTID i
 #109 ':'
 #109 TYPEID Int
 #109 ')'
@@ -415,8 +415,8 @@
 #109 '.'
 #109 OBJECTID init
 #109 '('
-#109 ERROR "Uncaught error."
-#109 ERROR "Uncaught error."
+#109 OBJECTID i
+#109 ERROR ","
 #109 OBJECTID self
 #109 ')'
 #109 '}'
@@ -437,13 +437,13 @@
 #116 INHERITS
 #116 TYPEID IO
 #116 '{'
-#118 ERROR "Uncaught error."
+#118 OBJECTID l
 #118 ':'
 #118 TYPEID List
 #118 ';'
 #121 OBJECTID iota
 #121 '('
-#121 ERROR "Uncaught error."
+#121 OBJECTID i
 #121 ':'
 #121 TYPEID Int
 #121 ')'
@@ -451,26 +451,26 @@
 #121 TYPEID List
 #121 '{'
 #122 '{'
-#123 ERROR "Uncaught error."
+#123 OBJECTID l
 #123 ASSIGN
 #123 NEW
 #123 TYPEID Nil
 #123 ';'
 #124 '('
 #124 LET
-#124 ERROR "Uncaught error."
+#124 OBJECTID j
 #124 ':'
 #124 TYPEID Int
 #124 ASSIGN
 #124 INT_CONST 0
 #124 IN
 #125 WHILE
-#125 ERROR "Uncaught error."
+#125 OBJECTID j
 #125 '<'
-#125 ERROR "Uncaught error."
+#125 OBJECTID i
 #126 LOOP
 #127 '{'
-#128 ERROR "Uncaught error."
+#128 OBJECTID l
 #128 ASSIGN
 #128 '('
 #128 NEW
@@ -479,14 +479,14 @@
 #128 '.'
 #128 OBJECTID init
 #128 '('
-#128 ERROR "Uncaught error."
-#128 ERROR "Uncaught error."
-#128 ERROR "Uncaught error."
+#128 OBJECTID j
+#128 ERROR ","
+#128 OBJECTID l
 #128 ')'
 #128 ';'
-#129 ERROR "Uncaught error."
+#129 OBJECTID j
 #129 ASSIGN
-#129 ERROR "Uncaught error."
+#129 OBJECTID j
 #129 '+'
 #129 INT_CONST 1
 #129 ';'
@@ -494,7 +494,7 @@
 #131 POOL
 #132 ')'
 #132 ';'
-#133 ERROR "Uncaught error."
+#133 OBJECTID l
 #133 ';'
 #134 '}'
 #135 '}'

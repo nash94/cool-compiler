@@ -4,14 +4,14 @@
 #3 INHERITS
 #3 TYPEID Bazz
 #3 '{'
-#4 ERROR "Uncaught error."
+#4 OBJECTID a
 #4 ':'
 #4 TYPEID Razz
 #4 ASSIGN
 #4 CASE
 #4 OBJECTID self
 #4 OF
-#5 ERROR "Uncaught error."
+#5 OBJECTID n
 #5 ':'
 #5 TYPEID Razz
 #5 DARROW
@@ -20,7 +20,7 @@
 #5 TYPEID Bar
 #5 ')'
 #5 ';'
-#6 ERROR "Uncaught error."
+#6 OBJECTID n
 #6 ':'
 #6 TYPEID Foo
 #6 DARROW
@@ -29,25 +29,25 @@
 #6 TYPEID Razz
 #6 ')'
 #6 ';'
-#7 ERROR "Uncaught error."
+#7 OBJECTID n
 #7 ':'
 #7 TYPEID Bar
 #7 DARROW
-#7 ERROR "Uncaught error."
+#7 OBJECTID n
 #7 ';'
 #8 ESAC
 #8 ';'
-#10 ERROR "Uncaught error."
+#10 OBJECTID b
 #10 ':'
 #10 TYPEID Int
 #10 ASSIGN
-#10 ERROR "Uncaught error."
+#10 OBJECTID a
 #10 '.'
 #10 OBJECTID doh
 #10 '('
 #10 ')'
 #10 '+'
-#10 ERROR "Uncaught error."
+#10 OBJECTID g
 #10 '.'
 #10 OBJECTID doh
 #10 '('
@@ -69,20 +69,20 @@
 #12 '{'
 #12 '('
 #12 LET
-#12 ERROR "Uncaught error."
+#12 OBJECTID i
 #12 ':'
 #12 TYPEID Int
 #12 ASSIGN
-#12 ERROR "Uncaught error."
+#12 OBJECTID h
 #12 IN
 #12 '{'
-#12 ERROR "Uncaught error."
+#12 OBJECTID h
 #12 ASSIGN
-#12 ERROR "Uncaught error."
+#12 OBJECTID h
 #12 '+'
 #12 INT_CONST 2
 #12 ';'
-#12 ERROR "Uncaught error."
+#12 OBJECTID i
 #12 ';'
 #12 '}'
 #12 ')'
@@ -95,7 +95,7 @@
 #16 INHERITS
 #16 TYPEID Razz
 #16 '{'
-#18 ERROR "Uncaught error."
+#18 OBJECTID c
 #18 ':'
 #18 TYPEID Int
 #18 ASSIGN
@@ -103,7 +103,7 @@
 #18 '('
 #18 ')'
 #18 ';'
-#20 ERROR "Uncaught error."
+#20 OBJECTID d
 #20 ':'
 #20 TYPEID Object
 #20 ASSIGN
@@ -118,14 +118,14 @@
 #24 INHERITS
 #24 TYPEID Foo
 #24 '{'
-#26 ERROR "Uncaught error."
+#26 OBJECTID e
 #26 ':'
 #26 TYPEID Bar
 #26 ASSIGN
 #26 CASE
 #26 OBJECTID self
 #26 OF
-#27 ERROR "Uncaught error."
+#27 OBJECTID n
 #27 ':'
 #27 TYPEID Razz
 #27 DARROW
@@ -134,33 +134,33 @@
 #27 TYPEID Bar
 #27 ')'
 #27 ';'
-#28 ERROR "Uncaught error."
+#28 OBJECTID n
 #28 ':'
 #28 TYPEID Bar
 #28 DARROW
-#28 ERROR "Uncaught error."
+#28 OBJECTID n
 #28 ';'
 #29 ESAC
 #29 ';'
-#31 ERROR "Uncaught error."
+#31 OBJECTID f
 #31 ':'
 #31 TYPEID Int
 #31 ASSIGN
-#31 ERROR "Uncaught error."
-#31 ERROR "Uncaught error."
+#31 OBJECTID a
+#31 ERROR "@"
 #31 TYPEID Bazz
 #31 '.'
 #31 OBJECTID doh
 #31 '('
 #31 ')'
 #31 '+'
-#31 ERROR "Uncaught error."
+#31 OBJECTID g
 #31 '.'
 #31 OBJECTID doh
 #31 '('
 #31 ')'
 #31 '+'
-#31 ERROR "Uncaught error."
+#31 OBJECTID e
 #31 '.'
 #31 OBJECTID doh
 #31 '('
@@ -181,20 +181,20 @@
 #35 INHERITS
 #35 TYPEID IO
 #35 '{'
-#37 ERROR "Uncaught error."
+#37 OBJECTID h
 #37 ':'
 #37 TYPEID Int
 #37 ASSIGN
 #37 INT_CONST 1
 #37 ';'
-#39 ERROR "Uncaught error."
+#39 OBJECTID g
 #39 ':'
 #39 TYPEID Foo
 #39 ASSIGN
 #39 CASE
 #39 OBJECTID self
 #39 OF
-#40 ERROR "Uncaught error."
+#40 OBJECTID n
 #40 ':'
 #40 TYPEID Bazz
 #40 DARROW
@@ -203,7 +203,7 @@
 #40 TYPEID Foo
 #40 ')'
 #40 ';'
-#41 ERROR "Uncaught error."
+#41 OBJECTID n
 #41 ':'
 #41 TYPEID Razz
 #41 DARROW
@@ -212,7 +212,7 @@
 #41 TYPEID Bar
 #41 ')'
 #41 ';'
-#42 ERROR "Uncaught error."
+#42 OBJECTID n
 #42 ':'
 #42 TYPEID Foo
 #42 DARROW
@@ -221,15 +221,15 @@
 #42 TYPEID Razz
 #42 ')'
 #42 ';'
-#43 ERROR "Uncaught error."
+#43 OBJECTID n
 #43 ':'
 #43 TYPEID Bar
 #43 DARROW
-#43 ERROR "Uncaught error."
+#43 OBJECTID n
 #43 ';'
 #44 ESAC
 #44 ';'
-#46 ERROR "Uncaught error."
+#46 OBJECTID i
 #46 ':'
 #46 TYPEID Object
 #46 ASSIGN
@@ -246,7 +246,7 @@
 #48 '{'
 #48 OBJECTID out_int
 #48 '('
-#48 ERROR "Uncaught error."
+#48 OBJECTID h
 #48 ')'
 #48 ';'
 #48 INT_CONST 0
@@ -262,20 +262,20 @@
 #50 '{'
 #50 '('
 #50 LET
-#50 ERROR "Uncaught error."
+#50 OBJECTID i
 #50 ':'
 #50 TYPEID Int
 #50 ASSIGN
-#50 ERROR "Uncaught error."
+#50 OBJECTID h
 #50 IN
 #50 '{'
-#50 ERROR "Uncaught error."
+#50 OBJECTID h
 #50 ASSIGN
-#50 ERROR "Uncaught error."
+#50 OBJECTID h
 #50 '+'
 #50 INT_CONST 1
 #50 ';'
-#50 ERROR "Uncaught error."
+#50 OBJECTID i
 #50 ';'
 #50 '}'
 #50 ')'
@@ -286,28 +286,28 @@
 #54 CLASS
 #54 TYPEID Main
 #54 '{'
-#55 ERROR "Uncaught error."
+#55 OBJECTID a
 #55 ':'
 #55 TYPEID Bazz
 #55 ASSIGN
 #55 NEW
 #55 TYPEID Bazz
 #55 ';'
-#56 ERROR "Uncaught error."
+#56 OBJECTID b
 #56 ':'
 #56 TYPEID Foo
 #56 ASSIGN
 #56 NEW
 #56 TYPEID Foo
 #56 ';'
-#57 ERROR "Uncaught error."
+#57 OBJECTID c
 #57 ':'
 #57 TYPEID Razz
 #57 ASSIGN
 #57 NEW
 #57 TYPEID Razz
 #57 ';'
-#58 ERROR "Uncaught error."
+#58 OBJECTID d
 #58 ':'
 #58 TYPEID Bar
 #58 ASSIGN

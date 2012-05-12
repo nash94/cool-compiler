@@ -3,29 +3,29 @@
 #2 '{'
 #2 '}'
 #2 '('
-#2 ERROR "Uncaught error."
+#2 ERROR ","
 #2 ')'
 #2 ':'
-#2 ERROR "Uncaught error."
+#2 ERROR "@"
 #2 '.'
 #2 '+'
 #2 '-'
 #2 '*'
 #2 '/'
-#2 ERROR "Uncaught error."
+#2 ERROR "~"
 #2 '<'
-#2 ERROR "Uncaught error."
+#2 ERROR "="
 #2 ASSIGN
 #2 DARROW
 #2 '<'
-#2 ERROR "Uncaught error."
+#2 ERROR "="
 #5 '<'
-#5 ERROR "Uncaught error."
+#5 ERROR "="
 #8 '<'
-#8 ERROR "Uncaught error."
-#8 ERROR "Uncaught error."
+#8 ERROR "="
+#8 ERROR "="
 #11 '<'
-#11 ERROR "Uncaught error."
+#11 ERROR "="
 #11 DARROW
 #13 '<'
 #13 '-'

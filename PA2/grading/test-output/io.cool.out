@@ -1,5 +1,5 @@
 CLASS
-LONGERROR
+ERROR "A"
 '{'
 OBJECTID io
 ':'
@@ -25,9 +25,9 @@ STR_CONST "A: Hello world"
 '}'
 ';'
 CLASS
-LONGERROR
+ERROR "B"
 INHERITS
-LONGERROR
+ERROR "A"
 '{'
 OBJECTID out_b
 '('
@@ -46,7 +46,7 @@ STR_CONST "B: Hello world"
 '}'
 ';'
 CLASS
-LONGERROR
+ERROR "C"
 INHERITS
 TYPEID IO
 '{'
@@ -65,9 +65,9 @@ STR_CONST "C: Hello world"
 '}'
 ';'
 CLASS
-LONGERROR
+ERROR "D"
 INHERITS
-LONGERROR
+ERROR "C"
 '{'
 OBJECTID out_d
 '('
@@ -97,7 +97,7 @@ TYPEID Object
 '{'
 '('
 NEW
-LONGERROR
+ERROR "A"
 ')'
 '.'
 OBJECTID out_a
@@ -106,7 +106,7 @@ OBJECTID out_a
 ';'
 '('
 NEW
-LONGERROR
+ERROR "B"
 ')'
 '.'
 OBJECTID out_b
@@ -115,7 +115,7 @@ OBJECTID out_b
 ';'
 '('
 NEW
-LONGERROR
+ERROR "C"
 ')'
 '.'
 OBJECTID out_c
@@ -124,7 +124,7 @@ OBJECTID out_c
 ';'
 '('
 NEW
-LONGERROR
+ERROR "D"
 ')'
 '.'
 OBJECTID out_d

@@ -1,67 +1,31 @@
-8c8
-< OBJECTID s
----
-> LONGERROR
-16c16
-< OBJECTID s
----
-> LONGERROR
 21c21
 < '='
 ---
-> LONGERROR
-27c27
-< OBJECTID s
----
-> LONGERROR
+> ERROR "="
 32c32
 < '='
 ---
-> LONGERROR
-38c38
-< OBJECTID s
----
-> LONGERROR
+> ERROR "="
 43c43
 < ','
 ---
-> LONGERROR
-46,47c46,47
+> ERROR ","
+46c46
 < '='
-< OBJECTID s
 ---
-> LONGERROR
-> LONGERROR
-51c51
-< OBJECTID s
----
-> LONGERROR
+> ERROR "="
 58c58
 < ','
 ---
-> LONGERROR
-64c64
-< OBJECTID s
----
-> LONGERROR
-69,70c69,70
+> ERROR ","
+69c69
 < ','
-< OBJECTID s
 ---
-> LONGERROR
-> LONGERROR
-86c86
-< OBJECTID i
----
-> LONGERROR
-97c97
-< OBJECTID i
----
-> LONGERROR
+> ERROR ","
 99c99
 < '~'
 ---
-> LONGERROR
+> ERROR "~"
 104c104
 < STR_CONST "enter a string\n"
 ---

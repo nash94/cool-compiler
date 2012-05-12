@@ -2,29 +2,29 @@
 '{'
 '}'
 '('
-LONGERROR
+ERROR ","
 ')'
 ':'
-LONGERROR
+ERROR "@"
 '.'
 '+'
 '-'
 '*'
 '/'
-LONGERROR
+ERROR "~"
 '<'
-LONGERROR
+ERROR "="
 ASSIGN
 DARROW
 '<'
-LONGERROR
+ERROR "="
 '<'
-LONGERROR
+ERROR "="
 '<'
-LONGERROR
-LONGERROR
+ERROR "="
+ERROR "="
 '<'
-LONGERROR
+ERROR "="
 DARROW
 '<'
 '-'

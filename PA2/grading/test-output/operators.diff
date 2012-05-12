@@ -1,19 +1,19 @@
 5c5
 < ','
 ---
-> LONGERROR
+> ERROR ","
 8c8
 < '@'
 ---
-> LONGERROR
+> ERROR "@"
 14c14
 < '~'
 ---
-> LONGERROR
+> ERROR "~"
 16c16
 < '='
 ---
-> LONGERROR
+> ERROR "="
 19d18
 < LE
 21,24c20,27
@@ -22,14 +22,14 @@
 < '='
 < LE
 ---
-> LONGERROR
+> ERROR "="
 > '<'
-> LONGERROR
+> ERROR "="
 > '<'
-> LONGERROR
-> LONGERROR
+> ERROR "="
+> ERROR "="
 > '<'
-> LONGERROR
+> ERROR "="
 27c30
 < ASSIGN
 ---

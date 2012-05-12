@@ -466,8 +466,8 @@ static yyconst flex_int16_t yy_accept[348] =
        64,   65,   35,   53,   54,   50,   48,   49,   60,   51,
        47,   59,   52,   62,   67,   61,   67,   67,   67,   67,
        67,   67,   67,   67,   67,   67,   67,   57,   58,   67,
-       67,   67,   67,   67,   67,   67,   67,   67,   67,   67,
-       67,   55,   67,   56,   66,   46,   37,   36,   68,    5,
+       34,   34,   34,   34,   34,   34,   34,   34,   34,   34,
+       34,   55,   67,   56,   66,   46,   37,   36,   68,    5,
         8,    5,    7,    2,    3,   64,    4,   11,    1,   47,
        59,   52,   13,   62,   12,   61,   33,   33,   33,    0,
        33,   33,    0,   16,   16,   17,   18,   33,   17,   33,
@@ -891,7 +891,7 @@ static yyconst flex_int16_t yy_rule_linenum[68] =
       160,  163,  173,  177,  181,  185,  189,  191,  204,  206,
       207,  208,  209,  210,  212,  214,  227,  231,  232,  233,
       234,  237,  238,  239,  240,  241,  242,  243,  244,  245,
-      246,  247,  249,  253,  255,  257,  261
+      246,  247,  249,  254,  256,  258,  262
     } ;
 
 /* The intent behind this definition is that it'll catch
@@ -1699,32 +1699,32 @@ YY_RULE_SETUP
 	YY_BREAK
 case 64:
 YY_RULE_SETUP
-#line 253 "cool.flex"
+#line 254 "cool.flex"
 
 	YY_BREAK
 case 65:
 /* rule 65 can match eol */
 YY_RULE_SETUP
-#line 255 "cool.flex"
+#line 256 "cool.flex"
 { curr_lineno++; }
 	YY_BREAK
 case 66:
 YY_RULE_SETUP
-#line 257 "cool.flex"
+#line 258 "cool.flex"
 { cool_yylval.error_msg = "Null char present.";
                   return(ERROR);
                 }
 	YY_BREAK
 case 67:
 YY_RULE_SETUP
-#line 261 "cool.flex"
-{ cool_yylval.error_msg = "Uncaught error.";
+#line 262 "cool.flex"
+{ cool_yylval.error_msg = yytext;
                   return(ERROR);
                 }
 	YY_BREAK
 case 68:
 YY_RULE_SETUP
-#line 264 "cool.flex"
+#line 265 "cool.flex"
 ECHO;
 	YY_BREAK
 #line 1731 "cool-lex.cc"
@@ -2865,4 +2865,4 @@ void yyfree (void * ptr )
 
 /* %ok-for-header */
 
-#line 264 "cool.flex"
+#line 265 "cool.flex"

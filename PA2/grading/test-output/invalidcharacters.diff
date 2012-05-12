@@ -1,28 +1,8 @@
-1,6c1,6
-< ERROR "!"
-< ERROR "#"
-< ERROR "$"
-< ERROR "%"
-< ERROR "^"
-< ERROR "&"
----
-> LONGERROR
-> LONGERROR
-> LONGERROR
-> LONGERROR
-> LONGERROR
-> LONGERROR
-8,12d7
+8d7
 < ERROR ">"
-< ERROR "?"
-< ERROR "`"
+11,12c10,11
 < ERROR "["
 < ERROR "]"
-14c9,13
-< ERROR "|"
 ---
-> LONGERROR
 > <Invalid Token>
 > <Invalid Token>
-> LONGERROR
-> LONGERROR

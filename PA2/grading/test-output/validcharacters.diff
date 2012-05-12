@@ -1,14 +1,14 @@
 5c5
 < '='
 ---
-> LONGERROR
+> ERROR "="
 8,9c8,9
 < '~'
 < ','
 ---
-> LONGERROR
-> LONGERROR
+> ERROR "~"
+> ERROR ","
 14c14
 < '@'
 ---
-> LONGERROR
+> ERROR "@"

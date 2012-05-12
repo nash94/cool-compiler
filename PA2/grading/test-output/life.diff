@@ -1,131 +1,113 @@
 57c57
 < '='
 ---
-> LONGERROR
+> ERROR "="
 77c77
 < '='
 ---
-> LONGERROR
+> ERROR "="
 97c97
 < '='
 ---
-> LONGERROR
+> ERROR "="
 117c117
 < '='
 ---
-> LONGERROR
+> ERROR "="
 137c137
 < '='
 ---
-> LONGERROR
+> ERROR "="
 157c157
 < '='
 ---
-> LONGERROR
-245c245
-< OBJECTID i
----
-> LONGERROR
+> ERROR "="
 262d261
 < STR_CONST "\n"
-266c265
-< OBJECTID i
----
-> LONGERROR
-277,278c276,277
-< OBJECTID i
+278c277
 < ','
 ---
-> LONGERROR
-> LONGERROR
+> ERROR ","
 285d283
 < STR_CONST "\n"
-288c286
-< OBJECTID i
----
-> LONGERROR
-290c288
-< OBJECTID i
----
-> LONGERROR
 299d296
 < STR_CONST "\n"
 345c342
 < ','
 ---
-> LONGERROR
+> ERROR ","
 432c429
 < '='
 ---
-> LONGERROR
+> ERROR "="
 461c458
 < '='
 ---
-> LONGERROR
+> ERROR "="
 476c473
 < '='
 ---
-> LONGERROR
+> ERROR "="
 521c518
 < '='
 ---
-> LONGERROR
+> ERROR "="
 570c567
 < '='
 ---
-> LONGERROR
+> ERROR "="
 623c620
 < '='
 ---
-> LONGERROR
+> ERROR "="
 672c669
 < '='
 ---
-> LONGERROR
+> ERROR "="
 702c699
 < '='
 ---
-> LONGERROR
+> ERROR "="
 715c712
 < '='
 ---
-> LONGERROR
+> ERROR "="
 728c725
 < '='
 ---
-> LONGERROR
+> ERROR "="
 741c738
 < '='
 ---
-> LONGERROR
+> ERROR "="
 754c751
 < '='
 ---
-> LONGERROR
+> ERROR "="
 767c764
 < '='
 ---
-> LONGERROR
+> ERROR "="
 780c777
 < '='
 ---
-> LONGERROR
+> ERROR "="
 793c790
 < '='
 ---
-> LONGERROR
+> ERROR "="
 818c815
 < '='
 ---
-> LONGERROR
+> ERROR "="
 828c825
 < '='
 ---
-> LONGERROR
+> ERROR "="
 836c833
 < '='
 ---
-> LONGERROR
+> ERROR "="
 935c932
 < STR_CONST "\nPlease chose a number:\n"
 ---
@@ -219,87 +201,87 @@
 1061c1057
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1068c1064
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1075c1071
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1082c1078
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1089c1085
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1096c1092
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1103c1099
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1110c1106
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1117c1113
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1124c1120
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1131c1127
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1138c1134
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1145c1141
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1152c1148
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1159c1155
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1166c1162
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1173c1169
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1180c1176
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1187c1183
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1194c1190
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1201c1197
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1251c1247
 < STR_CONST "Would you like to continue with the next generation? \n"
 ---
@@ -309,7 +291,7 @@
 1272c1267
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1301d1295
 < STR_CONST "\n\n"
 1306c1300
@@ -319,7 +301,7 @@
 1322c1316
 < '='
 ---
-> LONGERROR
+> ERROR "="
 1367c1361
 < STR_CONST "Welcome to the Game of Life.\n"
 ---

@@ -13,70 +13,70 @@
 #15 '{'
 #16 IF
 #16 OBJECTID char
-#16 ERROR "Uncaught error."
+#16 ERROR "="
 #16 STR_CONST "0"
 #16 THEN
 #16 INT_CONST 0
 #16 ELSE
 #17 IF
 #17 OBJECTID char
-#17 ERROR "Uncaught error."
+#17 ERROR "="
 #17 STR_CONST "1"
 #17 THEN
 #17 INT_CONST 1
 #17 ELSE
 #18 IF
 #18 OBJECTID char
-#18 ERROR "Uncaught error."
+#18 ERROR "="
 #18 STR_CONST "2"
 #18 THEN
 #18 INT_CONST 2
 #18 ELSE
 #19 IF
 #19 OBJECTID char
-#19 ERROR "Uncaught error."
+#19 ERROR "="
 #19 STR_CONST "3"
 #19 THEN
 #19 INT_CONST 3
 #19 ELSE
 #20 IF
 #20 OBJECTID char
-#20 ERROR "Uncaught error."
+#20 ERROR "="
 #20 STR_CONST "4"
 #20 THEN
 #20 INT_CONST 4
 #20 ELSE
 #21 IF
 #21 OBJECTID char
-#21 ERROR "Uncaught error."
+#21 ERROR "="
 #21 STR_CONST "5"
 #21 THEN
 #21 INT_CONST 5
 #21 ELSE
 #22 IF
 #22 OBJECTID char
-#22 ERROR "Uncaught error."
+#22 ERROR "="
 #22 STR_CONST "6"
 #22 THEN
 #22 INT_CONST 6
 #22 ELSE
 #23 IF
 #23 OBJECTID char
-#23 ERROR "Uncaught error."
+#23 ERROR "="
 #23 STR_CONST "7"
 #23 THEN
 #23 INT_CONST 7
 #23 ELSE
 #24 IF
 #24 OBJECTID char
-#24 ERROR "Uncaught error."
+#24 ERROR "="
 #24 STR_CONST "8"
 #24 THEN
 #24 INT_CONST 8
 #24 ELSE
 #25 IF
 #25 OBJECTID char
-#25 ERROR "Uncaught error."
+#25 ERROR "="
 #25 STR_CONST "9"
 #25 THEN
 #25 INT_CONST 9
@@ -103,7 +103,7 @@
 #28 ';'
 #33 OBJECTID i2c
 #33 '('
-#33 ERROR "Uncaught error."
+#33 OBJECTID i
 #33 ':'
 #33 TYPEID Int
 #33 ')'
@@ -111,71 +111,71 @@
 #33 TYPEID String
 #33 '{'
 #34 IF
-#34 ERROR "Uncaught error."
-#34 ERROR "Uncaught error."
+#34 OBJECTID i
+#34 ERROR "="
 #34 INT_CONST 0
 #34 THEN
 #34 STR_CONST "0"
 #34 ELSE
 #35 IF
-#35 ERROR "Uncaught error."
-#35 ERROR "Uncaught error."
+#35 OBJECTID i
+#35 ERROR "="
 #35 INT_CONST 1
 #35 THEN
 #35 STR_CONST "1"
 #35 ELSE
 #36 IF
-#36 ERROR "Uncaught error."
-#36 ERROR "Uncaught error."
+#36 OBJECTID i
+#36 ERROR "="
 #36 INT_CONST 2
 #36 THEN
 #36 STR_CONST "2"
 #36 ELSE
 #37 IF
-#37 ERROR "Uncaught error."
-#37 ERROR "Uncaught error."
+#37 OBJECTID i
+#37 ERROR "="
 #37 INT_CONST 3
 #37 THEN
 #37 STR_CONST "3"
 #37 ELSE
 #38 IF
-#38 ERROR "Uncaught error."
-#38 ERROR "Uncaught error."
+#38 OBJECTID i
+#38 ERROR "="
 #38 INT_CONST 4
 #38 THEN
 #38 STR_CONST "4"
 #38 ELSE
 #39 IF
-#39 ERROR "Uncaught error."
-#39 ERROR "Uncaught error."
+#39 OBJECTID i
+#39 ERROR "="
 #39 INT_CONST 5
 #39 THEN
 #39 STR_CONST "5"
 #39 ELSE
 #40 IF
-#40 ERROR "Uncaught error."
-#40 ERROR "Uncaught error."
+#40 OBJECTID i
+#40 ERROR "="
 #40 INT_CONST 6
 #40 THEN
 #40 STR_CONST "6"
 #40 ELSE
 #41 IF
-#41 ERROR "Uncaught error."
-#41 ERROR "Uncaught error."
+#41 OBJECTID i
+#41 ERROR "="
 #41 INT_CONST 7
 #41 THEN
 #41 STR_CONST "7"
 #41 ELSE
 #42 IF
-#42 ERROR "Uncaught error."
-#42 ERROR "Uncaught error."
+#42 OBJECTID i
+#42 ERROR "="
 #42 INT_CONST 8
 #42 THEN
 #42 STR_CONST "8"
 #42 ELSE
 #43 IF
-#43 ERROR "Uncaught error."
-#43 ERROR "Uncaught error."
+#43 OBJECTID i
+#43 ERROR "="
 #43 INT_CONST 9
 #43 THEN
 #43 STR_CONST "9"
@@ -201,7 +201,7 @@
 #46 ';'
 #56 OBJECTID a2i
 #56 '('
-#56 ERROR "Uncaught error."
+#56 OBJECTID s
 #56 ':'
 #56 TYPEID String
 #56 ')'
@@ -209,38 +209,38 @@
 #56 TYPEID Int
 #56 '{'
 #57 IF
-#57 ERROR "Uncaught error."
+#57 OBJECTID s
 #57 '.'
 #57 OBJECTID length
 #57 '('
 #57 ')'
-#57 ERROR "Uncaught error."
+#57 ERROR "="
 #57 INT_CONST 0
 #57 THEN
 #57 INT_CONST 0
 #57 ELSE
 #58 IF
-#58 ERROR "Uncaught error."
+#58 OBJECTID s
 #58 '.'
 #58 OBJECTID substr
 #58 '('
 #58 INT_CONST 0
-#58 ERROR "Uncaught error."
+#58 ERROR ","
 #58 INT_CONST 1
 #58 ')'
-#58 ERROR "Uncaught error."
+#58 ERROR "="
 #58 STR_CONST "-"
 #58 THEN
-#58 ERROR "Uncaught error."
+#58 ERROR "~"
 #58 OBJECTID a2i_aux
 #58 '('
-#58 ERROR "Uncaught error."
+#58 OBJECTID s
 #58 '.'
 #58 OBJECTID substr
 #58 '('
 #58 INT_CONST 1
-#58 ERROR "Uncaught error."
-#58 ERROR "Uncaught error."
+#58 ERROR ","
+#58 OBJECTID s
 #58 '.'
 #58 OBJECTID length
 #58 '('
@@ -251,26 +251,26 @@
 #58 ')'
 #58 ELSE
 #59 IF
-#59 ERROR "Uncaught error."
+#59 OBJECTID s
 #59 '.'
 #59 OBJECTID substr
 #59 '('
 #59 INT_CONST 0
-#59 ERROR "Uncaught error."
+#59 ERROR ","
 #59 INT_CONST 1
 #59 ')'
-#59 ERROR "Uncaught error."
+#59 ERROR "="
 #59 STR_CONST "+"
 #59 THEN
 #59 OBJECTID a2i_aux
 #59 '('
-#59 ERROR "Uncaught error."
+#59 OBJECTID s
 #59 '.'
 #59 OBJECTID substr
 #59 '('
 #59 INT_CONST 1
-#59 ERROR "Uncaught error."
-#59 ERROR "Uncaught error."
+#59 ERROR ","
+#59 OBJECTID s
 #59 '.'
 #59 OBJECTID length
 #59 '('
@@ -282,7 +282,7 @@
 #59 ELSE
 #60 OBJECTID a2i_aux
 #60 '('
-#60 ERROR "Uncaught error."
+#60 OBJECTID s
 #60 ')'
 #61 FI
 #61 FI
@@ -291,7 +291,7 @@
 #62 ';'
 #68 OBJECTID a2i_aux
 #68 '('
-#68 ERROR "Uncaught error."
+#68 OBJECTID s
 #68 ':'
 #68 TYPEID String
 #68 ')'
@@ -309,11 +309,11 @@
 #70 '{'
 #71 '('
 #71 LET
-#71 ERROR "Uncaught error."
+#71 OBJECTID j
 #71 ':'
 #71 TYPEID Int
 #71 ASSIGN
-#71 ERROR "Uncaught error."
+#71 OBJECTID s
 #71 '.'
 #71 OBJECTID length
 #71 '('
@@ -321,16 +321,16 @@
 #71 IN
 #72 '('
 #72 LET
-#72 ERROR "Uncaught error."
+#72 OBJECTID i
 #72 ':'
 #72 TYPEID Int
 #72 ASSIGN
 #72 INT_CONST 0
 #72 IN
 #73 WHILE
-#73 ERROR "Uncaught error."
+#73 OBJECTID i
 #73 '<'
-#73 ERROR "Uncaught error."
+#73 OBJECTID j
 #73 LOOP
 #74 '{'
 #75 OBJECTID int
@@ -341,19 +341,19 @@
 #75 '+'
 #75 OBJECTID c2i
 #75 '('
-#75 ERROR "Uncaught error."
+#75 OBJECTID s
 #75 '.'
 #75 OBJECTID substr
 #75 '('
-#75 ERROR "Uncaught error."
-#75 ERROR "Uncaught error."
+#75 OBJECTID i
+#75 ERROR ","
 #75 INT_CONST 1
 #75 ')'
 #75 ')'
 #75 ';'
-#76 ERROR "Uncaught error."
+#76 OBJECTID i
 #76 ASSIGN
-#76 ERROR "Uncaught error."
+#76 OBJECTID i
 #76 '+'
 #76 INT_CONST 1
 #76 ';'
@@ -370,7 +370,7 @@
 #84 ';'
 #90 OBJECTID i2a
 #90 '('
-#90 ERROR "Uncaught error."
+#90 OBJECTID i
 #90 ':'
 #90 TYPEID Int
 #90 ')'
@@ -378,8 +378,8 @@
 #90 TYPEID String
 #90 '{'
 #91 IF
-#91 ERROR "Uncaught error."
-#91 ERROR "Uncaught error."
+#91 OBJECTID i
+#91 ERROR "="
 #91 INT_CONST 0
 #91 THEN
 #91 STR_CONST "0"
@@ -387,11 +387,11 @@
 #92 IF
 #92 INT_CONST 0
 #92 '<'
-#92 ERROR "Uncaught error."
+#92 OBJECTID i
 #92 THEN
 #92 OBJECTID i2a_aux
 #92 '('
-#92 ERROR "Uncaught error."
+#92 OBJECTID i
 #92 ')'
 #92 ELSE
 #93 STR_CONST "-"
@@ -400,9 +400,9 @@
 #93 '('
 #93 OBJECTID i2a_aux
 #93 '('
-#93 ERROR "Uncaught error."
+#93 OBJECTID i
 #93 '*'
-#93 ERROR "Uncaught error."
+#93 ERROR "~"
 #93 INT_CONST 1
 #93 ')'
 #93 ')'
@@ -412,7 +412,7 @@
 #95 ';'
 #100 OBJECTID i2a_aux
 #100 '('
-#100 ERROR "Uncaught error."
+#100 OBJECTID i
 #100 ':'
 #100 TYPEID Int
 #100 ')'
@@ -420,8 +420,8 @@
 #100 TYPEID String
 #100 '{'
 #101 IF
-#101 ERROR "Uncaught error."
-#101 ERROR "Uncaught error."
+#101 OBJECTID i
+#101 ERROR "="
 #101 INT_CONST 0
 #101 THEN
 #101 ELSE
@@ -431,7 +431,7 @@
 #102 ':'
 #102 TYPEID Int
 #102 ASSIGN
-#102 ERROR "Uncaught error."
+#102 OBJECTID i
 #102 '/'
 #102 INT_CONST 10
 #102 IN
@@ -444,7 +444,7 @@
 #103 '('
 #103 OBJECTID i2c
 #103 '('
-#103 ERROR "Uncaught error."
+#103 OBJECTID i
 #103 '-'
 #103 OBJECTID next
 #103 '*'

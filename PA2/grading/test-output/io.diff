@@ -1,7 +1,7 @@
 2c2
 < TYPEID A
 ---
-> LONGERROR
+> ERROR "A"
 21c21
 < STR_CONST "A: Hello world\n"
 ---
@@ -9,11 +9,11 @@
 28c28
 < TYPEID B
 ---
-> LONGERROR
+> ERROR "B"
 30c30
 < TYPEID A
 ---
-> LONGERROR
+> ERROR "A"
 42c42
 < STR_CONST "B: Hello world\n"
 ---
@@ -21,7 +21,7 @@
 49c49
 < TYPEID C
 ---
-> LONGERROR
+> ERROR "C"
 61c61
 < STR_CONST "C: Hello world\n"
 ---
@@ -29,11 +29,11 @@
 68c68
 < TYPEID D
 ---
-> LONGERROR
+> ERROR "D"
 70c70
 < TYPEID C
 ---
-> LONGERROR
+> ERROR "C"
 80c80
 < STR_CONST "D: Hello world\n"
 ---
@@ -41,19 +41,19 @@
 100c100
 < TYPEID A
 ---
-> LONGERROR
+> ERROR "A"
 109c109
 < TYPEID B
 ---
-> LONGERROR
+> ERROR "B"
 118c118
 < TYPEID C
 ---
-> LONGERROR
+> ERROR "C"
 127c127
 < TYPEID D
 ---
-> LONGERROR
+> ERROR "D"
 136c136
 < STR_CONST "Done.\n"
 ---

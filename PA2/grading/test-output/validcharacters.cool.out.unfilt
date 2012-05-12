@@ -3,15 +3,15 @@
 #1 '/'
 #1 '-'
 #1 '*'
-#1 ERROR "Uncaught error."
+#1 ERROR "="
 #1 '<'
 #1 '.'
-#1 ERROR "Uncaught error."
-#1 ERROR "Uncaught error."
+#1 ERROR "~"
+#1 ERROR ","
 #1 ';'
 #1 ':'
 #1 '('
 #1 ')'
-#1 ERROR "Uncaught error."
+#1 ERROR "@"
 #1 '{'
 #1 '}'

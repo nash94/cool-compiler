@@ -16,7 +16,7 @@ OBJECTID initBook
 OBJECTID title_p
 ':'
 TYPEID String
-LONGERROR
+ERROR ","
 OBJECTID author_p
 ':'
 TYPEID String
@@ -94,11 +94,11 @@ OBJECTID initArticle
 OBJECTID title_p
 ':'
 TYPEID String
-LONGERROR
+ERROR ","
 OBJECTID author_p
 ':'
 TYPEID String
-LONGERROR
+ERROR ","
 OBJECTID per_title_p
 ':'
 TYPEID String
@@ -110,7 +110,7 @@ TYPEID Article
 OBJECTID initBook
 '('
 OBJECTID title_p
-LONGERROR
+ERROR ","
 OBJECTID author_p
 ')'
 ';'
@@ -131,7 +131,7 @@ TYPEID Book
 '{'
 '{'
 OBJECTID self
-LONGERROR
+ERROR "@"
 TYPEID Book
 '.'
 OBJECTID print
@@ -203,7 +203,7 @@ OBJECTID new_cell
 OBJECTID init
 '('
 OBJECTID hd
-LONGERROR
+ERROR ","
 OBJECTID self
 ')'
 ')'
@@ -283,7 +283,7 @@ OBJECTID init
 OBJECTID hd
 ':'
 TYPEID Book
-LONGERROR
+ERROR ","
 OBJECTID tl
 ':'
 TYPEID BookList
@@ -420,7 +420,7 @@ TYPEID Book
 OBJECTID initBook
 '('
 STR_CONST "Compilers, Principles, Techniques, and Tools"
-LONGERROR
+ERROR ","
 STR_CONST "Aho, Sethi, and Ullman"
 ')'
 IN
@@ -438,9 +438,9 @@ TYPEID Article
 OBJECTID initArticle
 '('
 STR_CONST "The Top 100 CD_ROMs"
-LONGERROR
+ERROR ","
 STR_CONST "Ulanoff"
-LONGERROR
+ERROR ","
 STR_CONST "PC Magazine"
 ')'
 IN

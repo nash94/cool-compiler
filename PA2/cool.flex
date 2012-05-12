@@ -78,7 +78,7 @@ NOT_REG         [n|N][o|O][t|T]
 DIGIT           [0-9]+
 
 TYPE_ID         [A-Z][a-zA-Z0-9_]+
-OBJECT_ID       [a-z]+[a-zA-Z0-9_]+
+OBJECT_ID       [a-z]+[a-zA-Z0-9_]*
 
 PLUS_OP         "+"
 MINUS_OP        "-"
@@ -250,6 +250,7 @@ LEADING_UNDERSCORE [_]+[^.]
                        return(ERROR);
                      }
 
+
 {WHITE_SPACE}
 
 {NEW_LINE}      { curr_lineno++; }
@@ -258,6 +259,6 @@ LEADING_UNDERSCORE [_]+[^.]
                   return(ERROR);
                 }
 
-.               { cool_yylval.error_msg = "Uncaught error.";
+.               { cool_yylval.error_msg = yytext;
                   return(ERROR);
                 }

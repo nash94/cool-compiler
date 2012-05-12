@@ -2,15 +2,15 @@
 '/'
 '-'
 '*'
-LONGERROR
+ERROR "="
 '<'
 '.'
-LONGERROR
-LONGERROR
+ERROR "~"
+ERROR ","
 ';'
 ':'
 '('
 ')'
-LONGERROR
+ERROR "@"
 '{'
 '}'

@@ -1,7 +1,7 @@
 19c19
 < ','
 ---
-> LONGERROR
+> ERROR ","
 60d59
 < STR_CONST "\n"
 75d73
@@ -9,29 +9,29 @@
 99c97
 < ','
 ---
-> LONGERROR
+> ERROR ","
 103c101
 < ','
 ---
-> LONGERROR
+> ERROR ","
 115c113
 < ','
 ---
-> LONGERROR
+> ERROR ","
 136c134
 < '@'
 ---
-> LONGERROR
+> ERROR "@"
 155d152
 < STR_CONST "\n"
 209c206
 < ','
 ---
-> LONGERROR
+> ERROR ","
 289c286
 < ','
 ---
-> LONGERROR
+> ERROR ","
 349c346
 < STR_CONST "- dynamic type was Book -\n"
 ---
@@ -43,12 +43,12 @@
 426c423
 < ','
 ---
-> LONGERROR
+> ERROR ","
 444c441
 < ','
 ---
-> LONGERROR
+> ERROR ","
 446c443
 < ','
 ---
-> LONGERROR
+> ERROR ","
