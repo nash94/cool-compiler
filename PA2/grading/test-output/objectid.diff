@@ -1,32 +1,22 @@
-16a17
-> INT_CONST 3432
-17a19
-> OBJECTID edfj
-19,28c21
+18,20c18
+< ERROR "_"
 < INT_CONST 23432
 < ERROR "_"
-< ERROR "_"
-< OBJECTID fedfj
-< ERROR "_"
-< ERROR "_"
-< ERROR "_"
+---
+> INT_CONST 3432
+26,28c24
 < ERROR "_"
 < ERROR "_"
 < INT_CONST 3232
 ---
 > INT_CONST 232
-45a39
-> INT_CONST 3432
-46a41
-> OBJECTID edfj
-48,57c43
+47,49c43
+< ERROR "_"
 < INT_CONST 23432
 < ERROR "_"
-< ERROR "_"
-< OBJECTID fedfj
-< ERROR "_"
-< ERROR "_"
-< ERROR "_"
+---
+> INT_CONST 3432
+55,57c49
 < ERROR "_"
 < ERROR "_"
 < INT_CONST 3232
