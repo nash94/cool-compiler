@@ -246,7 +246,9 @@ PIPE            [\|]
                    return (STR_CONST);
                 }
 
-
+<str><<EOF>>    { cool_yylval.error_msg = "EOF in string constant";
+                  yyterminate();
+                }
 
 {DIGIT}         { cool_yylval.symbol = inttable.add_string(yytext); 
                   return (INT_CONST); 
