@@ -1,3 +1,1855 @@
-#name "./arith.cool"
-#7 CLASS
-Segmentation fault
+CLASS
+LONGERROR
+'{'
+OBJECTID var
+':'
+TYPEID Int
+ASSIGN
+INT_CONST 0
+';'
+OBJECTID value
+'('
+')'
+':'
+TYPEID Int
+'{'
+OBJECTID var
+'}'
+';'
+OBJECTID set_var
+'('
+OBJECTID num
+':'
+TYPEID Int
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+'{'
+OBJECTID var
+ASSIGN
+OBJECTID num
+';'
+OBJECTID self
+';'
+'}'
+'}'
+';'
+OBJECTID method1
+'('
+OBJECTID num
+':'
+TYPEID Int
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+OBJECTID self
+'}'
+';'
+OBJECTID method2
+'('
+OBJECTID num1
+':'
+TYPEID Int
+LONGERROR
+OBJECTID num2
+':'
+TYPEID Int
+')'
+':'
+LONGERROR
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+IN
+'{'
+LONGERROR
+ASSIGN
+OBJECTID num1
+'+'
+OBJECTID num2
+';'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID set_var
+'('
+LONGERROR
+')'
+';'
+'}'
+')'
+'}'
+';'
+OBJECTID method3
+'('
+OBJECTID num
+':'
+TYPEID Int
+')'
+':'
+LONGERROR
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+IN
+'{'
+LONGERROR
+ASSIGN
+LONGERROR
+OBJECTID num
+';'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID set_var
+'('
+LONGERROR
+')'
+';'
+'}'
+')'
+'}'
+';'
+OBJECTID method4
+'('
+OBJECTID num1
+':'
+TYPEID Int
+LONGERROR
+OBJECTID num2
+':'
+TYPEID Int
+')'
+':'
+LONGERROR
+'{'
+IF
+OBJECTID num2
+'<'
+OBJECTID num1
+THEN
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+IN
+'{'
+LONGERROR
+ASSIGN
+OBJECTID num1
+'-'
+OBJECTID num2
+';'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID set_var
+'('
+LONGERROR
+')'
+';'
+'}'
+')'
+ELSE
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+IN
+'{'
+LONGERROR
+ASSIGN
+OBJECTID num2
+'-'
+OBJECTID num1
+';'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID set_var
+'('
+LONGERROR
+')'
+';'
+'}'
+')'
+FI
+'}'
+';'
+OBJECTID method5
+'('
+OBJECTID num
+':'
+TYPEID Int
+')'
+':'
+LONGERROR
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+ASSIGN
+INT_CONST 1
+IN
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+ASSIGN
+INT_CONST 1
+IN
+WHILE
+LONGERROR
+'<'
+LONGERROR
+OBJECTID num
+LOOP
+'{'
+LONGERROR
+ASSIGN
+LONGERROR
+'*'
+LONGERROR
+';'
+LONGERROR
+ASSIGN
+LONGERROR
+'+'
+INT_CONST 1
+';'
+'}'
+POOL
+')'
+';'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID set_var
+'('
+LONGERROR
+')'
+';'
+'}'
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+LONGERROR
+INHERITS
+LONGERROR
+'{'
+OBJECTID method5
+'('
+OBJECTID num
+':'
+TYPEID Int
+')'
+':'
+LONGERROR
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+IN
+'{'
+LONGERROR
+ASSIGN
+OBJECTID num
+'*'
+OBJECTID num
+';'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID set_var
+'('
+LONGERROR
+')'
+';'
+'}'
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+LONGERROR
+INHERITS
+LONGERROR
+'{'
+OBJECTID method6
+'('
+OBJECTID num
+':'
+TYPEID Int
+')'
+':'
+LONGERROR
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+IN
+'{'
+LONGERROR
+ASSIGN
+LONGERROR
+OBJECTID num
+';'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID set_var
+'('
+LONGERROR
+')'
+';'
+'}'
+')'
+'}'
+';'
+OBJECTID method5
+'('
+OBJECTID num
+':'
+TYPEID Int
+')'
+':'
+LONGERROR
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+IN
+'{'
+LONGERROR
+ASSIGN
+OBJECTID num
+'*'
+OBJECTID num
+'*'
+OBJECTID num
+';'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID set_var
+'('
+LONGERROR
+')'
+';'
+'}'
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+LONGERROR
+INHERITS
+LONGERROR
+'{'
+OBJECTID method7
+'('
+OBJECTID num
+':'
+TYPEID Int
+')'
+':'
+TYPEID Bool
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+ASSIGN
+OBJECTID num
+IN
+IF
+LONGERROR
+'<'
+INT_CONST 0
+THEN
+OBJECTID method7
+'('
+LONGERROR
+LONGERROR
+')'
+ELSE
+IF
+INT_CONST 0
+LONGERROR
+LONGERROR
+THEN
+BOOL_CONST true
+ELSE
+IF
+INT_CONST 1
+LONGERROR
+LONGERROR
+THEN
+BOOL_CONST false
+ELSE
+IF
+INT_CONST 2
+LONGERROR
+LONGERROR
+THEN
+BOOL_CONST false
+ELSE
+OBJECTID method7
+'('
+LONGERROR
+'-'
+INT_CONST 3
+')'
+FI
+FI
+FI
+FI
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+LONGERROR
+INHERITS
+LONGERROR
+'{'
+OBJECTID method6
+'('
+OBJECTID num
+':'
+TYPEID Int
+')'
+':'
+LONGERROR
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+IN
+'{'
+LONGERROR
+ASSIGN
+OBJECTID num
+'/'
+INT_CONST 8
+';'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID set_var
+'('
+LONGERROR
+')'
+';'
+'}'
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID A2I
+'{'
+OBJECTID c2i
+'('
+OBJECTID char
+':'
+TYPEID String
+')'
+':'
+TYPEID Int
+'{'
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "0"
+THEN
+INT_CONST 0
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "1"
+THEN
+INT_CONST 1
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "2"
+THEN
+INT_CONST 2
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "3"
+THEN
+INT_CONST 3
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "4"
+THEN
+INT_CONST 4
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "5"
+THEN
+INT_CONST 5
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "6"
+THEN
+INT_CONST 6
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "7"
+THEN
+INT_CONST 7
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "8"
+THEN
+INT_CONST 8
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "9"
+THEN
+INT_CONST 9
+ELSE
+'{'
+OBJECTID abort
+'('
+')'
+';'
+INT_CONST 0
+';'
+'}'
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+'}'
+';'
+OBJECTID i2c
+'('
+LONGERROR
+':'
+TYPEID Int
+')'
+':'
+TYPEID String
+'{'
+IF
+LONGERROR
+LONGERROR
+INT_CONST 0
+THEN
+STR_CONST "0"
+ELSE
+IF
+LONGERROR
+LONGERROR
+INT_CONST 1
+THEN
+STR_CONST "1"
+ELSE
+IF
+LONGERROR
+LONGERROR
+INT_CONST 2
+THEN
+STR_CONST "2"
+ELSE
+IF
+LONGERROR
+LONGERROR
+INT_CONST 3
+THEN
+STR_CONST "3"
+ELSE
+IF
+LONGERROR
+LONGERROR
+INT_CONST 4
+THEN
+STR_CONST "4"
+ELSE
+IF
+LONGERROR
+LONGERROR
+INT_CONST 5
+THEN
+STR_CONST "5"
+ELSE
+IF
+LONGERROR
+LONGERROR
+INT_CONST 6
+THEN
+STR_CONST "6"
+ELSE
+IF
+LONGERROR
+LONGERROR
+INT_CONST 7
+THEN
+STR_CONST "7"
+ELSE
+IF
+LONGERROR
+LONGERROR
+INT_CONST 8
+THEN
+STR_CONST "8"
+ELSE
+IF
+LONGERROR
+LONGERROR
+INT_CONST 9
+THEN
+STR_CONST "9"
+ELSE
+'{'
+OBJECTID abort
+'('
+')'
+';'
+';'
+'}'
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+'}'
+';'
+OBJECTID a2i
+'('
+LONGERROR
+':'
+TYPEID String
+')'
+':'
+TYPEID Int
+'{'
+IF
+LONGERROR
+'.'
+OBJECTID length
+'('
+')'
+LONGERROR
+INT_CONST 0
+THEN
+INT_CONST 0
+ELSE
+IF
+LONGERROR
+'.'
+OBJECTID substr
+'('
+INT_CONST 0
+LONGERROR
+INT_CONST 1
+')'
+LONGERROR
+STR_CONST "-"
+THEN
+LONGERROR
+OBJECTID a2i_aux
+'('
+LONGERROR
+'.'
+OBJECTID substr
+'('
+INT_CONST 1
+LONGERROR
+LONGERROR
+'.'
+OBJECTID length
+'('
+')'
+'-'
+INT_CONST 1
+')'
+')'
+ELSE
+IF
+LONGERROR
+'.'
+OBJECTID substr
+'('
+INT_CONST 0
+LONGERROR
+INT_CONST 1
+')'
+LONGERROR
+STR_CONST "+"
+THEN
+OBJECTID a2i_aux
+'('
+LONGERROR
+'.'
+OBJECTID substr
+'('
+INT_CONST 1
+LONGERROR
+LONGERROR
+'.'
+OBJECTID length
+'('
+')'
+'-'
+INT_CONST 1
+')'
+')'
+ELSE
+OBJECTID a2i_aux
+'('
+LONGERROR
+')'
+FI
+FI
+FI
+'}'
+';'
+OBJECTID a2i_aux
+'('
+LONGERROR
+':'
+TYPEID String
+')'
+':'
+TYPEID Int
+'{'
+'('
+LET
+OBJECTID int
+':'
+TYPEID Int
+ASSIGN
+INT_CONST 0
+IN
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+ASSIGN
+LONGERROR
+'.'
+OBJECTID length
+'('
+')'
+IN
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+ASSIGN
+INT_CONST 0
+IN
+WHILE
+LONGERROR
+'<'
+LONGERROR
+LOOP
+'{'
+OBJECTID int
+ASSIGN
+OBJECTID int
+'*'
+INT_CONST 10
+'+'
+OBJECTID c2i
+'('
+LONGERROR
+'.'
+OBJECTID substr
+'('
+LONGERROR
+LONGERROR
+INT_CONST 1
+')'
+')'
+';'
+LONGERROR
+ASSIGN
+LONGERROR
+'+'
+INT_CONST 1
+';'
+'}'
+POOL
+')'
+')'
+';'
+OBJECTID int
+';'
+'}'
+')'
+'}'
+';'
+OBJECTID i2a
+'('
+LONGERROR
+':'
+TYPEID Int
+')'
+':'
+TYPEID String
+'{'
+IF
+LONGERROR
+LONGERROR
+INT_CONST 0
+THEN
+STR_CONST "0"
+ELSE
+IF
+INT_CONST 0
+'<'
+LONGERROR
+THEN
+OBJECTID i2a_aux
+'('
+LONGERROR
+')'
+ELSE
+STR_CONST "-"
+'.'
+OBJECTID concat
+'('
+OBJECTID i2a_aux
+'('
+LONGERROR
+'*'
+LONGERROR
+INT_CONST 1
+')'
+')'
+FI
+FI
+'}'
+';'
+OBJECTID i2a_aux
+'('
+LONGERROR
+':'
+TYPEID Int
+')'
+':'
+TYPEID String
+'{'
+IF
+LONGERROR
+LONGERROR
+INT_CONST 0
+THEN
+ELSE
+'('
+LET
+OBJECTID next
+':'
+TYPEID Int
+ASSIGN
+LONGERROR
+'/'
+INT_CONST 10
+IN
+OBJECTID i2a_aux
+'('
+OBJECTID next
+')'
+'.'
+OBJECTID concat
+'('
+OBJECTID i2c
+'('
+LONGERROR
+'-'
+OBJECTID next
+'*'
+INT_CONST 10
+')'
+')'
+')'
+FI
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID Main
+INHERITS
+TYPEID IO
+'{'
+OBJECTID char
+':'
+TYPEID String
+';'
+OBJECTID avar
+':'
+LONGERROR
+';'
+OBJECTID a_var
+':'
+LONGERROR
+';'
+OBJECTID flag
+':'
+TYPEID Bool
+ASSIGN
+BOOL_CONST true
+';'
+OBJECTID menu
+'('
+')'
+':'
+TYPEID String
+'{'
+'{'
+OBJECTID out_string
+'('
+STR_CONST "To add a number to "
+')'
+';'
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "...enter a:"
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "To negate "
+')'
+';'
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "...enter b:"
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "To find the difference between "
+')'
+';'
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "and another number...enter c:"
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "To find the factorial of "
+')'
+';'
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "...enter d:"
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "To square "
+')'
+';'
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "...enter e:"
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "To cube "
+')'
+';'
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "...enter f:"
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "To find out if "
+')'
+';'
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "is a multiple of 3...enter g:"
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "To divide "
+')'
+';'
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "by 8...enter h:"
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "To get a new number...enter j:"
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "To quit...enter q:"
+')'
+';'
+OBJECTID in_string
+'('
+')'
+';'
+'}'
+'}'
+';'
+OBJECTID prompt
+'('
+')'
+':'
+TYPEID String
+'{'
+'{'
+OBJECTID out_string
+'('
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "Please enter a number...  "
+')'
+';'
+OBJECTID in_string
+'('
+')'
+';'
+'}'
+'}'
+';'
+OBJECTID get_int
+'('
+')'
+':'
+TYPEID Int
+'{'
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID A2I
+ASSIGN
+NEW
+TYPEID A2I
+IN
+'('
+LET
+LONGERROR
+':'
+TYPEID String
+ASSIGN
+OBJECTID prompt
+'('
+')'
+IN
+LONGERROR
+'.'
+OBJECTID a2i
+'('
+LONGERROR
+')'
+')'
+')'
+';'
+'}'
+'}'
+';'
+OBJECTID is_even
+'('
+OBJECTID num
+':'
+TYPEID Int
+')'
+':'
+TYPEID Bool
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+ASSIGN
+OBJECTID num
+IN
+IF
+LONGERROR
+'<'
+INT_CONST 0
+THEN
+OBJECTID is_even
+'('
+LONGERROR
+LONGERROR
+')'
+ELSE
+IF
+INT_CONST 0
+LONGERROR
+LONGERROR
+THEN
+BOOL_CONST true
+ELSE
+IF
+INT_CONST 1
+LONGERROR
+LONGERROR
+THEN
+BOOL_CONST false
+ELSE
+OBJECTID is_even
+'('
+LONGERROR
+'-'
+INT_CONST 2
+')'
+FI
+FI
+FI
+')'
+'}'
+';'
+OBJECTID class_type
+'('
+OBJECTID var
+':'
+LONGERROR
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+CASE
+OBJECTID var
+OF
+LONGERROR
+':'
+LONGERROR
+DARROW
+OBJECTID out_string
+'('
+STR_CONST "Class type is now A"
+')'
+';'
+LONGERROR
+':'
+LONGERROR
+DARROW
+OBJECTID out_string
+'('
+STR_CONST "Class type is now B"
+')'
+';'
+LONGERROR
+':'
+LONGERROR
+DARROW
+OBJECTID out_string
+'('
+STR_CONST "Class type is now C"
+')'
+';'
+LONGERROR
+':'
+LONGERROR
+DARROW
+OBJECTID out_string
+'('
+STR_CONST "Class type is now D"
+')'
+';'
+LONGERROR
+':'
+LONGERROR
+DARROW
+OBJECTID out_string
+'('
+STR_CONST "Class type is now E"
+')'
+';'
+LONGERROR
+':'
+TYPEID Object
+DARROW
+OBJECTID out_string
+'('
+STR_CONST "Oooops"
+')'
+';'
+ESAC
+'}'
+';'
+OBJECTID print
+'('
+OBJECTID var
+':'
+LONGERROR
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+'('
+LET
+LONGERROR
+':'
+TYPEID A2I
+ASSIGN
+NEW
+TYPEID A2I
+IN
+'{'
+OBJECTID out_string
+'('
+LONGERROR
+'.'
+OBJECTID i2a
+'('
+OBJECTID var
+'.'
+OBJECTID value
+'('
+')'
+')'
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST " "
+')'
+';'
+'}'
+')'
+'}'
+';'
+OBJECTID main
+'('
+')'
+':'
+TYPEID Object
+'{'
+'{'
+OBJECTID avar
+ASSIGN
+'('
+NEW
+LONGERROR
+')'
+';'
+WHILE
+OBJECTID flag
+LOOP
+'{'
+OBJECTID out_string
+'('
+STR_CONST "number "
+')'
+';'
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+IF
+OBJECTID is_even
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+THEN
+OBJECTID out_string
+'('
+STR_CONST "is even!"
+')'
+ELSE
+OBJECTID out_string
+'('
+STR_CONST "is odd!"
+')'
+FI
+';'
+OBJECTID class_type
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID char
+ASSIGN
+OBJECTID menu
+'('
+')'
+';'
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "a"
+THEN
+'{'
+OBJECTID a_var
+ASSIGN
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID set_var
+'('
+OBJECTID get_int
+'('
+')'
+')'
+';'
+OBJECTID avar
+ASSIGN
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID method2
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+LONGERROR
+OBJECTID a_var
+'.'
+OBJECTID value
+'('
+')'
+')'
+';'
+'}'
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "b"
+THEN
+CASE
+OBJECTID avar
+OF
+LONGERROR
+':'
+LONGERROR
+DARROW
+OBJECTID avar
+ASSIGN
+LONGERROR
+'.'
+OBJECTID method6
+'('
+LONGERROR
+'.'
+OBJECTID value
+'('
+')'
+')'
+';'
+LONGERROR
+':'
+LONGERROR
+DARROW
+OBJECTID avar
+ASSIGN
+LONGERROR
+'.'
+OBJECTID method3
+'('
+LONGERROR
+'.'
+OBJECTID value
+'('
+')'
+')'
+';'
+LONGERROR
+':'
+TYPEID Object
+DARROW
+'{'
+OBJECTID out_string
+'('
+STR_CONST "Oooops"
+')'
+';'
+OBJECTID abort
+'('
+')'
+';'
+INT_CONST 0
+';'
+'}'
+';'
+ESAC
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "c"
+THEN
+'{'
+OBJECTID a_var
+ASSIGN
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID set_var
+'('
+OBJECTID get_int
+'('
+')'
+')'
+';'
+OBJECTID avar
+ASSIGN
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID method4
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+LONGERROR
+OBJECTID a_var
+'.'
+OBJECTID value
+'('
+')'
+')'
+';'
+'}'
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "d"
+THEN
+OBJECTID avar
+ASSIGN
+'('
+NEW
+LONGERROR
+')'
+LONGERROR
+LONGERROR
+'.'
+OBJECTID method5
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "e"
+THEN
+OBJECTID avar
+ASSIGN
+'('
+NEW
+LONGERROR
+')'
+LONGERROR
+LONGERROR
+'.'
+OBJECTID method5
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "f"
+THEN
+OBJECTID avar
+ASSIGN
+'('
+NEW
+LONGERROR
+')'
+LONGERROR
+LONGERROR
+'.'
+OBJECTID method5
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "g"
+THEN
+IF
+'('
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID method7
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+')'
+THEN
+'{'
+OBJECTID out_string
+'('
+STR_CONST "number "
+')'
+';'
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "is divisible by 3."
+')'
+';'
+'}'
+ELSE
+'{'
+OBJECTID out_string
+'('
+STR_CONST "number "
+')'
+';'
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "is not divisible by 3."
+')'
+';'
+'}'
+FI
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "h"
+THEN
+'('
+LET
+LONGERROR
+':'
+LONGERROR
+IN
+'{'
+LONGERROR
+ASSIGN
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID method6
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+';'
+'('
+LET
+LONGERROR
+':'
+TYPEID Int
+ASSIGN
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+'-'
+'('
+LONGERROR
+'.'
+OBJECTID value
+'('
+')'
+'*'
+INT_CONST 8
+')'
+')'
+IN
+'{'
+OBJECTID out_string
+'('
+STR_CONST "number "
+')'
+';'
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "is equal to "
+')'
+';'
+OBJECTID print
+'('
+LONGERROR
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "times 8 with a remainder of "
+')'
+';'
+'('
+LET
+LONGERROR
+':'
+TYPEID A2I
+ASSIGN
+NEW
+TYPEID A2I
+IN
+'{'
+OBJECTID out_string
+'('
+LONGERROR
+'.'
+OBJECTID i2a
+'('
+LONGERROR
+')'
+')'
+';'
+OBJECTID out_string
+'('
+')'
+';'
+'}'
+')'
+';'
+'}'
+')'
+';'
+OBJECTID avar
+ASSIGN
+LONGERROR
+';'
+'}'
+')'
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "j"
+THEN
+OBJECTID avar
+ASSIGN
+'('
+NEW
+LONGERROR
+')'
+ELSE
+IF
+OBJECTID char
+LONGERROR
+STR_CONST "q"
+THEN
+OBJECTID flag
+ASSIGN
+BOOL_CONST false
+ELSE
+OBJECTID avar
+ASSIGN
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID method1
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+FI
+';'
+'}'
+POOL
+';'
+'}'
+'}'
+';'
+'}'
+';'

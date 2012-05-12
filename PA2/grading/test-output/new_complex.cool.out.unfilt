@@ -12,7 +12,7 @@
 #2 '{'
 #3 '('
 #3 LET
-#3 ERROR "`\242#\t\t"
+#3 ERROR "Uncaught error."
 #3 ':'
 #3 TYPEID Complex
 #3 ASSIGN
@@ -24,19 +24,19 @@
 #3 OBJECTID init
 #3 '('
 #3 INT_CONST 1
-#3 ERROR "\360\242#\t\001"
+#3 ERROR "Uncaught error."
 #3 INT_CONST 1
 #3 ')'
 #3 IN
 #4 '{'
 #6 IF
-#6 ERROR "\360\242#\t\001"
+#6 ERROR "Uncaught error."
 #6 '.'
 #6 OBJECTID reflect_X
 #6 '('
 #6 ')'
-#6 ERROR " \243#\t\t"
-#6 ERROR " \243#\t\t"
+#6 ERROR "Uncaught error."
+#6 ERROR "Uncaught error."
 #6 '.'
 #6 OBJECTID reflect_0
 #6 '('
@@ -54,7 +54,7 @@
 #9 FI
 #9 ';'
 #11 IF
-#11 ERROR "\340\243#\t\002"
+#11 ERROR "Uncaught error."
 #11 '.'
 #11 OBJECTID reflect_X
 #11 '('
@@ -66,7 +66,7 @@
 #11 '.'
 #11 OBJECTID equal
 #11 '('
-#11 ERROR "@\244#\t\005"
+#11 ERROR "Uncaught error."
 #11 '.'
 #11 OBJECTID reflect_0
 #11 '('
@@ -95,21 +95,21 @@
 #20 INHERITS
 #20 TYPEID IO
 #20 '{'
-#21 ERROR "\000"
+#21 ERROR "Uncaught error."
 #21 ':'
 #21 TYPEID Int
 #21 ';'
-#22 ERROR "p\244#\t\003"
+#22 ERROR "Uncaught error."
 #22 ':'
 #22 TYPEID Int
 #22 ';'
 #24 OBJECTID init
 #24 '('
-#24 ERROR "\300\242#\t\004"
+#24 ERROR "Uncaught error."
 #24 ':'
 #24 TYPEID Int
-#24 ERROR "p\244#\t\003"
-#24 ERROR "p\244#\t\003"
+#24 ERROR "Uncaught error."
+#24 ERROR "Uncaught error."
 #24 ':'
 #24 TYPEID Int
 #24 ')'
@@ -117,13 +117,13 @@
 #24 TYPEID Complex
 #24 '{'
 #25 '{'
-#26 ERROR "\220\242#\t\007"
-#26 ERROR "\220\242#\t\007"
-#26 ERROR "\220\242#\t\007"
+#26 ERROR "Uncaught error."
+#26 ERROR "Uncaught error."
+#26 ERROR "Uncaught error."
 #26 ';'
-#27 ERROR "\220\242#\t\007"
-#27 ERROR "\220\242#\t\007"
-#27 ERROR "\220\242#\t\007"
+#27 ERROR "Uncaught error."
+#27 ERROR "Uncaught error."
+#27 ERROR "Uncaught error."
 #27 ';'
 #28 OBJECTID self
 #28 ';'
@@ -137,18 +137,18 @@
 #32 TYPEID Object
 #32 '{'
 #33 IF
-#33 ERROR "\000"
-#33 ERROR "\000"
+#33 ERROR "Uncaught error."
+#33 ERROR "Uncaught error."
 #33 INT_CONST 0
 #34 THEN
 #34 OBJECTID out_int
 #34 '('
-#34 ERROR "`\245#\t\007"
+#34 ERROR "Uncaught error."
 #34 ')'
 #35 ELSE
 #35 OBJECTID out_int
 #35 '('
-#35 ERROR "`\245#\t\007"
+#35 ERROR "Uncaught error."
 #35 ')'
 #35 '.'
 #35 OBJECTID out_string
@@ -158,7 +158,7 @@
 #35 '.'
 #35 OBJECTID out_int
 #35 '('
-#35 ERROR "`\245#\t\007"
+#35 ERROR "Uncaught error."
 #35 ')'
 #35 '.'
 #35 OBJECTID out_string
@@ -175,15 +175,15 @@
 #39 TYPEID Complex
 #39 '{'
 #40 '{'
-#41 ERROR "\220\242#\t\007"
-#41 ERROR "\220\242#\t\007"
-#41 ERROR "\220\242#\t\007"
-#41 ERROR "\220\242#\t\007"
+#41 ERROR "Uncaught error."
+#41 ERROR "Uncaught error."
+#41 ERROR "Uncaught error."
+#41 ERROR "Uncaught error."
 #41 ';'
-#42 ERROR "\220\242#\t\007"
-#42 ERROR "\220\242#\t\007"
-#42 ERROR "\220\242#\t\007"
-#42 ERROR "\220\242#\t\007"
+#42 ERROR "Uncaught error."
+#42 ERROR "Uncaught error."
+#42 ERROR "Uncaught error."
+#42 ERROR "Uncaught error."
 #42 ';'
 #43 OBJECTID self
 #43 ';'
@@ -197,10 +197,10 @@
 #47 TYPEID Complex
 #47 '{'
 #48 '{'
-#49 ERROR "\220\242#\t\007"
-#49 ERROR "\220\242#\t\007"
-#49 ERROR "\220\242#\t\007"
-#49 ERROR "\220\242#\t\007"
+#49 ERROR "Uncaught error."
+#49 ERROR "Uncaught error."
+#49 ERROR "Uncaught error."
+#49 ERROR "Uncaught error."
 #49 ';'
 #50 OBJECTID self
 #50 ';'
@@ -214,10 +214,10 @@
 #54 TYPEID Complex
 #54 '{'
 #55 '{'
-#56 ERROR "\220\242#\t\007"
-#56 ERROR "\220\242#\t\007"
-#56 ERROR "\220\242#\t\007"
-#56 ERROR "\220\242#\t\007"
+#56 ERROR "Uncaught error."
+#56 ERROR "Uncaught error."
+#56 ERROR "Uncaught error."
+#56 ERROR "Uncaught error."
 #56 ';'
 #57 OBJECTID self
 #57 ';'
@@ -226,7 +226,7 @@
 #59 ';'
 #61 OBJECTID equal
 #61 '('
-#61 ERROR "@\244#\t\005"
+#61 ERROR "Uncaught error."
 #61 ':'
 #61 TYPEID Complex
 #61 ')'
@@ -234,18 +234,18 @@
 #61 TYPEID Bool
 #61 '{'
 #62 IF
-#62 ERROR "\360\245#\t\004"
-#62 ERROR "\360\245#\t\004"
-#62 ERROR "\360\245#\t\004"
+#62 ERROR "Uncaught error."
+#62 ERROR "Uncaught error."
+#62 ERROR "Uncaught error."
 #62 '.'
 #62 OBJECTID x_value
 #62 '('
 #62 ')'
 #63 THEN
 #64 IF
-#64 ERROR " \246#\t\007"
-#64 ERROR " \246#\t\007"
-#64 ERROR " \246#\t\007"
+#64 ERROR "Uncaught error."
+#64 ERROR "Uncaught error."
+#64 ERROR "Uncaught error."
 #64 '.'
 #64 OBJECTID y_value
 #64 '('
@@ -266,7 +266,7 @@
 #72 ':'
 #72 TYPEID Int
 #72 '{'
-#73 ERROR "p\244#\t\003"
+#73 ERROR "Uncaught error."
 #74 '}'
 #74 ';'
 #76 OBJECTID y_value
@@ -275,7 +275,7 @@
 #76 ':'
 #76 TYPEID Int
 #76 '{'
-#77 ERROR "p\244#\t\003"
+#77 ERROR "Uncaught error."
 #78 '}'
 #78 ';'
 #79 '}'

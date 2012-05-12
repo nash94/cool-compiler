@@ -1,0 +1,36 @@
+5c5
+< ','
+---
+> LONGERROR
+8c8
+< '@'
+---
+> LONGERROR
+14c14
+< '~'
+---
+> LONGERROR
+16c16
+< '='
+---
+> LONGERROR
+19d18
+< LE
+21,24c20,27
+< LE
+< LE
+< '='
+< LE
+---
+> LONGERROR
+> '<'
+> LONGERROR
+> '<'
+> LONGERROR
+> LONGERROR
+> '<'
+> LONGERROR
+27c30
+< ASSIGN
+---
+> '-'

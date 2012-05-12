@@ -5,6 +5,6 @@
 > #3 ';'
 > #3 OBJECTID ajs
 > #4 ERROR "Unmatched *)"
-> #5 ERROR "Unmatched *)"
+> #5 ERROR "Uncaught error."
 3d6
 < #7 STR_CONST ""

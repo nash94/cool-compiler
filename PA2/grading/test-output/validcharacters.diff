@@ -1,0 +1,14 @@
+5c5
+< '='
+---
+> LONGERROR
+8,9c8,9
+< '~'
+< ','
+---
+> LONGERROR
+> LONGERROR
+14c14
+< '@'
+---
+> LONGERROR

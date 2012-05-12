@@ -78,7 +78,7 @@ NOT_REG         [n|N][o|O][t|T]
 DIGIT           [0-9]+
 
 TYPE_ID         [A-Z][a-zA-Z0-9_]+
-OBJECT_ID       [a-z][a-zA-Z0-9_]+
+OBJECT_ID       [a-z]+[a-zA-Z0-9_]+
 
 PLUS_OP         "+"
 MINUS_OP        "-"
@@ -101,6 +101,8 @@ COLON           [:]+
 WHITE_SPACE     [ \t\f\r\v]+
 NEW_LINE        [\n]
 NULL_CHAR       [\0]
+
+LEADING_UNDERSCORE [_]+[^.]
 %%
  /*
   *  Nested comments
@@ -244,9 +246,18 @@ NULL_CHAR       [\0]
 {GREATER}       { return(62); }
 {LESS}          { return(60); }
 
+{LEADING_UNDERSCORE} { cool_yylval.error_msg = "_";
+                       return(ERROR);
+                     }
+
 {WHITE_SPACE}
+
 {NEW_LINE}      { curr_lineno++; }
-.               { return(ERROR); }
+
 {NULL_CHAR}     { cool_yylval.error_msg = "Null char present.";
+                  return(ERROR);
+                }
+
+.               { cool_yylval.error_msg = "Uncaught error.";
                   return(ERROR);
                 }

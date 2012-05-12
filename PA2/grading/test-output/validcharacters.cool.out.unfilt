@@ -1,0 +1,17 @@
+#name "./validcharacters.cool"
+#1 '+'
+#1 '/'
+#1 '-'
+#1 '*'
+#1 ERROR "Uncaught error."
+#1 '<'
+#1 '.'
+#1 ERROR "Uncaught error."
+#1 ERROR "Uncaught error."
+#1 ';'
+#1 ':'
+#1 '('
+#1 ')'
+#1 ERROR "Uncaught error."
+#1 '{'
+#1 '}'

@@ -1,0 +1,9 @@
+#name "./escaped_chars_in_comment.cl.cool"
+#2 '*'
+#2 ERROR "Uncaught error."
+#2 ')'
+#3 OBJECTID abc
+#4 ERROR "Uncaught error."
+#5 OBJECTID jkl
+#6 ERROR "Unmatched *)"
+#7 OBJECTID mno

@@ -13,8 +13,8 @@ OBJECTID objects
 TYPEID Two
 '-'
 TYPEID Types
-LONGERROR
-OBJECTID underscore
+ERROR "_"
+OBJECTID nderscore
 TYPEID Type
 '-'
 OBJECTID object

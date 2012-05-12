@@ -1,0 +1,973 @@
+2c2
+< TYPEID A
+---
+> LONGERROR
+55c55
+< ','
+---
+> LONGERROR
+61c61
+< TYPEID B
+---
+> LONGERROR
+65c65
+< OBJECTID x
+---
+> LONGERROR
+70c70
+< OBJECTID x
+---
+> LONGERROR
+78c78
+< TYPEID B
+---
+> LONGERROR
+83c83
+< OBJECTID x
+---
+> LONGERROR
+97c97
+< TYPEID C
+---
+> LONGERROR
+101c101
+< OBJECTID x
+---
+> LONGERROR
+106c106
+< OBJECTID x
+---
+> LONGERROR
+108c108
+< '~'
+---
+> LONGERROR
+113c113
+< TYPEID C
+---
+> LONGERROR
+118c118
+< OBJECTID x
+---
+> LONGERROR
+130c130
+< ','
+---
+> LONGERROR
+136c136
+< TYPEID D
+---
+> LONGERROR
+145c145
+< OBJECTID x
+---
+> LONGERROR
+150c150
+< OBJECTID x
+---
+> LONGERROR
+158c158
+< TYPEID D
+---
+> LONGERROR
+163c163
+< OBJECTID x
+---
+> LONGERROR
+171c171
+< OBJECTID x
+---
+> LONGERROR
+176c176
+< OBJECTID x
+---
+> LONGERROR
+184c184
+< TYPEID D
+---
+> LONGERROR
+189c189
+< OBJECTID x
+---
+> LONGERROR
+204c204
+< TYPEID E
+---
+> LONGERROR
+208c208
+< OBJECTID x
+---
+> LONGERROR
+217c217
+< OBJECTID y
+---
+> LONGERROR
+224,225c224,226
+< OBJECTID y
+< LE
+---
+> LONGERROR
+> '<'
+> LONGERROR
+229c230
+< OBJECTID x
+---
+> LONGERROR
+231c232
+< OBJECTID x
+---
+> LONGERROR
+233c234
+< OBJECTID y
+---
+> LONGERROR
+235c236
+< OBJECTID y
+---
+> LONGERROR
+237c238
+< OBJECTID y
+---
+> LONGERROR
+247c248
+< TYPEID E
+---
+> LONGERROR
+252c253
+< OBJECTID x
+---
+> LONGERROR
+262c263
+< TYPEID B
+---
+> LONGERROR
+264c265
+< TYPEID A
+---
+> LONGERROR
+273c274
+< TYPEID E
+---
+> LONGERROR
+277c278
+< OBJECTID x
+---
+> LONGERROR
+282c283
+< OBJECTID x
+---
+> LONGERROR
+290c291
+< TYPEID E
+---
+> LONGERROR
+295c296
+< OBJECTID x
+---
+> LONGERROR
+305c306
+< TYPEID C
+---
+> LONGERROR
+307c308
+< TYPEID B
+---
+> LONGERROR
+316c317
+< TYPEID A
+---
+> LONGERROR
+320c321
+< OBJECTID x
+---
+> LONGERROR
+325c326
+< OBJECTID x
+---
+> LONGERROR
+327c328
+< '~'
+---
+> LONGERROR
+332c333
+< TYPEID A
+---
+> LONGERROR
+337c338
+< OBJECTID x
+---
+> LONGERROR
+351c352
+< TYPEID E
+---
+> LONGERROR
+355c356
+< OBJECTID x
+---
+> LONGERROR
+360c361
+< OBJECTID x
+---
+> LONGERROR
+370c371
+< TYPEID E
+---
+> LONGERROR
+375c376
+< OBJECTID x
+---
+> LONGERROR
+385c386
+< TYPEID D
+---
+> LONGERROR
+387c388
+< TYPEID B
+---
+> LONGERROR
+400c401
+< OBJECTID x
+---
+> LONGERROR
+407c408
+< OBJECTID x
+---
+> LONGERROR
+413,414c414,415
+< '~'
+< OBJECTID x
+---
+> LONGERROR
+> LONGERROR
+419,420c420,421
+< '='
+< OBJECTID x
+---
+> LONGERROR
+> LONGERROR
+426,427c427,428
+< '='
+< OBJECTID x
+---
+> LONGERROR
+> LONGERROR
+433,434c434,435
+< '='
+< OBJECTID x
+---
+> LONGERROR
+> LONGERROR
+440c441
+< OBJECTID x
+---
+> LONGERROR
+454c455
+< TYPEID E
+---
+> LONGERROR
+456c457
+< TYPEID D
+---
+> LONGERROR
+465c466
+< TYPEID A
+---
+> LONGERROR
+469c470
+< OBJECTID x
+---
+> LONGERROR
+474c475
+< OBJECTID x
+---
+> LONGERROR
+482c483
+< TYPEID A
+---
+> LONGERROR
+487c488
+< OBJECTID x
+---
+> LONGERROR
+510c511
+< '='
+---
+> LONGERROR
+517c518
+< '='
+---
+> LONGERROR
+524c525
+< '='
+---
+> LONGERROR
+531c532
+< '='
+---
+> LONGERROR
+538c539
+< '='
+---
+> LONGERROR
+545c546
+< '='
+---
+> LONGERROR
+552c553
+< '='
+---
+> LONGERROR
+559c560
+< '='
+---
+> LONGERROR
+566c567
+< '='
+---
+> LONGERROR
+573c574
+< '='
+---
+> LONGERROR
+600c601
+< OBJECTID i
+---
+> LONGERROR
+608,609c609,610
+< OBJECTID i
+< '='
+---
+> LONGERROR
+> LONGERROR
+615,616c616,617
+< OBJECTID i
+< '='
+---
+> LONGERROR
+> LONGERROR
+622,623c623,624
+< OBJECTID i
+< '='
+---
+> LONGERROR
+> LONGERROR
+629,630c630,631
+< OBJECTID i
+< '='
+---
+> LONGERROR
+> LONGERROR
+636,637c637,638
+< OBJECTID i
+< '='
+---
+> LONGERROR
+> LONGERROR
+643,644c644,645
+< OBJECTID i
+< '='
+---
+> LONGERROR
+> LONGERROR
+650,651c651,652
+< OBJECTID i
+< '='
+---
+> LONGERROR
+> LONGERROR
+657,658c658,659
+< OBJECTID i
+< '='
+---
+> LONGERROR
+> LONGERROR
+664,665c665,666
+< OBJECTID i
+< '='
+---
+> LONGERROR
+> LONGERROR
+671,672c672,673
+< OBJECTID i
+< '='
+---
+> LONGERROR
+> LONGERROR
+682d682
+< STR_CONST ""
+699c699
+< OBJECTID s
+---
+> LONGERROR
+707c707
+< OBJECTID s
+---
+> LONGERROR
+712c712
+< '='
+---
+> LONGERROR
+718c718
+< OBJECTID s
+---
+> LONGERROR
+723c723
+< ','
+---
+> LONGERROR
+726c726
+< '='
+---
+> LONGERROR
+729c729
+< '~'
+---
+> LONGERROR
+732c732
+< OBJECTID s
+---
+> LONGERROR
+737,738c737,738
+< ','
+< OBJECTID s
+---
+> LONGERROR
+> LONGERROR
+749c749
+< OBJECTID s
+---
+> LONGERROR
+754c754
+< ','
+---
+> LONGERROR
+757c757
+< '='
+---
+> LONGERROR
+762c762
+< OBJECTID s
+---
+> LONGERROR
+767,768c767,768
+< ','
+< OBJECTID s
+---
+> LONGERROR
+> LONGERROR
+780c780
+< OBJECTID s
+---
+> LONGERROR
+789c789
+< OBJECTID s
+---
+> LONGERROR
+807c807
+< OBJECTID j
+---
+> LONGERROR
+811c811
+< OBJECTID s
+---
+> LONGERROR
+819c819
+< OBJECTID i
+---
+> LONGERROR
+826c826
+< OBJECTID i
+---
+> LONGERROR
+828c828
+< OBJECTID j
+---
+> LONGERROR
+839c839
+< OBJECTID s
+---
+> LONGERROR
+843,844c843,844
+< OBJECTID i
+< ','
+---
+> LONGERROR
+> LONGERROR
+849c849
+< OBJECTID i
+---
+> LONGERROR
+851c851
+< OBJECTID i
+---
+> LONGERROR
+868c868
+< OBJECTID i
+---
+> LONGERROR
+876,877c876,877
+< OBJECTID i
+< '='
+---
+> LONGERROR
+> LONGERROR
+885c885
+< OBJECTID i
+---
+> LONGERROR
+889c889
+< OBJECTID i
+---
+> LONGERROR
+898c898
+< OBJECTID i
+---
+> LONGERROR
+900c900
+< '~'
+---
+> LONGERROR
+910c910
+< OBJECTID i
+---
+> LONGERROR
+918,919c918,919
+< OBJECTID i
+< '='
+---
+> LONGERROR
+> LONGERROR
+922d921
+< STR_CONST ""
+930c929
+< OBJECTID i
+---
+> LONGERROR
+943c942
+< OBJECTID i
+---
+> LONGERROR
+967c966
+< TYPEID A
+---
+> LONGERROR
+971c970
+< TYPEID A
+---
+> LONGERROR
+988c987
+< STR_CONST "\n\tTo add a number to "
+---
+> STR_CONST "To add a number to "
+998c997
+< STR_CONST "...enter a:\n"
+---
+> STR_CONST "...enter a:"
+1003c1002
+< STR_CONST "\tTo negate "
+---
+> STR_CONST "To negate "
+1013c1012
+< STR_CONST "...enter b:\n"
+---
+> STR_CONST "...enter b:"
+1018c1017
+< STR_CONST "\tTo find the difference between "
+---
+> STR_CONST "To find the difference between "
+1028c1027
+< STR_CONST "and another number...enter c:\n"
+---
+> STR_CONST "and another number...enter c:"
+1033c1032
+< STR_CONST "\tTo find the factorial of "
+---
+> STR_CONST "To find the factorial of "
+1043c1042
+< STR_CONST "...enter d:\n"
+---
+> STR_CONST "...enter d:"
+1048c1047
+< STR_CONST "\tTo square "
+---
+> STR_CONST "To square "
+1058c1057
+< STR_CONST "...enter e:\n"
+---
+> STR_CONST "...enter e:"
+1063c1062
+< STR_CONST "\tTo cube "
+---
+> STR_CONST "To cube "
+1073c1072
+< STR_CONST "...enter f:\n"
+---
+> STR_CONST "...enter f:"
+1078c1077
+< STR_CONST "\tTo find out if "
+---
+> STR_CONST "To find out if "
+1088c1087
+< STR_CONST "is a multiple of 3...enter g:\n"
+---
+> STR_CONST "is a multiple of 3...enter g:"
+1093c1092
+< STR_CONST "\tTo divide "
+---
+> STR_CONST "To divide "
+1103c1102
+< STR_CONST "by 8...enter h:\n"
+---
+> STR_CONST "by 8...enter h:"
+1108c1107
+< STR_CONST "\tTo get a new number...enter j:\n"
+---
+> STR_CONST "To get a new number...enter j:"
+1113c1112
+< STR_CONST "\tTo quit...enter q:\n\n"
+---
+> STR_CONST "To quit...enter q:"
+1132d1130
+< STR_CONST "\n"
+1156c1154
+< OBJECTID z
+---
+> LONGERROR
+1165c1163
+< OBJECTID s
+---
+> LONGERROR
+1173c1171
+< OBJECTID z
+---
+> LONGERROR
+1177c1175
+< OBJECTID s
+---
+> LONGERROR
+1196c1194
+< OBJECTID x
+---
+> LONGERROR
+1203c1201
+< OBJECTID x
+---
+> LONGERROR
+1209,1210c1207,1208
+< '~'
+< OBJECTID x
+---
+> LONGERROR
+> LONGERROR
+1215,1216c1213,1214
+< '='
+< OBJECTID x
+---
+> LONGERROR
+> LONGERROR
+1222,1223c1220,1221
+< '='
+< OBJECTID x
+---
+> LONGERROR
+> LONGERROR
+1229c1227
+< OBJECTID x
+---
+> LONGERROR
+1243c1241
+< TYPEID A
+---
+> LONGERROR
+1251c1249
+< OBJECTID a
+---
+> LONGERROR
+1253c1251
+< TYPEID A
+---
+> LONGERROR
+1257c1255
+< STR_CONST "Class type is now A\n"
+---
+> STR_CONST "Class type is now A"
+1260c1258
+< OBJECTID b
+---
+> LONGERROR
+1262c1260
+< TYPEID B
+---
+> LONGERROR
+1266c1264
+< STR_CONST "Class type is now B\n"
+---
+> STR_CONST "Class type is now B"
+1269c1267
+< OBJECTID c
+---
+> LONGERROR
+1271c1269
+< TYPEID C
+---
+> LONGERROR
+1275c1273
+< STR_CONST "Class type is now C\n"
+---
+> STR_CONST "Class type is now C"
+1278c1276
+< OBJECTID d
+---
+> LONGERROR
+1280c1278
+< TYPEID D
+---
+> LONGERROR
+1284c1282
+< STR_CONST "Class type is now D\n"
+---
+> STR_CONST "Class type is now D"
+1287c1285
+< OBJECTID e
+---
+> LONGERROR
+1289c1287
+< TYPEID E
+---
+> LONGERROR
+1293c1291
+< STR_CONST "Class type is now E\n"
+---
+> STR_CONST "Class type is now E"
+1296c1294
+< OBJECTID o
+---
+> LONGERROR
+1302c1300
+< STR_CONST "Oooops\n"
+---
+> STR_CONST "Oooops"
+1312c1310
+< TYPEID A
+---
+> LONGERROR
+1319c1317
+< OBJECTID z
+---
+> LONGERROR
+1329c1327
+< OBJECTID z
+---
+> LONGERROR
+1361c1359
+< TYPEID A
+---
+> LONGERROR
+1390c1388
+< STR_CONST "is even!\n"
+---
+> STR_CONST "is even!"
+1395c1393
+< STR_CONST "is odd!\n"
+---
+> STR_CONST "is odd!"
+1412c1410
+< '='
+---
+> LONGERROR
+1420c1418
+< TYPEID A
+---
+> LONGERROR
+1434c1432
+< TYPEID B
+---
+> LONGERROR
+1444c1442
+< ','
+---
+> LONGERROR
+1456c1454
+< '='
+---
+> LONGERROR
+1462c1460
+< OBJECTID c
+---
+> LONGERROR
+1464c1462
+< TYPEID C
+---
+> LONGERROR
+1468c1466
+< OBJECTID c
+---
+> LONGERROR
+1472c1470
+< OBJECTID c
+---
+> LONGERROR
+1479c1477
+< OBJECTID a
+---
+> LONGERROR
+1481c1479
+< TYPEID A
+---
+> LONGERROR
+1485c1483
+< OBJECTID a
+---
+> LONGERROR
+1489c1487
+< OBJECTID a
+---
+> LONGERROR
+1496c1494
+< OBJECTID o
+---
+> LONGERROR
+1503c1501
+< STR_CONST "Oooops\n"
+---
+> STR_CONST "Oooops"
+1518c1516
+< '='
+---
+> LONGERROR
+1526c1524
+< TYPEID A
+---
+> LONGERROR
+1540c1538
+< TYPEID D
+---
+> LONGERROR
+1550c1548
+< ','
+---
+> LONGERROR
+1562c1560
+< '='
+---
+> LONGERROR
+1569c1567
+< TYPEID C
+---
+> LONGERROR
+1571,1572c1569,1570
+< '@'
+< TYPEID A
+---
+> LONGERROR
+> LONGERROR
+1585c1583
+< '='
+---
+> LONGERROR
+1592c1590
+< TYPEID C
+---
+> LONGERROR
+1594,1595c1592,1593
+< '@'
+< TYPEID B
+---
+> LONGERROR
+> LONGERROR
+1608c1606
+< '='
+---
+> LONGERROR
+1615c1613
+< TYPEID C
+---
+> LONGERROR
+1617,1618c1615,1616
+< '@'
+< TYPEID C
+---
+> LONGERROR
+> LONGERROR
+1631c1629
+< '='
+---
+> LONGERROR
+1638c1636
+< TYPEID D
+---
+> LONGERROR
+1664c1662
+< STR_CONST "is divisible by 3.\n"
+---
+> STR_CONST "is divisible by 3."
+1682c1680
+< STR_CONST "is not divisible by 3.\n"
+---
+> STR_CONST "is not divisible by 3."
+1690c1688
+< '='
+---
+> LONGERROR
+1695c1693
+< OBJECTID x
+---
+> LONGERROR
+1697c1695
+< TYPEID A
+---
+> LONGERROR
+1700c1698
+< OBJECTID x
+---
+> LONGERROR
+1704c1702
+< TYPEID E
+---
+> LONGERROR
+1718c1716
+< OBJECTID r
+---
+> LONGERROR
+1730c1728
+< OBJECTID x
+---
+> LONGERROR
+1758c1756
+< OBJECTID x
+---
+> LONGERROR
+1768c1766
+< OBJECTID a
+---
+> LONGERROR
+1778c1776
+< OBJECTID a
+---
+> LONGERROR
+1782c1780
+< OBJECTID r
+---
+> LONGERROR
+1788d1785
+< STR_CONST "\n"
+1799c1796
+< OBJECTID x
+---
+> LONGERROR
+1806c1803
+< '='
+---
+> LONGERROR
+1813c1810
+< TYPEID A
+---
+> LONGERROR
+1818c1815
+< '='
+---
+> LONGERROR
+1829c1826
+< TYPEID A
+---
+> LONGERROR

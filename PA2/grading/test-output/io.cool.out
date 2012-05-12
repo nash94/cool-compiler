@@ -1,3 +1,143 @@
-#name "./io.cool"
-#49 CLASS
-Segmentation fault
+CLASS
+LONGERROR
+'{'
+OBJECTID io
+':'
+TYPEID IO
+ASSIGN
+NEW
+TYPEID IO
+';'
+OBJECTID out_a
+'('
+')'
+':'
+TYPEID Object
+'{'
+OBJECTID io
+'.'
+OBJECTID out_string
+'('
+STR_CONST "A: Hello world"
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+LONGERROR
+INHERITS
+LONGERROR
+'{'
+OBJECTID out_b
+'('
+')'
+':'
+TYPEID Object
+'{'
+OBJECTID io
+'.'
+OBJECTID out_string
+'('
+STR_CONST "B: Hello world"
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+LONGERROR
+INHERITS
+TYPEID IO
+'{'
+OBJECTID out_c
+'('
+')'
+':'
+TYPEID Object
+'{'
+OBJECTID out_string
+'('
+STR_CONST "C: Hello world"
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+LONGERROR
+INHERITS
+LONGERROR
+'{'
+OBJECTID out_d
+'('
+')'
+':'
+TYPEID Object
+'{'
+OBJECTID out_string
+'('
+STR_CONST "D: Hello world"
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID Main
+INHERITS
+TYPEID IO
+'{'
+OBJECTID main
+'('
+')'
+':'
+TYPEID Object
+'{'
+'{'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID out_a
+'('
+')'
+';'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID out_b
+'('
+')'
+';'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID out_c
+'('
+')'
+';'
+'('
+NEW
+LONGERROR
+')'
+'.'
+OBJECTID out_d
+'('
+')'
+';'
+OBJECTID out_string
+'('
+STR_CONST "Done."
+')'
+';'
+'}'
+'}'
+';'
+'}'
+';'

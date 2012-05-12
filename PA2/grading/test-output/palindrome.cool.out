@@ -1,28 +1,130 @@
-#name "./palindrome.cool"
-#1 CLASS
-#1 TYPEID Main
-#1 INHERITS
-#1 TYPEID IO
-#1 '{'
-#2 OBJECTID pal
-#2 '('
-#2 ERROR "0\022$\b\003"
-#2 ':'
-#2 TYPEID String
-#2 ')'
-#2 ':'
-#2 TYPEID Bool
-#2 '{'
-#3 IF
-#3 ERROR "\220\022$\b\004"
-#3 '.'
-#3 OBJECTID length
-#3 '('
-#3 ')'
-#3 ERROR "\300\022$\b\006"
-#3 INT_CONST 0
-#4 THEN
-#4 BOOL_CONST true
-#5 ELSE
-#5 IF
-Segmentation fault
+CLASS
+TYPEID Main
+INHERITS
+TYPEID IO
+'{'
+OBJECTID pal
+'('
+LONGERROR
+':'
+TYPEID String
+')'
+':'
+TYPEID Bool
+'{'
+IF
+LONGERROR
+'.'
+OBJECTID length
+'('
+')'
+LONGERROR
+INT_CONST 0
+THEN
+BOOL_CONST true
+ELSE
+IF
+LONGERROR
+'.'
+OBJECTID length
+'('
+')'
+LONGERROR
+INT_CONST 1
+THEN
+BOOL_CONST true
+ELSE
+IF
+LONGERROR
+'.'
+OBJECTID substr
+'('
+INT_CONST 0
+LONGERROR
+INT_CONST 1
+')'
+LONGERROR
+LONGERROR
+'.'
+OBJECTID substr
+'('
+LONGERROR
+'.'
+OBJECTID length
+'('
+')'
+'-'
+INT_CONST 1
+LONGERROR
+INT_CONST 1
+')'
+THEN
+OBJECTID pal
+'('
+LONGERROR
+'.'
+OBJECTID substr
+'('
+INT_CONST 1
+LONGERROR
+LONGERROR
+'.'
+OBJECTID length
+'('
+')'
+'-'
+INT_CONST 2
+')'
+')'
+ELSE
+BOOL_CONST false
+FI
+FI
+FI
+'}'
+';'
+LONGERROR
+':'
+TYPEID Int
+';'
+OBJECTID main
+'('
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+'{'
+LONGERROR
+ASSIGN
+LONGERROR
+INT_CONST 1
+';'
+OBJECTID out_string
+'('
+STR_CONST "enter a string"
+')'
+';'
+IF
+OBJECTID pal
+'('
+OBJECTID in_string
+'('
+')'
+')'
+THEN
+OBJECTID out_string
+'('
+STR_CONST "that was a palindrome"
+')'
+ELSE
+OBJECTID out_string
+'('
+STR_CONST "that was not a palindrome"
+')'
+FI
+';'
+'}'
+'}'
+';'
+'}'
+';'

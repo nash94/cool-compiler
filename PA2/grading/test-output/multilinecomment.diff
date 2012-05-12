@@ -1,14 +1,8 @@
-1c1
-< NOT
----
-> OBJECTID not
 3c3
 < OBJECTID a
 ---
 > LONGERROR
-7,8c7,8
-< NOT
+8c8
 < OBJECTID a
 ---
-> OBJECTID not
 > LONGERROR

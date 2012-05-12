@@ -10,10 +10,6 @@
 < '='
 ---
 > LONGERROR
-24c24
-< BOOL_CONST true
----
-> OBJECTID true
 27c27
 < OBJECTID s
 ---
@@ -22,10 +18,6 @@
 < '='
 ---
 > LONGERROR
-35c35
-< BOOL_CONST true
----
-> OBJECTID true
 38c38
 < OBJECTID s
 ---
@@ -58,10 +50,6 @@
 ---
 > LONGERROR
 > LONGERROR
-80c80
-< BOOL_CONST false
----
-> OBJECTID false
 86c86
 < OBJECTID i
 ---

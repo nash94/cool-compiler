@@ -4,14 +4,14 @@
 #3 INHERITS
 #3 TYPEID Bazz
 #3 '{'
-#4 ERROR "\000"
+#4 ERROR "Uncaught error."
 #4 ':'
 #4 TYPEID Razz
 #4 ASSIGN
 #4 CASE
 #4 OBJECTID self
 #4 OF
-#5 ERROR "`\342\370\t\004"
+#5 ERROR "Uncaught error."
 #5 ':'
 #5 TYPEID Razz
 #5 DARROW
@@ -20,7 +20,7 @@
 #5 TYPEID Bar
 #5 ')'
 #5 ';'
-#6 ERROR "\220\342\370\t\003"
+#6 ERROR "Uncaught error."
 #6 ':'
 #6 TYPEID Foo
 #6 DARROW
@@ -29,25 +29,25 @@
 #6 TYPEID Razz
 #6 ')'
 #6 ';'
-#7 ERROR "0\342\370\t\004"
+#7 ERROR "Uncaught error."
 #7 ':'
 #7 TYPEID Bar
 #7 DARROW
-#7 ERROR "\220\342\370\t\003"
+#7 ERROR "Uncaught error."
 #7 ';'
 #8 ESAC
 #8 ';'
-#10 ERROR "\220\342\370\t\003"
+#10 ERROR "Uncaught error."
 #10 ':'
 #10 TYPEID Int
 #10 ASSIGN
-#10 ERROR "\300\342\370\t\003"
+#10 ERROR "Uncaught error."
 #10 '.'
 #10 OBJECTID doh
 #10 '('
 #10 ')'
 #10 '+'
-#10 ERROR "\360\342\370\t\003"
+#10 ERROR "Uncaught error."
 #10 '.'
 #10 OBJECTID doh
 #10 '('
@@ -69,20 +69,20 @@
 #12 '{'
 #12 '('
 #12 LET
-#12 ERROR "\300\342\370\t\003"
+#12 ERROR "Uncaught error."
 #12 ':'
 #12 TYPEID Int
 #12 ASSIGN
-#12 ERROR "\300\342\370\t\003"
+#12 ERROR "Uncaught error."
 #12 IN
 #12 '{'
-#12 ERROR "\300\342\370\t\003"
+#12 ERROR "Uncaught error."
 #12 ASSIGN
-#12 ERROR "\300\342\370\t\003"
+#12 ERROR "Uncaught error."
 #12 '+'
 #12 INT_CONST 2
 #12 ';'
-#12 ERROR "P\343\370\t\001"
+#12 ERROR "Uncaught error."
 #12 ';'
 #12 '}'
 #12 ')'
@@ -95,7 +95,7 @@
 #16 INHERITS
 #16 TYPEID Razz
 #16 '{'
-#18 ERROR "0\342\370\t\004"
+#18 ERROR "Uncaught error."
 #18 ':'
 #18 TYPEID Int
 #18 ASSIGN
@@ -103,7 +103,7 @@
 #18 '('
 #18 ')'
 #18 ';'
-#20 ERROR "\360\342\370\t\003"
+#20 ERROR "Uncaught error."
 #20 ':'
 #20 TYPEID Object
 #20 ASSIGN
@@ -118,14 +118,14 @@
 #24 INHERITS
 #24 TYPEID Foo
 #24 '{'
-#26 ERROR "\320\341\370\t\003"
+#26 ERROR "Uncaught error."
 #26 ':'
 #26 TYPEID Bar
 #26 ASSIGN
 #26 CASE
 #26 OBJECTID self
 #26 OF
-#27 ERROR "`\342\370\t\004"
+#27 ERROR "Uncaught error."
 #27 ':'
 #27 TYPEID Razz
 #27 DARROW
@@ -134,33 +134,33 @@
 #27 TYPEID Bar
 #27 ')'
 #27 ';'
-#28 ERROR "\220\342\370\t\003"
+#28 ERROR "Uncaught error."
 #28 ':'
 #28 TYPEID Bar
 #28 DARROW
-#28 ERROR "\220\342\370\t\003"
+#28 ERROR "Uncaught error."
 #28 ';'
 #29 ESAC
 #29 ';'
-#31 ERROR "\220\342\370\t\003"
+#31 ERROR "Uncaught error."
 #31 ':'
 #31 TYPEID Int
 #31 ASSIGN
-#31 ERROR "\300\342\370\t\003"
-#31 ERROR "\300\342\370\t\003"
+#31 ERROR "Uncaught error."
+#31 ERROR "Uncaught error."
 #31 TYPEID Bazz
 #31 '.'
 #31 OBJECTID doh
 #31 '('
 #31 ')'
 #31 '+'
-#31 ERROR "\360\342\370\t\003"
+#31 ERROR "Uncaught error."
 #31 '.'
 #31 OBJECTID doh
 #31 '('
 #31 ')'
 #31 '+'
-#31 ERROR "\360\342\370\t\003"
+#31 ERROR "Uncaught error."
 #31 '.'
 #31 OBJECTID doh
 #31 '('
@@ -181,20 +181,20 @@
 #35 INHERITS
 #35 TYPEID IO
 #35 '{'
-#37 ERROR "\260\343\370\t\002"
+#37 ERROR "Uncaught error."
 #37 ':'
 #37 TYPEID Int
 #37 ASSIGN
 #37 INT_CONST 1
 #37 ';'
-#39 ERROR "\340\343\370\t\001"
+#39 ERROR "Uncaught error."
 #39 ':'
 #39 TYPEID Foo
 #39 ASSIGN
 #39 CASE
 #39 OBJECTID self
 #39 OF
-#40 ERROR "`\342\370\t\004"
+#40 ERROR "Uncaught error."
 #40 ':'
 #40 TYPEID Bazz
 #40 DARROW
@@ -203,7 +203,7 @@
 #40 TYPEID Foo
 #40 ')'
 #40 ';'
-#41 ERROR "\320\341\370\t\003"
+#41 ERROR "Uncaught error."
 #41 ':'
 #41 TYPEID Razz
 #41 DARROW
@@ -212,7 +212,7 @@
 #41 TYPEID Bar
 #41 ')'
 #41 ';'
-#42 ERROR "\220\342\370\t\003"
+#42 ERROR "Uncaught error."
 #42 ':'
 #42 TYPEID Foo
 #42 DARROW
@@ -221,15 +221,15 @@
 #42 TYPEID Razz
 #42 ')'
 #42 ';'
-#43 ERROR "0\342\370\t\004"
+#43 ERROR "Uncaught error."
 #43 ':'
 #43 TYPEID Bar
 #43 DARROW
-#43 ERROR "\220\342\370\t\003"
+#43 ERROR "Uncaught error."
 #43 ';'
 #44 ESAC
 #44 ';'
-#46 ERROR "\220\342\370\t\003"
+#46 ERROR "Uncaught error."
 #46 ':'
 #46 TYPEID Object
 #46 ASSIGN
@@ -246,7 +246,7 @@
 #48 '{'
 #48 OBJECTID out_int
 #48 '('
-#48 ERROR "\020\344\370\t\007"
+#48 ERROR "Uncaught error."
 #48 ')'
 #48 ';'
 #48 INT_CONST 0
@@ -262,20 +262,20 @@
 #50 '{'
 #50 '('
 #50 LET
-#50 ERROR "\300\342\370\t\003"
+#50 ERROR "Uncaught error."
 #50 ':'
 #50 TYPEID Int
 #50 ASSIGN
-#50 ERROR "\300\342\370\t\003"
+#50 ERROR "Uncaught error."
 #50 IN
 #50 '{'
-#50 ERROR "\300\342\370\t\003"
+#50 ERROR "Uncaught error."
 #50 ASSIGN
-#50 ERROR "\300\342\370\t\003"
+#50 ERROR "Uncaught error."
 #50 '+'
 #50 INT_CONST 1
 #50 ';'
-#50 ERROR "\340\343\370\t\001"
+#50 ERROR "Uncaught error."
 #50 ';'
 #50 '}'
 #50 ')'
@@ -286,28 +286,28 @@
 #54 CLASS
 #54 TYPEID Main
 #54 '{'
-#55 ERROR "p\344\370\t\004"
+#55 ERROR "Uncaught error."
 #55 ':'
 #55 TYPEID Bazz
 #55 ASSIGN
 #55 NEW
 #55 TYPEID Bazz
 #55 ';'
-#56 ERROR "\000"
+#56 ERROR "Uncaught error."
 #56 ':'
 #56 TYPEID Foo
 #56 ASSIGN
 #56 NEW
 #56 TYPEID Foo
 #56 ';'
-#57 ERROR "\320\341\370\t\003"
+#57 ERROR "Uncaught error."
 #57 ':'
 #57 TYPEID Razz
 #57 ASSIGN
 #57 NEW
 #57 TYPEID Razz
 #57 ';'
-#58 ERROR "0\342\370\t\004"
+#58 ERROR "Uncaught error."
 #58 ':'
 #58 TYPEID Bar
 #58 ASSIGN

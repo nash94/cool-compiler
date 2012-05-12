@@ -1,0 +1,14 @@
+1,2d0
+< STR_CONST "\\"
+< STR_CONST "\"\""
+5d2
+< STR_CONST ""
+7d3
+< STR_CONST "\\"
+9,10d4
+< STR_CONST "\\"
+< STR_CONST ""
+12c6
+< STR_CONST "\""
+---
+> LONGERROR

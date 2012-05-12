@@ -1,4 +1,11 @@
-#name "./multilinecomment.cool"
-#3 NOT
-#3 IN
-Segmentation fault
+NOT
+IN
+LONGERROR
+OBJECTID comment
+'('
+'*'
+NOT
+LONGERROR
+OBJECTID comment
+'*'
+')'
