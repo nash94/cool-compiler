@@ -4,7 +4,6 @@
 	-1 (escapednull)	 escaped null char in a string
 	-1 (io)	 io example
 	-1 (lineno2)	 line number test 2
-	-1 (lineno3)	 line number test 3
 	-1 (longcomment)	 a long comment test
 	-1 (longstring_escapedbackslashes)	 long strings with escaped characters
 	-1 (nestedcomment)	 nested comment
@@ -13,5 +12,4 @@
 	-1 (opencomment)	 no matching closing comment
 	-1 (pathologicalstrings)	 some pathological strings
 	-1 (stringwithescapes)	 a long string with escaped characters [submission crashed on this input]
-	-1 (twice_512_nested_comments)	 many nested comments
 	-1 (wq0607-c2)	 sequences of block comments and strings

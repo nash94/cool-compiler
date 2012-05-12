@@ -18,8 +18,6 @@
 #24 ERROR "Unmatched *)"
 #27 TYPEID Comment
 #28 ERROR "Unmatched *)"
-#30 ERROR "Unmatched *)"
-#33 ERROR "Unmatched *)"
 #33 ERROR "Unmatched *)"
 #34 ERROR "Unmatched *)"
 #34 ERROR "Unmatched *)"
@@ -27,20 +25,6 @@
 #34 ERROR "Unmatched *)"
 #34 ERROR "Unmatched *)"
 #35 ERROR "Unmatched *)"
-#46 '*'
-#46 '*'
-#46 '*'
-#46 '*'
-#46 '*'
-#46 '*'
-#46 '*'
-#46 '*'
-#46 '*'
-#46 '*'
-#46 '*'
-#46 '*'
-#46 '*'
-#46 ERROR "Unmatched *)"
 #48 TYPEID Foo
 #48 OBJECTID bar
 #49 TYPEID Moo

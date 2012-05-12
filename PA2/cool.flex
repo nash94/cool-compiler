@@ -35,6 +35,8 @@ extern FILE *fin; /* we read from this file */
 char string_buf[MAX_STR_CONST]; /* to assemble string constants */
 char *string_buf_ptr;
 
+int nested_level = 0;
+
 extern int curr_lineno;
 extern int verbose_flag;
 
@@ -140,17 +142,22 @@ PIPE            [\|]
 
 
   
-"(*"                    BEGIN(comment);
+"(*"                    { BEGIN(comment);}
 <comment>[^*\n]*        /* eat anything that's not a '*' */
-<comment>"(*"           /* eat up new open comment */
+<comment>"(*"           { nested_level++; }
 <comment>"*"+[^*)\n]*   /* eat up '*'s not followed by ')'s */
 <comment>\n             curr_lineno++;
 <comment><<EOF>>        { cool_yylval.error_msg = "EOF in comment";
                           BEGIN(INITIAL);
                           return(ERROR);
                         }
-<comment>"*"+")"        BEGIN(INITIAL);
-<comment>"*)"+
+<comment>"*"+")"        { if (nested_level > 0) {
+                            nested_level--; 
+                          } else {
+                            BEGIN(INITIAL);
+                          }
+                        }
+                        
 
 "*)"                    { cool_yylval.error_msg = "Unmatched *)";
                           return (ERROR);
