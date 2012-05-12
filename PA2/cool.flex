@@ -233,10 +233,8 @@ PIPE            [\|]
                 }
 
 
-<str>\[0-9]{2,3} { printf(">>> ESCAPE");}
 <str>\\n        *string_buf_ptr++ = '\n';
 <str>\\t        *string_buf_ptr++ = '\t';
-<str>\\r        *string_buf_ptr++ = '\r';
 <str>\\b        *string_buf_ptr++ = '\b';
 <str>\\f        *string_buf_ptr++ = '\f';
 
