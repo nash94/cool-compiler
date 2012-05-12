@@ -19,7 +19,7 @@
 #3 OBJECTID length
 #3 '('
 #3 ')'
-#3 ERROR "="
+#3 '='
 #3 INT_CONST 0
 #4 THEN
 #4 BOOL_CONST true
@@ -30,7 +30,7 @@
 #5 OBJECTID length
 #5 '('
 #5 ')'
-#5 ERROR "="
+#5 '='
 #5 INT_CONST 1
 #6 THEN
 #6 BOOL_CONST true
@@ -41,10 +41,10 @@
 #7 OBJECTID substr
 #7 '('
 #7 INT_CONST 0
-#7 ERROR ","
+#7 ','
 #7 INT_CONST 1
 #7 ')'
-#7 ERROR "="
+#7 '='
 #7 OBJECTID s
 #7 '.'
 #7 OBJECTID substr
@@ -56,7 +56,7 @@
 #7 ')'
 #7 '-'
 #7 INT_CONST 1
-#7 ERROR ","
+#7 ','
 #7 INT_CONST 1
 #7 ')'
 #8 THEN
@@ -67,7 +67,7 @@
 #8 OBJECTID substr
 #8 '('
 #8 INT_CONST 1
-#8 ERROR ","
+#8 ','
 #8 OBJECTID s
 #8 '.'
 #8 OBJECTID length
@@ -97,7 +97,7 @@
 #16 '{'
 #17 OBJECTID i
 #17 ASSIGN
-#17 ERROR "~"
+#17 '~'
 #17 INT_CONST 1
 #17 ';'
 #18 OBJECTID out_string

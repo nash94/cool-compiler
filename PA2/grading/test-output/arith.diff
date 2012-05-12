@@ -2,10 +2,6 @@
 < TYPEID A
 ---
 > ERROR "A"
-55c55
-< ','
----
-> ERROR ","
 61c61
 < TYPEID B
 ---
@@ -18,18 +14,10 @@
 < TYPEID C
 ---
 > ERROR "C"
-108c108
-< '~'
----
-> ERROR "~"
 113c113
 < TYPEID C
 ---
 > ERROR "C"
-130c130
-< ','
----
-> ERROR ","
 136c136
 < TYPEID D
 ---
@@ -46,522 +34,303 @@
 < TYPEID E
 ---
 > ERROR "E"
-225c225,226
-< LE
----
-> '<'
-> ERROR "="
-247c248
+247c247
 < TYPEID E
 ---
 > ERROR "E"
-262c263
+262c262
 < TYPEID B
 ---
 > ERROR "B"
-264c265
+264c264
 < TYPEID A
 ---
 > ERROR "A"
-273c274
+273c273
 < TYPEID E
 ---
 > ERROR "E"
-290c291
+290c290
 < TYPEID E
 ---
 > ERROR "E"
-305c306
+305c305
 < TYPEID C
 ---
 > ERROR "C"
-307c308
+307c307
 < TYPEID B
 ---
 > ERROR "B"
-316c317
+316c316
 < TYPEID A
 ---
 > ERROR "A"
-327c328
-< '~'
----
-> ERROR "~"
-332c333
+332c332
 < TYPEID A
 ---
 > ERROR "A"
-351c352
+351c351
 < TYPEID E
 ---
 > ERROR "E"
-370c371
+370c370
 < TYPEID E
 ---
 > ERROR "E"
-385c386
+385c385
 < TYPEID D
 ---
 > ERROR "D"
-387c388
+387c387
 < TYPEID B
 ---
 > ERROR "B"
-413c414
-< '~'
----
-> ERROR "~"
-419c420
-< '='
----
-> ERROR "="
-426c427
-< '='
----
-> ERROR "="
-433c434
-< '='
----
-> ERROR "="
-454c455
+454c454
 < TYPEID E
 ---
 > ERROR "E"
-456c457
+456c456
 < TYPEID D
 ---
 > ERROR "D"
-465c466
+465c465
 < TYPEID A
 ---
 > ERROR "A"
-482c483
+482c482
 < TYPEID A
 ---
 > ERROR "A"
-510c511
-< '='
----
-> ERROR "="
-517c518
-< '='
----
-> ERROR "="
-524c525
-< '='
----
-> ERROR "="
-531c532
-< '='
----
-> ERROR "="
-538c539
-< '='
----
-> ERROR "="
-545c546
-< '='
----
-> ERROR "="
-552c553
-< '='
----
-> ERROR "="
-559c560
-< '='
----
-> ERROR "="
-566c567
-< '='
----
-> ERROR "="
-573c574
-< '='
----
-> ERROR "="
-609c610
-< '='
----
-> ERROR "="
-616c617
-< '='
----
-> ERROR "="
-623c624
-< '='
----
-> ERROR "="
-630c631
-< '='
----
-> ERROR "="
-637c638
-< '='
----
-> ERROR "="
-644c645
-< '='
----
-> ERROR "="
-651c652
-< '='
----
-> ERROR "="
-658c659
-< '='
----
-> ERROR "="
-665c666
-< '='
----
-> ERROR "="
-672c673
-< '='
----
-> ERROR "="
-682d682
+682d681
 < STR_CONST ""
-712c712
-< '='
----
-> ERROR "="
-723c723
-< ','
----
-> ERROR ","
-726c726
-< '='
----
-> ERROR "="
-729c729
-< '~'
----
-> ERROR "~"
-737c737
-< ','
----
-> ERROR ","
-754c754
-< ','
----
-> ERROR ","
-757c757
-< '='
----
-> ERROR "="
-767c767
-< ','
----
-> ERROR ","
-844c844
-< ','
----
-> ERROR ","
-877c877
-< '='
----
-> ERROR "="
-900c900
-< '~'
----
-> ERROR "~"
-919c919
-< '='
----
-> ERROR "="
-922d921
+922d920
 < STR_CONST ""
-967c966
+967c965
 < TYPEID A
 ---
 > ERROR "A"
-971c970
+971c969
 < TYPEID A
 ---
 > ERROR "A"
-988c987
+988c986
 < STR_CONST "\n\tTo add a number to "
 ---
 > STR_CONST "To add a number to "
-998c997
+998c996
 < STR_CONST "...enter a:\n"
 ---
 > STR_CONST "...enter a:"
-1003c1002
+1003c1001
 < STR_CONST "\tTo negate "
 ---
 > STR_CONST "To negate "
-1013c1012
+1013c1011
 < STR_CONST "...enter b:\n"
 ---
 > STR_CONST "...enter b:"
-1018c1017
+1018c1016
 < STR_CONST "\tTo find the difference between "
 ---
 > STR_CONST "To find the difference between "
-1028c1027
+1028c1026
 < STR_CONST "and another number...enter c:\n"
 ---
 > STR_CONST "and another number...enter c:"
-1033c1032
+1033c1031
 < STR_CONST "\tTo find the factorial of "
 ---
 > STR_CONST "To find the factorial of "
-1043c1042
+1043c1041
 < STR_CONST "...enter d:\n"
 ---
 > STR_CONST "...enter d:"
-1048c1047
+1048c1046
 < STR_CONST "\tTo square "
 ---
 > STR_CONST "To square "
-1058c1057
+1058c1056
 < STR_CONST "...enter e:\n"
 ---
 > STR_CONST "...enter e:"
-1063c1062
+1063c1061
 < STR_CONST "\tTo cube "
 ---
 > STR_CONST "To cube "
-1073c1072
+1073c1071
 < STR_CONST "...enter f:\n"
 ---
 > STR_CONST "...enter f:"
-1078c1077
+1078c1076
 < STR_CONST "\tTo find out if "
 ---
 > STR_CONST "To find out if "
-1088c1087
+1088c1086
 < STR_CONST "is a multiple of 3...enter g:\n"
 ---
 > STR_CONST "is a multiple of 3...enter g:"
-1093c1092
+1093c1091
 < STR_CONST "\tTo divide "
 ---
 > STR_CONST "To divide "
-1103c1102
+1103c1101
 < STR_CONST "by 8...enter h:\n"
 ---
 > STR_CONST "by 8...enter h:"
-1108c1107
+1108c1106
 < STR_CONST "\tTo get a new number...enter j:\n"
 ---
 > STR_CONST "To get a new number...enter j:"
-1113c1112
+1113c1111
 < STR_CONST "\tTo quit...enter q:\n\n"
 ---
 > STR_CONST "To quit...enter q:"
-1132d1130
+1132d1129
 < STR_CONST "\n"
-1209c1207
-< '~'
----
-> ERROR "~"
-1215c1213
-< '='
----
-> ERROR "="
-1222c1220
-< '='
----
-> ERROR "="
-1243c1241
+1243c1240
 < TYPEID A
 ---
 > ERROR "A"
-1253c1251
+1253c1250
 < TYPEID A
 ---
 > ERROR "A"
-1257c1255
+1257c1254
 < STR_CONST "Class type is now A\n"
 ---
 > STR_CONST "Class type is now A"
-1262c1260
+1262c1259
 < TYPEID B
 ---
 > ERROR "B"
-1266c1264
+1266c1263
 < STR_CONST "Class type is now B\n"
 ---
 > STR_CONST "Class type is now B"
-1271c1269
+1271c1268
 < TYPEID C
 ---
 > ERROR "C"
-1275c1273
+1275c1272
 < STR_CONST "Class type is now C\n"
 ---
 > STR_CONST "Class type is now C"
-1280c1278
+1280c1277
 < TYPEID D
 ---
 > ERROR "D"
-1284c1282
+1284c1281
 < STR_CONST "Class type is now D\n"
 ---
 > STR_CONST "Class type is now D"
-1289c1287
+1289c1286
 < TYPEID E
 ---
 > ERROR "E"
-1293c1291
+1293c1290
 < STR_CONST "Class type is now E\n"
 ---
 > STR_CONST "Class type is now E"
-1302c1300
+1302c1299
 < STR_CONST "Oooops\n"
 ---
 > STR_CONST "Oooops"
-1312c1310
+1312c1309
 < TYPEID A
 ---
 > ERROR "A"
-1361c1359
+1361c1358
 < TYPEID A
 ---
 > ERROR "A"
-1390c1388
+1390c1387
 < STR_CONST "is even!\n"
 ---
 > STR_CONST "is even!"
-1395c1393
+1395c1392
 < STR_CONST "is odd!\n"
 ---
 > STR_CONST "is odd!"
-1412c1410
-< '='
----
-> ERROR "="
-1420c1418
+1420c1417
 < TYPEID A
 ---
 > ERROR "A"
-1434c1432
+1434c1431
 < TYPEID B
 ---
 > ERROR "B"
-1444c1442
-< ','
----
-> ERROR ","
-1456c1454
-< '='
----
-> ERROR "="
-1464c1462
+1464c1461
 < TYPEID C
 ---
 > ERROR "C"
-1481c1479
+1481c1478
 < TYPEID A
 ---
 > ERROR "A"
-1503c1501
+1503c1500
 < STR_CONST "Oooops\n"
 ---
 > STR_CONST "Oooops"
-1518c1516
-< '='
----
-> ERROR "="
-1526c1524
+1526c1523
 < TYPEID A
 ---
 > ERROR "A"
-1540c1538
+1540c1537
 < TYPEID D
 ---
 > ERROR "D"
-1550c1548
-< ','
----
-> ERROR ","
-1562c1560
-< '='
----
-> ERROR "="
-1569c1567
+1569c1566
 < TYPEID C
 ---
 > ERROR "C"
-1571,1572c1569,1570
-< '@'
+1572c1569
 < TYPEID A
 ---
-> ERROR "@"
 > ERROR "A"
-1585c1583
-< '='
----
-> ERROR "="
-1592c1590
+1592c1589
 < TYPEID C
 ---
 > ERROR "C"
-1594,1595c1592,1593
-< '@'
+1595c1592
 < TYPEID B
 ---
-> ERROR "@"
 > ERROR "B"
-1608c1606
-< '='
----
-> ERROR "="
-1615c1613
+1615c1612
 < TYPEID C
 ---
 > ERROR "C"
-1617,1618c1615,1616
-< '@'
+1618c1615
 < TYPEID C
 ---
-> ERROR "@"
 > ERROR "C"
-1631c1629
-< '='
----
-> ERROR "="
-1638c1636
+1638c1635
 < TYPEID D
 ---
 > ERROR "D"
-1664c1662
+1664c1661
 < STR_CONST "is divisible by 3.\n"
 ---
 > STR_CONST "is divisible by 3."
-1682c1680
+1682c1679
 < STR_CONST "is not divisible by 3.\n"
 ---
 > STR_CONST "is not divisible by 3."
-1690c1688
-< '='
----
-> ERROR "="
-1697c1695
+1697c1694
 < TYPEID A
 ---
 > ERROR "A"
-1704c1702
+1704c1701
 < TYPEID E
 ---
 > ERROR "E"
-1788d1785
+1788d1784
 < STR_CONST "\n"
-1806c1803
-< '='
----
-> ERROR "="
-1813c1810
+1813c1809
 < TYPEID A
 ---
 > ERROR "A"
-1818c1815
-< '='
----
-> ERROR "="
-1829c1826
+1829c1825
 < TYPEID A
 ---
 > ERROR "A"

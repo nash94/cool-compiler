@@ -55,7 +55,7 @@
 #57 '{'
 #58 IF
 #58 OBJECTID size
-#58 ERROR "="
+#58 '='
 #58 INT_CONST 15
 #58 THEN
 #59 '{'
@@ -75,7 +75,7 @@
 #64 ELSE
 #64 IF
 #64 OBJECTID size
-#64 ERROR "="
+#64 '='
 #64 INT_CONST 16
 #64 THEN
 #65 '{'
@@ -95,7 +95,7 @@
 #70 ELSE
 #70 IF
 #70 OBJECTID size
-#70 ERROR "="
+#70 '='
 #70 INT_CONST 20
 #70 THEN
 #71 '{'
@@ -115,7 +115,7 @@
 #76 ELSE
 #76 IF
 #76 OBJECTID size
-#76 ERROR "="
+#76 '='
 #76 INT_CONST 21
 #76 THEN
 #77 '{'
@@ -135,7 +135,7 @@
 #82 ELSE
 #82 IF
 #82 OBJECTID size
-#82 ERROR "="
+#82 '='
 #82 INT_CONST 25
 #82 THEN
 #83 '{'
@@ -155,7 +155,7 @@
 #88 ELSE
 #88 IF
 #88 OBJECTID size
-#88 ERROR "="
+#88 '='
 #88 INT_CONST 28
 #88 THEN
 #89 '{'
@@ -275,7 +275,7 @@
 #132 OBJECTID substr
 #132 '('
 #132 OBJECTID i
-#132 ERROR ","
+#132 ','
 #132 OBJECTID columns
 #132 ')'
 #132 ')'
@@ -340,7 +340,7 @@
 #151 OBJECTID substr
 #151 '('
 #151 OBJECTID position
-#151 ERROR ","
+#151 ','
 #151 INT_CONST 1
 #151 ')'
 #152 FI
@@ -427,7 +427,7 @@
 #172 '*'
 #172 OBJECTID columns
 #172 ')'
-#172 ERROR "="
+#172 '='
 #172 '('
 #172 OBJECTID position
 #172 '+'
@@ -456,7 +456,7 @@
 #179 '{'
 #180 IF
 #180 OBJECTID position
-#180 ERROR "="
+#180 '='
 #180 INT_CONST 0
 #180 THEN
 #181 STR_CONST " "
@@ -471,7 +471,7 @@
 #183 '*'
 #183 OBJECTID columns
 #183 ')'
-#183 ERROR "="
+#183 '='
 #183 OBJECTID position
 #183 THEN
 #184 STR_CONST " "
@@ -516,7 +516,7 @@
 #193 '*'
 #193 OBJECTID columns
 #193 ')'
-#193 ERROR "="
+#193 '='
 #193 OBJECTID position
 #193 THEN
 #194 STR_CONST " "
@@ -565,7 +565,7 @@
 #203 '*'
 #203 OBJECTID columns
 #203 ')'
-#203 ERROR "="
+#203 '='
 #203 '('
 #203 OBJECTID position
 #203 '+'
@@ -618,7 +618,7 @@
 #213 '*'
 #213 OBJECTID columns
 #213 ')'
-#213 ERROR "="
+#213 '='
 #213 '('
 #213 OBJECTID position
 #213 '+'
@@ -667,7 +667,7 @@
 #223 '*'
 #223 OBJECTID columns
 #223 ')'
-#223 ERROR "="
+#223 '='
 #223 OBJECTID position
 #223 THEN
 #224 STR_CONST " "
@@ -697,7 +697,7 @@
 #232 '('
 #232 OBJECTID position
 #232 ')'
-#232 ERROR "="
+#232 '='
 #232 STR_CONST "X"
 #232 THEN
 #232 INT_CONST 1
@@ -710,7 +710,7 @@
 #233 '('
 #233 OBJECTID position
 #233 ')'
-#233 ERROR "="
+#233 '='
 #233 STR_CONST "X"
 #233 THEN
 #233 INT_CONST 1
@@ -723,7 +723,7 @@
 #234 '('
 #234 OBJECTID position
 #234 ')'
-#234 ERROR "="
+#234 '='
 #234 STR_CONST "X"
 #234 THEN
 #234 INT_CONST 1
@@ -736,7 +736,7 @@
 #235 '('
 #235 OBJECTID position
 #235 ')'
-#235 ERROR "="
+#235 '='
 #235 STR_CONST "X"
 #235 THEN
 #235 INT_CONST 1
@@ -749,7 +749,7 @@
 #236 '('
 #236 OBJECTID position
 #236 ')'
-#236 ERROR "="
+#236 '='
 #236 STR_CONST "X"
 #236 THEN
 #236 INT_CONST 1
@@ -762,7 +762,7 @@
 #237 '('
 #237 OBJECTID position
 #237 ')'
-#237 ERROR "="
+#237 '='
 #237 STR_CONST "X"
 #237 THEN
 #237 INT_CONST 1
@@ -775,7 +775,7 @@
 #238 '('
 #238 OBJECTID position
 #238 ')'
-#238 ERROR "="
+#238 '='
 #238 STR_CONST "X"
 #238 THEN
 #238 INT_CONST 1
@@ -788,7 +788,7 @@
 #239 '('
 #239 OBJECTID position
 #239 ')'
-#239 ERROR "="
+#239 '='
 #239 STR_CONST "X"
 #239 THEN
 #239 INT_CONST 1
@@ -813,7 +813,7 @@
 #249 '('
 #249 OBJECTID position
 #249 ')'
-#249 ERROR "="
+#249 '='
 #249 INT_CONST 3
 #249 THEN
 #250 STR_CONST "X"
@@ -823,7 +823,7 @@
 #252 '('
 #252 OBJECTID position
 #252 ')'
-#252 ERROR "="
+#252 '='
 #252 INT_CONST 2
 #252 THEN
 #253 IF
@@ -831,7 +831,7 @@
 #253 '('
 #253 OBJECTID position
 #253 ')'
-#253 ERROR "="
+#253 '='
 #253 STR_CONST "X"
 #253 THEN
 #254 STR_CONST "X"
@@ -1055,147 +1055,147 @@
 #312 ';'
 #313 IF
 #313 OBJECTID num
-#313 ERROR "="
+#313 '='
 #313 INT_CONST 1
 #313 THEN
 #314 STR_CONST " XX  XXXX XXXX  XX  "
 #315 ELSE
 #315 IF
 #315 OBJECTID num
-#315 ERROR "="
+#315 '='
 #315 INT_CONST 2
 #315 THEN
 #316 STR_CONST "    X   X   X   X   X    "
 #317 ELSE
 #317 IF
 #317 OBJECTID num
-#317 ERROR "="
+#317 '='
 #317 INT_CONST 3
 #317 THEN
 #318 STR_CONST "X     X     X     X     X"
 #319 ELSE
 #319 IF
 #319 OBJECTID num
-#319 ERROR "="
+#319 '='
 #319 INT_CONST 4
 #319 THEN
 #320 STR_CONST "X   X X X   X   X X X   X"
 #321 ELSE
 #321 IF
 #321 OBJECTID num
-#321 ERROR "="
+#321 '='
 #321 INT_CONST 5
 #321 THEN
 #322 STR_CONST "X     X     X   X   X    "
 #323 ELSE
 #323 IF
 #323 OBJECTID num
-#323 ERROR "="
+#323 '='
 #323 INT_CONST 6
 #323 THEN
 #324 STR_CONST "    X   X   X     X     X"
 #325 ELSE
 #325 IF
 #325 OBJECTID num
-#325 ERROR "="
+#325 '='
 #325 INT_CONST 7
 #325 THEN
 #326 STR_CONST "X  X  X  XX  X      "
 #327 ELSE
 #327 IF
 #327 OBJECTID num
-#327 ERROR "="
+#327 '='
 #327 INT_CONST 8
 #327 THEN
 #328 STR_CONST " X  XX  X  X  X     "
 #329 ELSE
 #329 IF
 #329 OBJECTID num
-#329 ERROR "="
+#329 '='
 #329 INT_CONST 9
 #329 THEN
 #330 STR_CONST "X   X X X   X  "
 #331 ELSE
 #331 IF
 #331 OBJECTID num
-#331 ERROR "="
+#331 '='
 #331 INT_CONST 10
 #331 THEN
 #332 STR_CONST "  X   X X X   X"
 #333 ELSE
 #333 IF
 #333 OBJECTID num
-#333 ERROR "="
+#333 '='
 #333 INT_CONST 11
 #333 THEN
 #334 STR_CONST "X X X X X X X X"
 #335 ELSE
 #335 IF
 #335 OBJECTID num
-#335 ERROR "="
+#335 '='
 #335 INT_CONST 12
 #335 THEN
 #336 STR_CONST "XXXXXXXXXXXXXXXXXXXXXXXXX"
 #337 ELSE
 #337 IF
 #337 OBJECTID num
-#337 ERROR "="
+#337 '='
 #337 INT_CONST 13
 #337 THEN
 #338 STR_CONST "XXXXX  X    X    X    X  "
 #339 ELSE
 #339 IF
 #339 OBJECTID num
-#339 ERROR "="
+#339 '='
 #339 INT_CONST 14
 #339 THEN
 #340 STR_CONST "  X    X  XXXXX  X    X  "
 #341 ELSE
 #341 IF
 #341 OBJECTID num
-#341 ERROR "="
+#341 '='
 #341 INT_CONST 15
 #341 THEN
 #342 STR_CONST "X     X X X X   X X  "
 #343 ELSE
 #343 IF
 #343 OBJECTID num
-#343 ERROR "="
+#343 '='
 #343 INT_CONST 16
 #343 THEN
 #344 STR_CONST "  X X   X X X X     X"
 #345 ELSE
 #345 IF
 #345 OBJECTID num
-#345 ERROR "="
+#345 '='
 #345 INT_CONST 17
 #345 THEN
 #346 STR_CONST "XXXXX   X   XXXXX   X   XXXX"
 #347 ELSE
 #347 IF
 #347 OBJECTID num
-#347 ERROR "="
+#347 '='
 #347 INT_CONST 18
 #347 THEN
 #348 STR_CONST "XXX    X   X  X    X   XXXX "
 #349 ELSE
 #349 IF
 #349 OBJECTID num
-#349 ERROR "="
+#349 '='
 #349 INT_CONST 19
 #349 THEN
 #350 STR_CONST " XX X  XX  X XX "
 #351 ELSE
 #351 IF
 #351 OBJECTID num
-#351 ERROR "="
+#351 '='
 #351 INT_CONST 20
 #351 THEN
 #352 STR_CONST " XX X  XX  X XX X  XX  X XX "
 #353 ELSE
 #353 IF
 #353 OBJECTID num
-#353 ERROR "="
+#353 '='
 #353 INT_CONST 21
 #353 THEN
 #354 STR_CONST " XXXX   X    XX    X   XXXX "
@@ -1265,7 +1265,7 @@
 #373 ';'
 #374 IF
 #374 OBJECTID ans
-#374 ERROR "="
+#374 '='
 #374 STR_CONST "n"
 #374 THEN
 #375 BOOL_CONST false
@@ -1314,7 +1314,7 @@
 #391 ';'
 #392 IF
 #392 OBJECTID ans
-#392 ERROR "="
+#392 '='
 #392 STR_CONST "y"
 #392 THEN
 #393 BOOL_CONST true

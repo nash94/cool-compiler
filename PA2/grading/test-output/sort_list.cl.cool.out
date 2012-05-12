@@ -42,7 +42,7 @@ OBJECTID new_cell
 OBJECTID init
 '('
 OBJECTID hd
-ERROR ","
+','
 OBJECTID self
 ')'
 ')'
@@ -172,7 +172,7 @@ OBJECTID init
 OBJECTID hd
 ':'
 TYPEID Int
-ERROR ","
+','
 OBJECTID tl
 ':'
 TYPEID List
@@ -274,7 +274,7 @@ TYPEID Cons
 OBJECTID init
 '('
 OBJECTID i
-ERROR ","
+','
 OBJECTID self
 ')'
 ELSE
@@ -286,7 +286,7 @@ TYPEID Cons
 OBJECTID init
 '('
 OBJECTID xcar
-ERROR ","
+','
 OBJECTID xcdr
 '.'
 OBJECTID insert
@@ -314,7 +314,7 @@ TYPEID Cons
 OBJECTID init
 '('
 OBJECTID xcar
-ERROR ","
+','
 OBJECTID xcdr
 '.'
 OBJECTID rcons
@@ -415,7 +415,7 @@ TYPEID Cons
 OBJECTID init
 '('
 OBJECTID i
-ERROR ","
+','
 OBJECTID self
 ')'
 '}'
@@ -479,7 +479,7 @@ TYPEID Cons
 OBJECTID init
 '('
 OBJECTID j
-ERROR ","
+','
 OBJECTID l
 ')'
 ';'

@@ -18,7 +18,7 @@ OBJECTID s
 OBJECTID length
 '('
 ')'
-ERROR "="
+'='
 INT_CONST 0
 THEN
 BOOL_CONST true
@@ -29,7 +29,7 @@ OBJECTID s
 OBJECTID length
 '('
 ')'
-ERROR "="
+'='
 INT_CONST 1
 THEN
 BOOL_CONST true
@@ -40,10 +40,10 @@ OBJECTID s
 OBJECTID substr
 '('
 INT_CONST 0
-ERROR ","
+','
 INT_CONST 1
 ')'
-ERROR "="
+'='
 OBJECTID s
 '.'
 OBJECTID substr
@@ -55,7 +55,7 @@ OBJECTID length
 ')'
 '-'
 INT_CONST 1
-ERROR ","
+','
 INT_CONST 1
 ')'
 THEN
@@ -66,7 +66,7 @@ OBJECTID s
 OBJECTID substr
 '('
 INT_CONST 1
-ERROR ","
+','
 OBJECTID s
 '.'
 OBJECTID length
@@ -96,7 +96,7 @@ TYPEID SELF_TYPE
 '{'
 OBJECTID i
 ASSIGN
-ERROR "~"
+'~'
 INT_CONST 1
 ';'
 OBJECTID out_string

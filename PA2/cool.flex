@@ -54,6 +54,8 @@ extern YYSTYPE cool_yylval;
  */
 DARROW          =>
 ASSIGNMENT      <-
+LESS_EQUAL      <=
+
 
 CLASS_REG       [c|C][l|L][a|A][s|S][s|S]
 ELSE_REG        [e|E][l|L][s|S][e|E]
@@ -97,6 +99,11 @@ METHOD_ACCESS   "."
 LESS            [<]+
 GREATER         [>]+
 COLON           [:]+
+COMMA           [,]+
+TILDE           [~]+
+AT_SIGN         [@]+
+EQUAL           [=]{1}
+
 
 WHITE_SPACE     [ \t\f\r\v]+
 NEW_LINE        [\n]
@@ -135,7 +142,7 @@ LEADING_UNDERSCORE [_]+[^.]
   */
 {DARROW}		{ return (DARROW); }
 {ASSIGNMENT}    { return (ASSIGN); }
-
+{LESS_EQUAL}    { return (LE); }
  /*
   * Keywords are case-insensitive except for the values true and false,
   * which must begin with a lower-case letter.
@@ -245,6 +252,11 @@ LEADING_UNDERSCORE [_]+[^.]
 {METHOD_ACCESS} { return(46); }
 {GREATER}       { return(62); }
 {LESS}          { return(60); }
+{COMMA}         { return(44); }
+{TILDE}         { return(126);}
+{AT_SIGN}       { return(64); }
+{EQUAL}         { return(61); }
+
 
 {LEADING_UNDERSCORE} { cool_yylval.error_msg = "_";
                        return(ERROR);

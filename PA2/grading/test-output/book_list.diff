@@ -1,37 +1,9 @@
-19c19
-< ','
----
-> ERROR ","
 60d59
 < STR_CONST "\n"
 75d73
 < STR_CONST "\n"
-99c97
-< ','
----
-> ERROR ","
-103c101
-< ','
----
-> ERROR ","
-115c113
-< ','
----
-> ERROR ","
-136c134
-< '@'
----
-> ERROR "@"
 155d152
 < STR_CONST "\n"
-209c206
-< ','
----
-> ERROR ","
-289c286
-< ','
----
-> ERROR ","
 349c346
 < STR_CONST "- dynamic type was Book -\n"
 ---
@@ -40,15 +12,3 @@
 < STR_CONST "- dynamic type was Article -\n"
 ---
 > STR_CONST "- dynamic type was Article -"
-426c423
-< ','
----
-> ERROR ","
-444c441
-< ','
----
-> ERROR ","
-446c443
-< ','
----
-> ERROR ","

@@ -54,7 +54,7 @@ IN
 '{'
 IF
 OBJECTID size
-ERROR "="
+'='
 INT_CONST 15
 THEN
 '{'
@@ -74,7 +74,7 @@ OBJECTID size
 ELSE
 IF
 OBJECTID size
-ERROR "="
+'='
 INT_CONST 16
 THEN
 '{'
@@ -94,7 +94,7 @@ OBJECTID size
 ELSE
 IF
 OBJECTID size
-ERROR "="
+'='
 INT_CONST 20
 THEN
 '{'
@@ -114,7 +114,7 @@ OBJECTID size
 ELSE
 IF
 OBJECTID size
-ERROR "="
+'='
 INT_CONST 21
 THEN
 '{'
@@ -134,7 +134,7 @@ OBJECTID size
 ELSE
 IF
 OBJECTID size
-ERROR "="
+'='
 INT_CONST 25
 THEN
 '{'
@@ -154,7 +154,7 @@ OBJECTID size
 ELSE
 IF
 OBJECTID size
-ERROR "="
+'='
 INT_CONST 28
 THEN
 '{'
@@ -274,7 +274,7 @@ OBJECTID population_map
 OBJECTID substr
 '('
 OBJECTID i
-ERROR ","
+','
 OBJECTID columns
 ')'
 ')'
@@ -339,7 +339,7 @@ OBJECTID population_map
 OBJECTID substr
 '('
 OBJECTID position
-ERROR ","
+','
 INT_CONST 1
 ')'
 FI
@@ -426,7 +426,7 @@ OBJECTID columns
 '*'
 OBJECTID columns
 ')'
-ERROR "="
+'='
 '('
 OBJECTID position
 '+'
@@ -455,7 +455,7 @@ TYPEID String
 '{'
 IF
 OBJECTID position
-ERROR "="
+'='
 INT_CONST 0
 THEN
 STR_CONST " "
@@ -470,7 +470,7 @@ OBJECTID columns
 '*'
 OBJECTID columns
 ')'
-ERROR "="
+'='
 OBJECTID position
 THEN
 STR_CONST " "
@@ -515,7 +515,7 @@ OBJECTID columns
 '*'
 OBJECTID columns
 ')'
-ERROR "="
+'='
 OBJECTID position
 THEN
 STR_CONST " "
@@ -564,7 +564,7 @@ OBJECTID columns
 '*'
 OBJECTID columns
 ')'
-ERROR "="
+'='
 '('
 OBJECTID position
 '+'
@@ -617,7 +617,7 @@ OBJECTID columns
 '*'
 OBJECTID columns
 ')'
-ERROR "="
+'='
 '('
 OBJECTID position
 '+'
@@ -666,7 +666,7 @@ OBJECTID columns
 '*'
 OBJECTID columns
 ')'
-ERROR "="
+'='
 OBJECTID position
 THEN
 STR_CONST " "
@@ -696,7 +696,7 @@ OBJECTID north
 '('
 OBJECTID position
 ')'
-ERROR "="
+'='
 STR_CONST "X"
 THEN
 INT_CONST 1
@@ -709,7 +709,7 @@ OBJECTID south
 '('
 OBJECTID position
 ')'
-ERROR "="
+'='
 STR_CONST "X"
 THEN
 INT_CONST 1
@@ -722,7 +722,7 @@ OBJECTID east
 '('
 OBJECTID position
 ')'
-ERROR "="
+'='
 STR_CONST "X"
 THEN
 INT_CONST 1
@@ -735,7 +735,7 @@ OBJECTID west
 '('
 OBJECTID position
 ')'
-ERROR "="
+'='
 STR_CONST "X"
 THEN
 INT_CONST 1
@@ -748,7 +748,7 @@ OBJECTID northeast
 '('
 OBJECTID position
 ')'
-ERROR "="
+'='
 STR_CONST "X"
 THEN
 INT_CONST 1
@@ -761,7 +761,7 @@ OBJECTID northwest
 '('
 OBJECTID position
 ')'
-ERROR "="
+'='
 STR_CONST "X"
 THEN
 INT_CONST 1
@@ -774,7 +774,7 @@ OBJECTID southeast
 '('
 OBJECTID position
 ')'
-ERROR "="
+'='
 STR_CONST "X"
 THEN
 INT_CONST 1
@@ -787,7 +787,7 @@ OBJECTID southwest
 '('
 OBJECTID position
 ')'
-ERROR "="
+'='
 STR_CONST "X"
 THEN
 INT_CONST 1
@@ -812,7 +812,7 @@ OBJECTID neighbors
 '('
 OBJECTID position
 ')'
-ERROR "="
+'='
 INT_CONST 3
 THEN
 STR_CONST "X"
@@ -822,7 +822,7 @@ OBJECTID neighbors
 '('
 OBJECTID position
 ')'
-ERROR "="
+'='
 INT_CONST 2
 THEN
 IF
@@ -830,7 +830,7 @@ OBJECTID cell
 '('
 OBJECTID position
 ')'
-ERROR "="
+'='
 STR_CONST "X"
 THEN
 STR_CONST "X"
@@ -1054,147 +1054,147 @@ OBJECTID out_string
 ';'
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 1
 THEN
 STR_CONST " XX  XXXX XXXX  XX  "
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 2
 THEN
 STR_CONST "    X   X   X   X   X    "
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 3
 THEN
 STR_CONST "X     X     X     X     X"
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 4
 THEN
 STR_CONST "X   X X X   X   X X X   X"
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 5
 THEN
 STR_CONST "X     X     X   X   X    "
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 6
 THEN
 STR_CONST "    X   X   X     X     X"
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 7
 THEN
 STR_CONST "X  X  X  XX  X      "
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 8
 THEN
 STR_CONST " X  XX  X  X  X     "
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 9
 THEN
 STR_CONST "X   X X X   X  "
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 10
 THEN
 STR_CONST "  X   X X X   X"
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 11
 THEN
 STR_CONST "X X X X X X X X"
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 12
 THEN
 STR_CONST "XXXXXXXXXXXXXXXXXXXXXXXXX"
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 13
 THEN
 STR_CONST "XXXXX  X    X    X    X  "
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 14
 THEN
 STR_CONST "  X    X  XXXXX  X    X  "
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 15
 THEN
 STR_CONST "X     X X X X   X X  "
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 16
 THEN
 STR_CONST "  X X   X X X X     X"
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 17
 THEN
 STR_CONST "XXXXX   X   XXXXX   X   XXXX"
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 18
 THEN
 STR_CONST "XXX    X   X  X    X   XXXX "
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 19
 THEN
 STR_CONST " XX X  XX  X XX "
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 20
 THEN
 STR_CONST " XX X  XX  X XX X  XX  X XX "
 ELSE
 IF
 OBJECTID num
-ERROR "="
+'='
 INT_CONST 21
 THEN
 STR_CONST " XXXX   X    XX    X   XXXX "
@@ -1264,7 +1264,7 @@ OBJECTID out_string
 ';'
 IF
 OBJECTID ans
-ERROR "="
+'='
 STR_CONST "n"
 THEN
 BOOL_CONST false
@@ -1313,7 +1313,7 @@ OBJECTID in_string
 ';'
 IF
 OBJECTID ans
-ERROR "="
+'='
 STR_CONST "y"
 THEN
 BOOL_CONST true

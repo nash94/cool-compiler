@@ -2,4 +2,4 @@
 #1 OBJECTID before_it
 #3 STR_CONST "this string "
 #3 STR_CONST "doens't end"
-#3 ERROR "8\302\216\t\013"
+#3 ERROR "8\3624\b\013"

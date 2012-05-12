@@ -24,7 +24,7 @@
 #3 OBJECTID init
 #3 '('
 #3 INT_CONST 1
-#3 ERROR ","
+#3 ','
 #3 INT_CONST 1
 #3 ')'
 #3 IN
@@ -35,7 +35,7 @@
 #6 OBJECTID reflect_X
 #6 '('
 #6 ')'
-#6 ERROR "="
+#6 '='
 #6 OBJECTID c
 #6 '.'
 #6 OBJECTID reflect_0
@@ -108,7 +108,7 @@
 #24 OBJECTID a
 #24 ':'
 #24 TYPEID Int
-#24 ERROR ","
+#24 ','
 #24 OBJECTID b
 #24 ':'
 #24 TYPEID Int
@@ -118,11 +118,11 @@
 #24 '{'
 #25 '{'
 #26 OBJECTID x
-#26 ERROR "="
+#26 '='
 #26 OBJECTID a
 #26 ';'
 #27 OBJECTID y
-#27 ERROR "="
+#27 '='
 #27 OBJECTID b
 #27 ';'
 #28 OBJECTID self
@@ -138,7 +138,7 @@
 #32 '{'
 #33 IF
 #33 OBJECTID y
-#33 ERROR "="
+#33 '='
 #33 INT_CONST 0
 #34 THEN
 #34 OBJECTID out_int
@@ -176,13 +176,13 @@
 #39 '{'
 #40 '{'
 #41 OBJECTID x
-#41 ERROR "="
-#41 ERROR "~"
+#41 '='
+#41 '~'
 #41 OBJECTID x
 #41 ';'
 #42 OBJECTID y
-#42 ERROR "="
-#42 ERROR "~"
+#42 '='
+#42 '~'
 #42 OBJECTID y
 #42 ';'
 #43 OBJECTID self
@@ -198,8 +198,8 @@
 #47 '{'
 #48 '{'
 #49 OBJECTID y
-#49 ERROR "="
-#49 ERROR "~"
+#49 '='
+#49 '~'
 #49 OBJECTID y
 #49 ';'
 #50 OBJECTID self
@@ -215,8 +215,8 @@
 #54 '{'
 #55 '{'
 #56 OBJECTID x
-#56 ERROR "="
-#56 ERROR "~"
+#56 '='
+#56 '~'
 #56 OBJECTID x
 #56 ';'
 #57 OBJECTID self
@@ -235,7 +235,7 @@
 #61 '{'
 #62 IF
 #62 OBJECTID x
-#62 ERROR "="
+#62 '='
 #62 OBJECTID d
 #62 '.'
 #62 OBJECTID x_value
@@ -244,7 +244,7 @@
 #63 THEN
 #64 IF
 #64 OBJECTID y
-#64 ERROR "="
+#64 '='
 #64 OBJECTID d
 #64 '.'
 #64 OBJECTID y_value

@@ -52,7 +52,7 @@ OBJECTID method2
 OBJECTID num1
 ':'
 TYPEID Int
-ERROR ","
+','
 OBJECTID num2
 ':'
 TYPEID Int
@@ -105,7 +105,7 @@ IN
 '{'
 OBJECTID x
 ASSIGN
-ERROR "~"
+'~'
 OBJECTID num
 ';'
 '('
@@ -127,7 +127,7 @@ OBJECTID method4
 OBJECTID num1
 ':'
 TYPEID Int
-ERROR ","
+','
 OBJECTID num2
 ':'
 TYPEID Int
@@ -222,8 +222,7 @@ INT_CONST 1
 IN
 WHILE
 OBJECTID y
-'<'
-ERROR "="
+LE
 OBJECTID num
 LOOP
 '{'
@@ -325,7 +324,7 @@ IN
 '{'
 OBJECTID x
 ASSIGN
-ERROR "~"
+'~'
 OBJECTID num
 ';'
 '('
@@ -411,27 +410,27 @@ INT_CONST 0
 THEN
 OBJECTID method7
 '('
-ERROR "~"
+'~'
 OBJECTID x
 ')'
 ELSE
 IF
 INT_CONST 0
-ERROR "="
+'='
 OBJECTID x
 THEN
 BOOL_CONST true
 ELSE
 IF
 INT_CONST 1
-ERROR "="
+'='
 OBJECTID x
 THEN
 BOOL_CONST false
 ELSE
 IF
 INT_CONST 2
-ERROR "="
+'='
 OBJECTID x
 THEN
 BOOL_CONST false
@@ -508,70 +507,70 @@ TYPEID Int
 '{'
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "0"
 THEN
 INT_CONST 0
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "1"
 THEN
 INT_CONST 1
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "2"
 THEN
 INT_CONST 2
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "3"
 THEN
 INT_CONST 3
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "4"
 THEN
 INT_CONST 4
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "5"
 THEN
 INT_CONST 5
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "6"
 THEN
 INT_CONST 6
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "7"
 THEN
 INT_CONST 7
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "8"
 THEN
 INT_CONST 8
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "9"
 THEN
 INT_CONST 9
@@ -607,70 +606,70 @@ TYPEID String
 '{'
 IF
 OBJECTID i
-ERROR "="
+'='
 INT_CONST 0
 THEN
 STR_CONST "0"
 ELSE
 IF
 OBJECTID i
-ERROR "="
+'='
 INT_CONST 1
 THEN
 STR_CONST "1"
 ELSE
 IF
 OBJECTID i
-ERROR "="
+'='
 INT_CONST 2
 THEN
 STR_CONST "2"
 ELSE
 IF
 OBJECTID i
-ERROR "="
+'='
 INT_CONST 3
 THEN
 STR_CONST "3"
 ELSE
 IF
 OBJECTID i
-ERROR "="
+'='
 INT_CONST 4
 THEN
 STR_CONST "4"
 ELSE
 IF
 OBJECTID i
-ERROR "="
+'='
 INT_CONST 5
 THEN
 STR_CONST "5"
 ELSE
 IF
 OBJECTID i
-ERROR "="
+'='
 INT_CONST 6
 THEN
 STR_CONST "6"
 ELSE
 IF
 OBJECTID i
-ERROR "="
+'='
 INT_CONST 7
 THEN
 STR_CONST "7"
 ELSE
 IF
 OBJECTID i
-ERROR "="
+'='
 INT_CONST 8
 THEN
 STR_CONST "8"
 ELSE
 IF
 OBJECTID i
-ERROR "="
+'='
 INT_CONST 9
 THEN
 STR_CONST "9"
@@ -709,7 +708,7 @@ OBJECTID s
 OBJECTID length
 '('
 ')'
-ERROR "="
+'='
 INT_CONST 0
 THEN
 INT_CONST 0
@@ -720,13 +719,13 @@ OBJECTID s
 OBJECTID substr
 '('
 INT_CONST 0
-ERROR ","
+','
 INT_CONST 1
 ')'
-ERROR "="
+'='
 STR_CONST "-"
 THEN
-ERROR "~"
+'~'
 OBJECTID a2i_aux
 '('
 OBJECTID s
@@ -734,7 +733,7 @@ OBJECTID s
 OBJECTID substr
 '('
 INT_CONST 1
-ERROR ","
+','
 OBJECTID s
 '.'
 OBJECTID length
@@ -751,10 +750,10 @@ OBJECTID s
 OBJECTID substr
 '('
 INT_CONST 0
-ERROR ","
+','
 INT_CONST 1
 ')'
-ERROR "="
+'='
 STR_CONST "+"
 THEN
 OBJECTID a2i_aux
@@ -764,7 +763,7 @@ OBJECTID s
 OBJECTID substr
 '('
 INT_CONST 1
-ERROR ","
+','
 OBJECTID s
 '.'
 OBJECTID length
@@ -841,7 +840,7 @@ OBJECTID s
 OBJECTID substr
 '('
 OBJECTID i
-ERROR ","
+','
 INT_CONST 1
 ')'
 ')'
@@ -874,7 +873,7 @@ TYPEID String
 '{'
 IF
 OBJECTID i
-ERROR "="
+'='
 INT_CONST 0
 THEN
 STR_CONST "0"
@@ -897,7 +896,7 @@ OBJECTID i2a_aux
 '('
 OBJECTID i
 '*'
-ERROR "~"
+'~'
 INT_CONST 1
 ')'
 ')'
@@ -916,7 +915,7 @@ TYPEID String
 '{'
 IF
 OBJECTID i
-ERROR "="
+'='
 INT_CONST 0
 THEN
 ELSE
@@ -1204,20 +1203,20 @@ INT_CONST 0
 THEN
 OBJECTID is_even
 '('
-ERROR "~"
+'~'
 OBJECTID x
 ')'
 ELSE
 IF
 INT_CONST 0
-ERROR "="
+'='
 OBJECTID x
 THEN
 BOOL_CONST true
 ELSE
 IF
 INT_CONST 1
-ERROR "="
+'='
 OBJECTID x
 THEN
 BOOL_CONST false
@@ -1407,7 +1406,7 @@ OBJECTID menu
 ';'
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "a"
 THEN
 '{'
@@ -1439,7 +1438,7 @@ OBJECTID avar
 OBJECTID value
 '('
 ')'
-ERROR ","
+','
 OBJECTID a_var
 '.'
 OBJECTID value
@@ -1451,7 +1450,7 @@ OBJECTID value
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "b"
 THEN
 CASE
@@ -1513,7 +1512,7 @@ ESAC
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "c"
 THEN
 '{'
@@ -1545,7 +1544,7 @@ OBJECTID avar
 OBJECTID value
 '('
 ')'
-ERROR ","
+','
 OBJECTID a_var
 '.'
 OBJECTID value
@@ -1557,7 +1556,7 @@ OBJECTID value
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "d"
 THEN
 OBJECTID avar
@@ -1566,7 +1565,7 @@ ASSIGN
 NEW
 ERROR "C"
 ')'
-ERROR "@"
+'@'
 ERROR "A"
 '.'
 OBJECTID method5
@@ -1580,7 +1579,7 @@ OBJECTID value
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "e"
 THEN
 OBJECTID avar
@@ -1589,7 +1588,7 @@ ASSIGN
 NEW
 ERROR "C"
 ')'
-ERROR "@"
+'@'
 ERROR "B"
 '.'
 OBJECTID method5
@@ -1603,7 +1602,7 @@ OBJECTID value
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "f"
 THEN
 OBJECTID avar
@@ -1612,7 +1611,7 @@ ASSIGN
 NEW
 ERROR "C"
 ')'
-ERROR "@"
+'@'
 ERROR "C"
 '.'
 OBJECTID method5
@@ -1626,7 +1625,7 @@ OBJECTID value
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "g"
 THEN
 IF
@@ -1685,7 +1684,7 @@ FI
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "h"
 THEN
 '('
@@ -1800,7 +1799,7 @@ OBJECTID x
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "j"
 THEN
 OBJECTID avar
@@ -1812,7 +1811,7 @@ ERROR "A"
 ELSE
 IF
 OBJECTID char
-ERROR "="
+'='
 STR_CONST "q"
 THEN
 OBJECTID flag

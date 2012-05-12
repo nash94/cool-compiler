@@ -1,113 +1,9 @@
-57c57
-< '='
----
-> ERROR "="
-77c77
-< '='
----
-> ERROR "="
-97c97
-< '='
----
-> ERROR "="
-117c117
-< '='
----
-> ERROR "="
-137c137
-< '='
----
-> ERROR "="
-157c157
-< '='
----
-> ERROR "="
 262d261
 < STR_CONST "\n"
-278c277
-< ','
----
-> ERROR ","
 285d283
 < STR_CONST "\n"
 299d296
 < STR_CONST "\n"
-345c342
-< ','
----
-> ERROR ","
-432c429
-< '='
----
-> ERROR "="
-461c458
-< '='
----
-> ERROR "="
-476c473
-< '='
----
-> ERROR "="
-521c518
-< '='
----
-> ERROR "="
-570c567
-< '='
----
-> ERROR "="
-623c620
-< '='
----
-> ERROR "="
-672c669
-< '='
----
-> ERROR "="
-702c699
-< '='
----
-> ERROR "="
-715c712
-< '='
----
-> ERROR "="
-728c725
-< '='
----
-> ERROR "="
-741c738
-< '='
----
-> ERROR "="
-754c751
-< '='
----
-> ERROR "="
-767c764
-< '='
----
-> ERROR "="
-780c777
-< '='
----
-> ERROR "="
-793c790
-< '='
----
-> ERROR "="
-818c815
-< '='
----
-> ERROR "="
-828c825
-< '='
----
-> ERROR "="
-836c833
-< '='
----
-> ERROR "="
 935c932
 < STR_CONST "\nPlease chose a number:\n"
 ---
@@ -198,110 +94,18 @@
 > STR_CONST "21: An 'S'"
 1056d1052
 < STR_CONST "\n"
-1061c1057
-< '='
----
-> ERROR "="
-1068c1064
-< '='
----
-> ERROR "="
-1075c1071
-< '='
----
-> ERROR "="
-1082c1078
-< '='
----
-> ERROR "="
-1089c1085
-< '='
----
-> ERROR "="
-1096c1092
-< '='
----
-> ERROR "="
-1103c1099
-< '='
----
-> ERROR "="
-1110c1106
-< '='
----
-> ERROR "="
-1117c1113
-< '='
----
-> ERROR "="
-1124c1120
-< '='
----
-> ERROR "="
-1131c1127
-< '='
----
-> ERROR "="
-1138c1134
-< '='
----
-> ERROR "="
-1145c1141
-< '='
----
-> ERROR "="
-1152c1148
-< '='
----
-> ERROR "="
-1159c1155
-< '='
----
-> ERROR "="
-1166c1162
-< '='
----
-> ERROR "="
-1173c1169
-< '='
----
-> ERROR "="
-1180c1176
-< '='
----
-> ERROR "="
-1187c1183
-< '='
----
-> ERROR "="
-1194c1190
-< '='
----
-> ERROR "="
-1201c1197
-< '='
----
-> ERROR "="
 1251c1247
 < STR_CONST "Would you like to continue with the next generation? \n"
 ---
 > STR_CONST "Would you like to continue with the next generation? "
 1267d1262
 < STR_CONST "\n"
-1272c1267
-< '='
----
-> ERROR "="
 1301d1295
 < STR_CONST "\n\n"
 1306c1300
 < STR_CONST "Would you like to choose a background pattern? \n"
 ---
 > STR_CONST "Would you like to choose a background pattern? "
-1322c1316
-< '='
----
-> ERROR "="
 1367c1361
 < STR_CONST "Welcome to the Game of Life.\n"
 ---

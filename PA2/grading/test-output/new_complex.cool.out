@@ -23,7 +23,7 @@ TYPEID Complex
 OBJECTID init
 '('
 INT_CONST 1
-ERROR ","
+','
 INT_CONST 1
 ')'
 IN
@@ -34,7 +34,7 @@ OBJECTID c
 OBJECTID reflect_X
 '('
 ')'
-ERROR "="
+'='
 OBJECTID c
 '.'
 OBJECTID reflect_0
@@ -107,7 +107,7 @@ OBJECTID init
 OBJECTID a
 ':'
 TYPEID Int
-ERROR ","
+','
 OBJECTID b
 ':'
 TYPEID Int
@@ -117,11 +117,11 @@ TYPEID Complex
 '{'
 '{'
 OBJECTID x
-ERROR "="
+'='
 OBJECTID a
 ';'
 OBJECTID y
-ERROR "="
+'='
 OBJECTID b
 ';'
 OBJECTID self
@@ -137,7 +137,7 @@ TYPEID Object
 '{'
 IF
 OBJECTID y
-ERROR "="
+'='
 INT_CONST 0
 THEN
 OBJECTID out_int
@@ -175,13 +175,13 @@ TYPEID Complex
 '{'
 '{'
 OBJECTID x
-ERROR "="
-ERROR "~"
+'='
+'~'
 OBJECTID x
 ';'
 OBJECTID y
-ERROR "="
-ERROR "~"
+'='
+'~'
 OBJECTID y
 ';'
 OBJECTID self
@@ -197,8 +197,8 @@ TYPEID Complex
 '{'
 '{'
 OBJECTID y
-ERROR "="
-ERROR "~"
+'='
+'~'
 OBJECTID y
 ';'
 OBJECTID self
@@ -214,8 +214,8 @@ TYPEID Complex
 '{'
 '{'
 OBJECTID x
-ERROR "="
-ERROR "~"
+'='
+'~'
 OBJECTID x
 ';'
 OBJECTID self
@@ -234,7 +234,7 @@ TYPEID Bool
 '{'
 IF
 OBJECTID x
-ERROR "="
+'='
 OBJECTID d
 '.'
 OBJECTID x_value
@@ -243,7 +243,7 @@ OBJECTID x_value
 THEN
 IF
 OBJECTID y
-ERROR "="
+'='
 OBJECTID d
 '.'
 OBJECTID y_value

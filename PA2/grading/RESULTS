@@ -11,7 +11,6 @@
 	-1 (escapednull)	 escaped null char in a string
 	-1 (escapedquote)	 escaped quote
 	-1 (escapedunprintables)	 escaped nonprinting chars
-	-1 (hairyscary)	 hairyscary example
 	-1 (invalidcharacters)	 characters not in the cool language
 	-1 (io)	 io example
 	-1 (life)	 the life program
@@ -35,7 +34,6 @@
 	-1 (sort_list)	 sample program
 	-1 (stringwithescapes)	 a long string with escaped characters [submission crashed on this input]
 	-1 (twice_512_nested_comments)	 many nested comments
-	-1 (validcharacters)	 a bunch of characters in the cool language 
 	-1 (wq0607-c2)	 sequences of block comments and strings
 	-1 (wq0607-c3)	 sequence of quotes and backslashes
 	-1 (wq0607-c4)	 sequence of quotes, backslashes, and double-dash comment symbols
