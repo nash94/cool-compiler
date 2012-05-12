@@ -5,6 +5,7 @@ ERROR "%"
 ERROR "^"
 ERROR "&"
 ERROR "_"
+<Invalid Token>
 ERROR "?"
 ERROR "`"
 <Invalid Token>

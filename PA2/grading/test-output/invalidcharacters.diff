@@ -1,6 +1,8 @@
-8d7
+8c8
 < ERROR ">"
-11,12c10,11
+---
+> <Invalid Token>
+11,12c11,12
 < ERROR "["
 < ERROR "]"
 ---

@@ -6,6 +6,7 @@
 #1 ERROR "^"
 #1 ERROR "&"
 #1 ERROR "_"
+#1 <Invalid Token>
 #1 ERROR "?"
 #1 ERROR "`"
 #1 <Invalid Token>

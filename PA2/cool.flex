@@ -109,7 +109,7 @@ WHITE_SPACE     [ \t\f\r\v]+
 NEW_LINE        [\n]
 NULL_CHAR       [\0]
 
-LEADING_UNDERSCORE [_]{1}[^a-z]
+LEADING_UNDERSCORE [_]
 %%
  /*
   *  Nested comments
