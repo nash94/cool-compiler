@@ -83,13 +83,13 @@ NOT_REG         [n|N][o|O][t|T]
 
 DIGIT           [0-9]+
 
-TYPE_ID         [A-Z][a-zA-Z0-9_]+
+TYPE_ID         [A-Z]+[a-zA-Z0-9_]*
 OBJECT_ID       [a-z]+[a-zA-Z0-9_]*
 
-PLUS_OP         "+"
-MINUS_OP        "-"
-MULT_OP         "*"
-DIV_OP          "/"
+PLUS_OP         [\+]{1}
+MINUS_OP        [\-]{1}
+MULT_OP         [\*]{1}
+DIV_OP          [\/]{1}
 
 OPEN_PARA       [\(]
 CLOSE_PARA      [\)]
