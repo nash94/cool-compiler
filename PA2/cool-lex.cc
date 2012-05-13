@@ -878,13 +878,13 @@ int yy_flex_debug = 1;
 
 static yyconst flex_int16_t yy_rule_linenum[66] =
     {   0,
-      137,  138,  139,  145,  146,  147,  152,  159,  160,  169,
-      170,  171,  176,  177,  178,  179,  180,  181,  182,  183,
-      184,  185,  186,  187,  188,  189,  190,  191,  192,  193,
-      196,  206,  210,  214,  218,  225,  237,  243,  244,  245,
-      246,  248,  253,  263,  267,  268,  269,  270,  273,  274,
-      275,  276,  277,  278,  279,  280,  281,  282,  283,  284,
-      287,  293,  295,  297,  301
+      139,  140,  141,  147,  148,  149,  154,  161,  162,  171,
+      172,  173,  178,  179,  180,  181,  182,  183,  184,  185,
+      186,  187,  188,  189,  190,  191,  192,  193,  194,  195,
+      198,  208,  212,  216,  220,  236,  248,  255,  256,  257,
+      258,  260,  268,  279,  283,  284,  285,  286,  289,  290,
+      291,  292,  293,  294,  295,  296,  297,  298,  299,  300,
+      303,  309,  311,  313,  317
     } ;
 
 /* The intent behind this definition is that it'll catch
@@ -943,13 +943,15 @@ extern YYSTYPE cool_yylval;
  *  Add Your own definitions here
  */
 
+int curr_str_size = 0;
+
 
 
 
 /*
  * Define names for regular expressions here.
  */
-#line 953 "cool-lex.cc"
+#line 955 "cool-lex.cc"
 
 #define INITIAL 0
 #define str 1
@@ -1199,13 +1201,13 @@ YY_DECL
 	register int yy_act;
     
 /* %% [7.0] user's declarations go here */
-#line 132 "cool.flex"
+#line 134 "cool.flex"
 
  /*
   *  Nested comments
   */
 
-#line 1209 "cool-lex.cc"
+#line 1211 "cool-lex.cc"
 
 	if ( !(yy_init) )
 		{
@@ -1321,40 +1323,40 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 137 "cool.flex"
+#line 139 "cool.flex"
 BEGIN(line_comment);
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 138 "cool.flex"
+#line 140 "cool.flex"
 /* eat up anything thats not a newline */
 	YY_BREAK
 case 3:
 /* rule 3 can match eol */
 YY_RULE_SETUP
-#line 139 "cool.flex"
+#line 141 "cool.flex"
 { curr_lineno++;
                           BEGIN(INITIAL);
                         }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 145 "cool.flex"
+#line 147 "cool.flex"
 { BEGIN(comment);}
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 146 "cool.flex"
+#line 148 "cool.flex"
 { nested_level++; }
 	YY_BREAK
 case 6:
 /* rule 6 can match eol */
 YY_RULE_SETUP
-#line 147 "cool.flex"
+#line 149 "cool.flex"
 curr_lineno++;
 	YY_BREAK
 case YY_STATE_EOF(comment):
-#line 148 "cool.flex"
+#line 150 "cool.flex"
 { cool_yylval.error_msg = "EOF in comment";
                           BEGIN(INITIAL);
                           return(ERROR);
@@ -1362,7 +1364,7 @@ case YY_STATE_EOF(comment):
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 152 "cool.flex"
+#line 154 "cool.flex"
 { if (nested_level > 0) {
                             nested_level--; 
                           } else {
@@ -1372,12 +1374,12 @@ YY_RULE_SETUP
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 159 "cool.flex"
+#line 161 "cool.flex"
 {}
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 160 "cool.flex"
+#line 162 "cool.flex"
 { cool_yylval.error_msg = "Unmatched *)";
                           return (ERROR);
                         }
@@ -1387,17 +1389,17 @@ YY_RULE_SETUP
   */
 case 10:
 YY_RULE_SETUP
-#line 169 "cool.flex"
+#line 171 "cool.flex"
 { return (DARROW); }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 170 "cool.flex"
+#line 172 "cool.flex"
 { return (ASSIGN); }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 171 "cool.flex"
+#line 173 "cool.flex"
 { return (LE); }
 	YY_BREAK
 /*
@@ -1406,99 +1408,99 @@ YY_RULE_SETUP
   */
 case 13:
 YY_RULE_SETUP
-#line 176 "cool.flex"
+#line 178 "cool.flex"
 { return (CLASS); }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 177 "cool.flex"
+#line 179 "cool.flex"
 { return (ELSE); }
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 178 "cool.flex"
+#line 180 "cool.flex"
 { return (FI); }
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 179 "cool.flex"
+#line 181 "cool.flex"
 { return (IF); }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 180 "cool.flex"
+#line 182 "cool.flex"
 { return (IN); }
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 181 "cool.flex"
+#line 183 "cool.flex"
 { return (INHERITS); }
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 182 "cool.flex"
+#line 184 "cool.flex"
 { return (LET); }
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 183 "cool.flex"
+#line 185 "cool.flex"
 { return (LOOP); }
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 184 "cool.flex"
+#line 186 "cool.flex"
 { return (POOL); }
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 185 "cool.flex"
+#line 187 "cool.flex"
 { return (THEN); }
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
-#line 186 "cool.flex"
+#line 188 "cool.flex"
 { return (WHILE); }
 	YY_BREAK
 case 24:
 YY_RULE_SETUP
-#line 187 "cool.flex"
+#line 189 "cool.flex"
 { return (CASE); }
 	YY_BREAK
 case 25:
 YY_RULE_SETUP
-#line 188 "cool.flex"
+#line 190 "cool.flex"
 { return (ESAC); }
 	YY_BREAK
 case 26:
 YY_RULE_SETUP
-#line 189 "cool.flex"
+#line 191 "cool.flex"
 { return (OF); }
 	YY_BREAK
 case 27:
 YY_RULE_SETUP
-#line 190 "cool.flex"
+#line 192 "cool.flex"
 { return (NEW); }
 	YY_BREAK
 case 28:
 YY_RULE_SETUP
-#line 191 "cool.flex"
+#line 193 "cool.flex"
 { return (ISVOID); }
 	YY_BREAK
 case 29:
 YY_RULE_SETUP
-#line 192 "cool.flex"
+#line 194 "cool.flex"
 { return (NOT); } 
 	YY_BREAK
 case 30:
 YY_RULE_SETUP
-#line 193 "cool.flex"
+#line 195 "cool.flex"
 { cool_yylval.boolean = true;
                   return (BOOL_CONST);
                 }
 	YY_BREAK
 case 31:
 YY_RULE_SETUP
-#line 196 "cool.flex"
+#line 198 "cool.flex"
 { cool_yylval.boolean = false;
                   return (BOOL_CONST);
                 }
@@ -1511,39 +1513,48 @@ YY_RULE_SETUP
   */
 case 32:
 YY_RULE_SETUP
-#line 206 "cool.flex"
+#line 208 "cool.flex"
 { cool_yylval.symbol = inttable.add_string(yytext);
                   return (TYPEID);
                 }
 	YY_BREAK
 case 33:
 YY_RULE_SETUP
-#line 210 "cool.flex"
+#line 212 "cool.flex"
 { cool_yylval.symbol = inttable.add_string(yytext);
                   return (OBJECTID);
                 }
 	YY_BREAK
 case 34:
 YY_RULE_SETUP
-#line 214 "cool.flex"
+#line 216 "cool.flex"
 { string_buf_ptr = string_buf;
                   BEGIN(str);
                 }
 	YY_BREAK
 case 35:
 YY_RULE_SETUP
-#line 218 "cool.flex"
+#line 220 "cool.flex"
 { 
+                 if (curr_str_size > 1024) {
+                    cool_yylval.error_msg = "String constant too long";
+                    BEGIN(INITIAL);
+                    *string_buf_ptr = '\0';
+                    curr_str_size = 0;
+                    return(ERROR);
+                 } else { 
+                  curr_str_size = 0;
                   BEGIN(INITIAL);
                   *string_buf_ptr = '\0';
                   cool_yylval.symbol = inttable.add_string(string_buf);
                   return(STR_CONST);
+                 }
                 }
 	YY_BREAK
 case 36:
 /* rule 36 can match eol */
 YY_RULE_SETUP
-#line 225 "cool.flex"
+#line 236 "cool.flex"
 { cool_yylval.error_msg = "Unterminated string constant";
                   BEGIN(INITIAL);
                   *string_buf_ptr = '\0';
@@ -1551,7 +1562,7 @@ YY_RULE_SETUP
                 }
 	YY_BREAK
 case YY_STATE_EOF(str):
-#line 231 "cool.flex"
+#line 242 "cool.flex"
 { cool_yylval.error_msg = "EOF in string constant";
                   BEGIN(INITIAL);
                   *string_buf_ptr = '\0';
@@ -1560,7 +1571,7 @@ case YY_STATE_EOF(str):
 	YY_BREAK
 case 37:
 YY_RULE_SETUP
-#line 237 "cool.flex"
+#line 248 "cool.flex"
 { 
                   cool_yylval.error_msg = "String contains null character.";
                   BEGIN(INITIAL);
@@ -1570,173 +1581,177 @@ YY_RULE_SETUP
 	YY_BREAK
 case 38:
 YY_RULE_SETUP
-#line 243 "cool.flex"
-*string_buf_ptr++ = '\n';
+#line 255 "cool.flex"
+{curr_str_size++; *string_buf_ptr++ = '\n';}
 	YY_BREAK
 case 39:
 YY_RULE_SETUP
-#line 244 "cool.flex"
+#line 256 "cool.flex"
 *string_buf_ptr++ = '\t';
 	YY_BREAK
 case 40:
 YY_RULE_SETUP
-#line 245 "cool.flex"
+#line 257 "cool.flex"
 *string_buf_ptr++ = '\b';
 	YY_BREAK
 case 41:
 YY_RULE_SETUP
-#line 246 "cool.flex"
+#line 258 "cool.flex"
 *string_buf_ptr++ = '\f';
 	YY_BREAK
 case 42:
 /* rule 42 can match eol */
 YY_RULE_SETUP
-#line 248 "cool.flex"
-{
+#line 260 "cool.flex"
+{   if (yytext[1] == '\n') {
+                        curr_lineno++;
+                    }
+                    curr_str_size++;
                     *string_buf_ptr++ = yytext[1];
                 }
 	YY_BREAK
 case 43:
 YY_RULE_SETUP
-#line 253 "cool.flex"
-{    
+#line 268 "cool.flex"
+{   
                    char *yptr = yytext;
                    
                    while ( *yptr ) {
-                           *string_buf_ptr++ = *yptr++;
+                       curr_str_size++;
+                       *string_buf_ptr++ = *yptr++;
                    }
                 }
 	YY_BREAK
 case YY_STATE_EOF(INITIAL):
 case YY_STATE_EOF(line_comment):
-#line 261 "cool.flex"
+#line 277 "cool.flex"
 { yyterminate(); }
 	YY_BREAK
 case 44:
 YY_RULE_SETUP
-#line 263 "cool.flex"
+#line 279 "cool.flex"
 { cool_yylval.symbol = inttable.add_string(yytext); 
                   return (INT_CONST); 
                 }
 	YY_BREAK
 case 45:
 YY_RULE_SETUP
-#line 267 "cool.flex"
+#line 283 "cool.flex"
 { return(43); }
 	YY_BREAK
 case 46:
 YY_RULE_SETUP
-#line 268 "cool.flex"
+#line 284 "cool.flex"
 { return(45); }
 	YY_BREAK
 case 47:
 YY_RULE_SETUP
-#line 269 "cool.flex"
+#line 285 "cool.flex"
 { return(42); }
 	YY_BREAK
 case 48:
 YY_RULE_SETUP
-#line 270 "cool.flex"
+#line 286 "cool.flex"
 { return(47); }
 	YY_BREAK
 case 49:
 YY_RULE_SETUP
-#line 273 "cool.flex"
+#line 289 "cool.flex"
 { return(59); }
 	YY_BREAK
 case 50:
 YY_RULE_SETUP
-#line 274 "cool.flex"
+#line 290 "cool.flex"
 { return(40); }
 	YY_BREAK
 case 51:
 YY_RULE_SETUP
-#line 275 "cool.flex"
+#line 291 "cool.flex"
 { return(41); }
 	YY_BREAK
 case 52:
 YY_RULE_SETUP
-#line 276 "cool.flex"
+#line 292 "cool.flex"
 { return(123);}
 	YY_BREAK
 case 53:
 YY_RULE_SETUP
-#line 277 "cool.flex"
+#line 293 "cool.flex"
 { return(125);}
 	YY_BREAK
 case 54:
 YY_RULE_SETUP
-#line 278 "cool.flex"
+#line 294 "cool.flex"
 { return(58); }         
 	YY_BREAK
 case 55:
 YY_RULE_SETUP
-#line 279 "cool.flex"
+#line 295 "cool.flex"
 { return(46); }
 	YY_BREAK
 case 56:
 YY_RULE_SETUP
-#line 280 "cool.flex"
+#line 296 "cool.flex"
 { return(60); }
 	YY_BREAK
 case 57:
 YY_RULE_SETUP
-#line 281 "cool.flex"
+#line 297 "cool.flex"
 { return(44); }
 	YY_BREAK
 case 58:
 YY_RULE_SETUP
-#line 282 "cool.flex"
+#line 298 "cool.flex"
 { return(126);}
 	YY_BREAK
 case 59:
 YY_RULE_SETUP
-#line 283 "cool.flex"
+#line 299 "cool.flex"
 { return(64); }
 	YY_BREAK
 case 60:
 YY_RULE_SETUP
-#line 284 "cool.flex"
+#line 300 "cool.flex"
 { return(61); }
 	YY_BREAK
 case 61:
 YY_RULE_SETUP
-#line 287 "cool.flex"
+#line 303 "cool.flex"
 { cool_yylval.error_msg = yytext;
                   return(ERROR);
                 }
 	YY_BREAK
 case 62:
 YY_RULE_SETUP
-#line 293 "cool.flex"
+#line 309 "cool.flex"
 
 	YY_BREAK
 case 63:
 /* rule 63 can match eol */
 YY_RULE_SETUP
-#line 295 "cool.flex"
+#line 311 "cool.flex"
 { curr_lineno++; }
 	YY_BREAK
 case 64:
 YY_RULE_SETUP
-#line 297 "cool.flex"
+#line 313 "cool.flex"
 { cool_yylval.error_msg = "Null char present.";
                   return(ERROR);
                 }
 	YY_BREAK
 case 65:
 YY_RULE_SETUP
-#line 301 "cool.flex"
+#line 317 "cool.flex"
 { cool_yylval.error_msg = yytext;
                   return(ERROR);
                 }
 	YY_BREAK
 case 66:
 YY_RULE_SETUP
-#line 304 "cool.flex"
+#line 320 "cool.flex"
 ECHO;
 	YY_BREAK
-#line 1740 "cool-lex.cc"
+#line 1755 "cool-lex.cc"
 
 	case YY_END_OF_BUFFER:
 		{
@@ -2869,4 +2884,4 @@ void yyfree (void * ptr )
 
 /* %ok-for-header */
 
-#line 304 "cool.flex"
+#line 320 "cool.flex"

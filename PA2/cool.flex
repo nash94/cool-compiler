@@ -46,6 +46,8 @@ extern YYSTYPE cool_yylval;
  *  Add Your own definitions here
  */
 
+int curr_str_size = 0;
+
 %}
 
 %x str
@@ -216,10 +218,19 @@ PIPE            [\|]
                 }
 
 <str>\"         { 
+                 if (curr_str_size > 1024) {
+                    cool_yylval.error_msg = "String constant too long";
+                    BEGIN(INITIAL);
+                    *string_buf_ptr = '\0';
+                    curr_str_size = 0;
+                    return(ERROR);
+                 } else { 
+                  curr_str_size = 0;
                   BEGIN(INITIAL);
                   *string_buf_ptr = '\0';
                   cool_yylval.symbol = inttable.add_string(string_buf);
                   return(STR_CONST);
+                 }
                 }
 
 <str>\n         { cool_yylval.error_msg = "Unterminated string constant";
@@ -240,21 +251,26 @@ PIPE            [\|]
                   *string_buf_ptr = '\0';
                   return(ERROR);
                  }
-<str>\\n        *string_buf_ptr++ = '\n';
+
+<str>\\n        {curr_str_size++; *string_buf_ptr++ = '\n';}
 <str>\\t        *string_buf_ptr++ = '\t';
 <str>\\b        *string_buf_ptr++ = '\b';
 <str>\\f        *string_buf_ptr++ = '\f';
                  
-<str>\\(.|\n)   {
+<str>\\(.|\n)   {   if (yytext[1] == '\n') {
+                        curr_lineno++;
+                    }
+                    curr_str_size++;
                     *string_buf_ptr++ = yytext[1];
                 }
                 
 
-<str>[^\0\\\n\"]+ {    
+<str>[^\0\\\n\"]+ {   
                    char *yptr = yytext;
                    
                    while ( *yptr ) {
-                           *string_buf_ptr++ = *yptr++;
+                       curr_str_size++;
+                       *string_buf_ptr++ = *yptr++;
                    }
                 }
 
