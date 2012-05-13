@@ -215,7 +215,8 @@ PIPE            [\|]
                   BEGIN(str);
                 }
 
-<str>\"         { BEGIN(INITIAL);
+<str>\"         { 
+                  BEGIN(INITIAL);
                   *string_buf_ptr = '\0';
                   cool_yylval.symbol = inttable.add_string(string_buf);
                   return(STR_CONST);
@@ -223,6 +224,7 @@ PIPE            [\|]
 
 <str>\n         { cool_yylval.error_msg = "Unterminated string constant";
                   BEGIN(INITIAL);
+                  *string_buf_ptr = '\0';
                   return (ERROR); 
                 }
 
@@ -231,12 +233,23 @@ PIPE            [\|]
                   *string_buf_ptr = '\0';
                   return(ERROR);
                 }
+
+<str>\\[\0][\"]    { 
+                  cool_yylval.error_msg = "String contains null character.";
+                  BEGIN(INITIAL);
+                  *string_buf_ptr = '\0';
+                  return(ERROR);
+                 }
 <str>\\n        *string_buf_ptr++ = '\n';
 <str>\\t        *string_buf_ptr++ = '\t';
+<str>\\r        *string_buf_ptr++ = '\r';
 <str>\\b        *string_buf_ptr++ = '\b';
 <str>\\f        *string_buf_ptr++ = '\f';
-
-<str>\\(.|\n)   *string_buf_ptr++ = yytext[1];
+                 
+<str>\\(.|\n)   {
+                    *string_buf_ptr++ = yytext[1];
+                }
+                
 
 <str>[^\0\\\n\"]+ {    
                    char *yptr = yytext;
